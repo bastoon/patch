@@ -5,7 +5,7 @@ class DATABASE_CONFIG {
 		'driver' => 'mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'patch_usr',
+		'login' => 'patchusr',
 		'password' => 'CBF5jdpSzNERFWAx',
 		'database' => 'patch_usr',
 	);

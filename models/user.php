@@ -5,17 +5,17 @@ class user extends AppModel {
 	var $validate = array(
 		'name'     => array(
 			'notEmpty'  => array('rule' => 'notEmpty', 'message' => 'Un email est obligatoire pour recevoir votre mot de passe.'),
-			'isUnique'  => array('rule' => 'isUnique', 'message' => 'Ce nom est dÃ©ÃƒO utilisÃ©OB')
+			'isUnique'  => array('rule' => 'isUnique', 'message' => 'Ce nom est déjà utilisé')
 		),
 		'email'    => array(
 			'notEmpty'  => array('rule' => 'notEmpty', 'message' => 'Un email est obligatoire pour recevoir votre mot de passe.'),
 			'email'     => array('rule' => array('email', true),  'message' => 'Merci de soumettre une adresse email valide.'),
-			'isUnique'  => array('rule' => 'isUnique', 'message' => 'Cet email est dÃ© Ã  utilisÃ©')
+			'isUnique'  => array('rule' => 'isUnique', 'message' => 'Cet email est déjà  utilisé')
 		),
-                'password' => array(
-			'minLength' => array('rule' => array('minLength', 6),  'message' => 'Les mots de passes doivent avoir au moins 6 caractÃ¨s.'),
-			'maxLength' => array('rule' => array('maxLength', 32),  'message' => 'Les mots de passes doivent avoir au plus 32 caractÃ¨s.')
-		),
+/*        'password' => array(
+			'minLength' => array('rule' => array('minLength', 6),  'message' => 'Les mots de passes doivent avoir au moins 6 caractères.'),
+			'maxLength' => array('rule' => array('maxLength', 32),  'message' => 'Les mots de passes doivent avoir au plus 32 caractères.')
+		),*/
 	);
 
 	//The Associations below have been created with all possible keys, those that are not needed can be removed

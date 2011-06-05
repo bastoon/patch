@@ -96,7 +96,9 @@ class UsersController extends AppController {
 			$this->User->create();
 			$token = $this->Patch->getToken();
 			$this->User->set('token', $token);
+			echo "ici";
 			if ($this->User->save($this->data)) {
+				echo "là";
 				$this->Session->setFlash(__('The User has been saved', true));
 				$this->Patch->sendInviteMail($this->data['User']['email'], $token);
  				$this->Session->setFlash('Veuillez consulter votre mail pour activer votre compte en ciquant sur le lien.');
