@@ -1,11 +1,14 @@
-# .gitignore
+tmp/*
 tmp/**/*
-tmp/**/**/*
+tmp/**/**/
 .htaccess
+vendors/
+plugins/
+config/database.php
 config/core.php
 config/config.php
-config/database.php
-webroot/.htaccess
-webroot/index.php
+webroot/.htaccess 
+webroot/index.php 
 webroot/test.php
+!empty
 !.gitignore
