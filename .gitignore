@@ -1,0 +1,11 @@
+vendors/
+plugins/
+config/database.php
+config/core.php
+config/config.php
+webroot/.htaccess 
+webroot/index.php 
+webroot/test.php
+!empty
+!.gitignore
+
