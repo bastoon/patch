@@ -30,7 +30,7 @@ foreach ($rights as $right):
 			<?php echo $right['Right']['id']; ?>
 		</td>
 		<td>
-			<?php echo $html->link($right['admingroupe_id']['id'], array('controller' => 'admingroupe', 'action' => 'view', $right['admingroupe_id']['id'])); ?>
+			<?php echo $right['Right']['admingroupe_id']; ?>
 		</td>
 		<td>
 			<?php echo $right['Right']['controller']; ?>
@@ -56,15 +56,16 @@ foreach ($rights as $right):
 <?php endforeach; ?>
 </table>
 </div>
-<div class="paging">
-	<?php echo $paginator->prev('<< '.__('previous', true), array(), null, array('class'=>'disabled'));?>
- | 	<?php echo $paginator->numbers();?>
-	<?php echo $paginator->next(__('next', true).' >>', array(), null, array('class' => 'disabled'));?>
-</div>
 <div class="actions">
 	<ul>
-		<li><?php echo $html->link(__('New Right', true), array('action' => 'add')); ?></li>
-		<li><?php echo $html->link(__('List Groupes', true), array('controller' => 'groupes', 'action' => 'index')); ?> </li>
-		<li><?php echo $html->link(__('New Groupe', true), array('controller' => 'groupes', 'action' => 'add')); ?> </li>
+                <li><?php echo $html->link(__('Zone Admin', false), array('controller' => 'users', 'action' => 'bo_action_admin'));?></li>
+		<li><?php echo $html->link(__('List Groupes', true), array('controller' => 'admingroupes', 'action' => 'index')); ?> </li>
+		<li><?php echo $html->link(__('New Groupe', true), array('controller' => 'admingroupes', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
+<div class="paging">
+        <?php echo $paginator->prev('<< '.__('previous', true), array(), null, array('class'=>'disabled'));?>
+ |      <?php echo $paginator->numbers();?>
+        <?php echo $paginator->next(__('next', true).' >>', array(), null, array('class' => 'disabled'));?>
+</div>
+

@@ -130,6 +130,7 @@ $soundpatch['Track'] = subval_sort($soundpatch['Track'], 'rank');
 	<?php if (!empty($soundpatch['Track'])):?>
 	<table cellpadding = "0" cellspacing = "0">
 	<tr>
+                <th class="actions"><?php __('Actions');?></th>
 		<th><?php //__('Id'); ?></th>
 		<th><?php __('Piste'); ?></th>
 		<th><?php __('Musicien'); ?></th>
@@ -143,7 +144,6 @@ $soundpatch['Track'] = subval_sort($soundpatch['Track'], 'rank');
 		<th><?php //__('Note'); ?></th>
 		<th><?php //__('Created'); ?></th>
 		<th><?php //__('Modified'); ?></th>
-		<th class="actions"><?php __('Actions');?></th>
 	</tr>
 	<?php
 		$i = 0;
@@ -154,6 +154,11 @@ $soundpatch['Track'] = subval_sort($soundpatch['Track'], 'rank');
 			}
 		?>
 		<tr<?php echo $class;?>>
+                        <td class="actions">
+                                <?php //echo $html->link(__('View', true), array('controller' => 'tracks', 'action' => 'view', $track['id'])); ?>
+                                <?php echo $html->link(__('Edit', true), array('controller' => 'tracks', 'action' => 'edit', $track['id'])); ?>
+                                <?php //echo $html->link(__('Delete', true), array('controller' => 'tracks', 'action' => 'delete', $track['id']), null, sprintf(__('Are you sure you want to delete # %s?', true), $track['id'])); ?>
+                        </td>
 			<td><?php //echo $track['id'];?></td>
 			<td><?php echo $track['rank'];?></td>
 			<td><?php echo $track['Contact']['name'];?></td>
@@ -167,11 +172,6 @@ $soundpatch['Track'] = subval_sort($soundpatch['Track'], 'rank');
 			<td><?php //echo $track['note'];?></td>
 			<td><?php //echo $track['created'];?></td>
 			<td><?php //echo $track['modified'];?></td>
-			<td class="actions">
-				<?php //echo $html->link(__('View', true), array('controller' => 'tracks', 'action' => 'view', $track['id'])); ?>
-				<?php echo $html->link(__('Edit', true), array('controller' => 'tracks', 'action' => 'edit', $track['id'])); ?>
-				<?php //echo $html->link(__('Delete', true), array('controller' => 'tracks', 'action' => 'delete', $track['id']), null, sprintf(__('Are you sure you want to delete # %s?', true), $track['id'])); ?>
-			</td>
 		</tr>
 	<?php endforeach; ?>
 	</table>

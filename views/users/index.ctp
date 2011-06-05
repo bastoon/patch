@@ -14,11 +14,12 @@ echo $paginator->counter(array(
 	<th><?php echo $paginator->sort('published');?></th>
 	<th><?php echo $paginator->sort('name');?></th>
 	<th><?php echo $paginator->sort('email');?></th>
-	<th><?php echo $paginator->sort('password');?></th>
 	<th><?php echo $paginator->sort('created');?></th>
 	<th><?php echo $paginator->sort('modified');?></th>
 	<th class="actions"><?php __('Actions');?></th>
 </tr>
+
+
 <?php
 $i = 0;
 foreach ($users as $user):
@@ -32,8 +33,7 @@ foreach ($users as $user):
 			<?php echo $user['User']['id']; ?>
 		</td>
 		<td>
-			<?php // echo $html->link($user['Groupe']['id'], array('controller' => 'admingroupes', 'action' => 'view', $user['Groupe']['id'])); ?>
-                        <?php echo $html->link($user['Admingroupe_id']['id'], array('controller' => 'admingroupes', 'action' => 'view', $user['Admingroupe_id']['id'])); ?>
+                        <?php echo $html->link($user['Admingroupe']['description'], array('controller' => 'admingroupes', 'action' => 'view', $user['Admingroupe']['id'])); ?>
 
 		</td>
 		<td>
@@ -47,9 +47,6 @@ foreach ($users as $user):
 		</td>
 		<td>
 			<?php echo $user['User']['email']; ?>
-		</td>
-		<td>
-			<?php echo $user['User']['password']; ?>
 		</td>
 		<td>
 			<?php echo $user['User']['created']; ?>
@@ -66,13 +63,9 @@ foreach ($users as $user):
 <?php endforeach; ?>
 </table>
 </div>
-<div class="paging">
-	<?php echo $paginator->prev('<< '.__('previous', true), array(), null, array('class'=>'disabled'));?>
- | 	<?php echo $paginator->numbers();?>
-	<?php echo $paginator->next(__('next', true).' >>', array(), null, array('class' => 'disabled'));?>
-</div>
 <div class="actions">
 	<ul>
+                <li><?php echo $html->link(__('Zone Admin', false), array('controller' => 'users', 'action' => 'bo_action_admin'));?></li>
 		<li><?php echo $html->link(__('New User', true), array('action' => 'add')); ?></li>
 		<li><?php echo $html->link(__('List Groupes', true), array('controller' => 'groupes', 'action' => 'index')); ?> </li>
 		<li><?php echo $html->link(__('New Groupe', true), array('controller' => 'groupes', 'action' => 'add')); ?> </li>
@@ -105,4 +98,9 @@ foreach ($users as $user):
 		<li><?php echo $html->link(__('List Wedges', true), array('controller' => 'wedges', 'action' => 'index')); ?> </li>
 		<li><?php echo $html->link(__('New Wedge', true), array('controller' => 'wedges', 'action' => 'add')); ?> </li>
 	</ul>
+</div>
+<div class="paging">
+        <?php echo $paginator->prev('<< '.__('previous', true), array(), null, array('class'=>'disabled'));?>
+ |      <?php echo $paginator->numbers();?>
+        <?php echo $paginator->next(__('next', true).' >>', array(), null, array('class' => 'disabled'));?>
 </div>

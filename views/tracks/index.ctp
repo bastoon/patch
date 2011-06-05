@@ -80,13 +80,9 @@ foreach ($tracks as $track):
 <?php endforeach; ?>
 </table>
 </div>
-<div class="paging">
-	<?php echo $paginator->prev('<< '.__('previous', true), array(), null, array('class'=>'disabled'));?>
- | 	<?php echo $paginator->numbers();?>
-	<?php echo $paginator->next(__('next', true).' >>', array(), null, array('class' => 'disabled'));?>
-</div>
 <div class="actions">
 	<ul>
+                <li><?php echo $html->link(__('Zone Admin', false), array('controller' => 'users', 'action' => 'bo_action_admin'));?></li>
 		<li><?php echo $html->link(__('New Track', true), array('action' => 'add')); ?></li>
 		<li><?php echo $html->link(__('List Contacts', true), array('controller' => 'contacts', 'action' => 'index')); ?> </li>
 		<li><?php echo $html->link(__('New Contact', true), array('controller' => 'contacts', 'action' => 'add')); ?> </li>
@@ -106,3 +102,9 @@ foreach ($tracks as $track):
 		<li><?php echo $html->link(__('New Micloc', true), array('controller' => 'miclocs', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
+<div class="paging">
+        <?php echo $paginator->prev('<< '.__('previous', true), array(), null, array('class'=>'disabled'));?>
+ |      <?php echo $paginator->numbers();?>
+        <?php echo $paginator->next(__('next', true).' >>', array(), null, array('class' => 'disabled'));?>
+</div>
+

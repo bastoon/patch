@@ -24,8 +24,8 @@
 
 <div class="actions">
         <ul>
-                <li><?php //echo $html->link(__('Accueil', true), array('action' => 'home'));?></li> 
-                <li><?php echo $html->link(__('Login', true), array('action' => 'login'));?></li>
+                <li><?php echo $html->link(__('Accueil', true), array('action' => 'home'));?></li> 
+                <li><?php //echo $html->link(__('Login', true), array('action' => 'login'));?></li>
                 <li><?php echo $html->link(__('Inscription', true), array('action' => 'add'));?></li>
 
         </ul>

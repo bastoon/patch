@@ -10,11 +10,10 @@
 
 	<div class="actions">
           <ul>
+                <?php if ($IsAdmin){ echo '                  <li>'.$html->link(__('Zone Admin', false), array('controller' => 'users', 'action' => 'bo_action_admin')).'</li>';}?>
                 <li><?php echo $html->link(__('Mes infos', true), array('controller' => 'users', 'action' => 'edit/'.$Id)); ?> </li>
                 <li><?php echo $html->link(__('Fiche technique', true), array('controller' => 'soundpatches', 'action' => 'index')); ?> </li>
                 <li><?php echo $html->link(__('Contact', true), array('controller' => 'contacts', 'action' => 'index')); ?> </li>
-
-		<?php if ($IsAdmin){ echo '                  <li>'.$html->link(__('Zone Admin', false), array('controller' => 'users', 'action' => 'bo_action_admin')).'</li>';}?>
 		<BR>
                 <li><?php echo $html->link(__('Logout', true), array('controller' => 'users', 'action' => 'logout')); ?> </li>
 	  </ul>

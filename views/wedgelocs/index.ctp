@@ -56,13 +56,9 @@ foreach ($wedgelocs as $wedgeloc):
 <?php endforeach; ?>
 </table>
 </div>
-<div class="paging">
-	<?php echo $paginator->prev('<< '.__('previous', true), array(), null, array('class'=>'disabled'));?>
- | 	<?php echo $paginator->numbers();?>
-	<?php echo $paginator->next(__('next', true).' >>', array(), null, array('class' => 'disabled'));?>
-</div>
 <div class="actions">
 	<ul>
+                <li><?php echo $html->link(__('Zone Admin', false), array('controller' => 'users', 'action' => 'bo_action_admin'));?></li>
 		<li><?php echo $html->link(__('New Wedgeloc', true), array('action' => 'add')); ?></li>
 		<li><?php echo $html->link(__('List Wedgelochorzs', true), array('controller' => 'wedgelochorzs', 'action' => 'index')); ?> </li>
 		<li><?php echo $html->link(__('New Wedgelochorz', true), array('controller' => 'wedgelochorzs', 'action' => 'add')); ?> </li>
@@ -74,3 +70,9 @@ foreach ($wedgelocs as $wedgeloc):
 		<li><?php echo $html->link(__('New Wedge', true), array('controller' => 'wedges', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
+<div class="paging">
+        <?php echo $paginator->prev('<< '.__('previous', true), array(), null, array('class'=>'disabled'));?>
+ |      <?php echo $paginator->numbers();?>
+        <?php echo $paginator->next(__('next', true).' >>', array(), null, array('class' => 'disabled'));?>
+</div>
+

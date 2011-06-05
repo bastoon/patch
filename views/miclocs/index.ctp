@@ -56,13 +56,9 @@ foreach ($miclocs as $micloc):
 <?php endforeach; ?>
 </table>
 </div>
-<div class="paging">
-	<?php echo $paginator->prev('<< '.__('previous', true), array(), null, array('class'=>'disabled'));?>
- | 	<?php echo $paginator->numbers();?>
-	<?php echo $paginator->next(__('next', true).' >>', array(), null, array('class' => 'disabled'));?>
-</div>
 <div class="actions">
 	<ul>
+                <li><?php echo $html->link(__('Zone Admin', false), array('controller' => 'users', 'action' => 'bo_action_admin'));?></li>
 		<li><?php echo $html->link(__('New Micloc', true), array('action' => 'add')); ?></li>
 		<li><?php echo $html->link(__('List Miclochorzs', true), array('controller' => 'miclochorzs', 'action' => 'index')); ?> </li>
 		<li><?php echo $html->link(__('New Miclochorz', true), array('controller' => 'miclochorzs', 'action' => 'add')); ?> </li>
@@ -74,3 +70,9 @@ foreach ($miclocs as $micloc):
 		<li><?php echo $html->link(__('New Track', true), array('controller' => 'tracks', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
+<div class="paging">
+        <?php echo $paginator->prev('<< '.__('previous', true), array(), null, array('class'=>'disabled'));?>
+ |      <?php echo $paginator->numbers();?>
+        <?php echo $paginator->next(__('next', true).' >>', array(), null, array('class' => 'disabled'));?>
+</div>
+
