@@ -9,7 +9,7 @@ class UsersController extends AppController {
     	}
 	 
 	/*
-	* Action reservée aux utilisateurs logués
+	* Action reservÃ©e aux utilisateurs logués
 	* @param    -
 	* @return   -
 	**/
@@ -18,12 +18,12 @@ class UsersController extends AppController {
 		if($this->Auth->user()){
 			$this->set('Username', $this->Patch->getUsername());
 			$this->set('IsAdmin',$this->Patch->IsAdmin());
-                        $this->set('Id',$this->Patch->getId());
+            $this->set('Id',$this->Patch->getId());
 	 	}
 	}
 	 
 	/*
-	* Action reservée aux utilisateurs logués & du groupe membre
+	* Action reservÃ©e aux utilisateurs loguÃ©s & du groupe membre
 	* @param    -
 	* @return   -
 	**/
@@ -42,13 +42,13 @@ class UsersController extends AppController {
 	* @return   -
 	**/
 	function login(){
-		// Vérifie que le compte est activé (basé sur l'userscope)
+		// VÃ©rifie que le compte est activÃ© (basÃ© sur l'userscope)
 		if($this->action == 'login' && !empty($this->data['User']['email'])){
 			$conditions = array('email' => $this->data['User']['email'], 'actif <>' => 1);
 			if($this->User->find('count', array('conditions' => $conditions))){
-				$this->Session->setFlash(__('Votre compte n\'a pas été activé',true), 'default', array(), 'auth');
+				$this->Session->setFlash(__('Votre compte n\'a pas Ã©tÃ© activÃ©',true), 'default', array(), 'auth');
 			}
-	        }
+	    }
 	}
 	 
 	/*
