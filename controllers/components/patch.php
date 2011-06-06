@@ -67,9 +67,6 @@ class PatchComponent extends Object {
 		return $this->getRandomString(24);
 	}
 
-	public function IsAlreadyExist($email){
-		echo "This email ? <BR> &nbsp;&nbsp;-> $email <BR>";
-	}
 
         private function getRandomString($length) {
                 $chars = "123456789ABCDEFGHIJKLMNPQRSTUVWXYZ";
@@ -80,5 +77,4 @@ class PatchComponent extends Object {
                 }
                 return $str;
         }
-
 }
