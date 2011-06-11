@@ -56,7 +56,7 @@ class TcontactsController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Tcontact', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Tcontact->del($id)) {
+		if ($this->Tcontact->delete($id)) {
 			$this->Session->setFlash(__('Tcontact deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

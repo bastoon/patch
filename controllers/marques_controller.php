@@ -56,7 +56,7 @@ class MarquesController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Marque', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Marque->del($id)) {
+		if ($this->Marque->delete($id)) {
 			$this->Session->setFlash(__('Marque deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

@@ -58,7 +58,7 @@ class WedgesController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Wedge', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Wedge->del($id)) {
+		if ($this->Wedge->delete($id)) {
 			$this->Session->setFlash(__('Wedge deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

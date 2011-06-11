@@ -56,7 +56,7 @@ class TlightsController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Tlight', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Tlight->del($id)) {
+		if ($this->Tlight->delete($id)) {
 			$this->Session->setFlash(__('Tlight deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

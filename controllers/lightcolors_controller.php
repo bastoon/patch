@@ -56,7 +56,7 @@ class LightcolorsController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Lightcolor', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Lightcolor->del($id)) {
+		if ($this->Lightcolor->delete($id)) {
 			$this->Session->setFlash(__('Lightcolor deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

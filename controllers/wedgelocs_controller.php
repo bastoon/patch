@@ -60,7 +60,7 @@ class WedgelocsController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Wedgeloc', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Wedgeloc->del($id)) {
+		if ($this->Wedgeloc->delete($id)) {
 			$this->Session->setFlash(__('Wedgeloc deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

@@ -58,7 +58,7 @@ class ChannelsController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Channel', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Channel->del($id)) {
+		if ($this->Channel->delete($id)) {
 			$this->Session->setFlash(__('Channel deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

@@ -52,7 +52,7 @@ class WedgelocrotationsController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Wedgelocrotation', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Wedgelocrotation->del($id)) {
+		if ($this->Wedgelocrotation->delete($id)) {
 			$this->Session->setFlash(__('Wedgelocrotation deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

@@ -52,7 +52,7 @@ class WedgelocvertsController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Wedgelocvert', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Wedgelocvert->del($id)) {
+		if ($this->Wedgelocvert->delete($id)) {
 			$this->Session->setFlash(__('Wedgelocvert deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

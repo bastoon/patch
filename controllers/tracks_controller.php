@@ -3,7 +3,7 @@ class TracksController extends AppController {
 
 	var $name = 'Tracks';
 	var $helpers = array('Html', 'Form');
-        var $components = array('Patch');
+	var $components = array('Patch');
 
 	function index() {
 		$this->Track->recursive = 0;
@@ -58,7 +58,7 @@ class TracksController extends AppController {
 		if (empty($this->data)) {
 			$this->data = $this->Track->read(null, $id);
 		}
-                $contacts = $this->Track->Contact->find('list', array('conditions' => array('OR' => array('Contact.user_id =' => $this->Patch->getId(), 'Contact.id =' => '1' ) ) ));
+		$contacts = $this->Track->Contact->find('list', array('conditions' => array('OR' => array('Contact.user_id =' => $this->Patch->getId(), 'Contact.id =' => '1' ) ) ));
 		$instruments = $this->Track->Instrument->find('list');
 		$micros = $this->Track->Micro->find('list');
 		$tinserts = $this->Track->Tinsert->find('list');
@@ -73,7 +73,7 @@ class TracksController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Track', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Track->del($id)) {
+		if ($this->Track->delete($id)) {
 			$this->Session->setFlash(__('Track deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

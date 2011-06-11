@@ -52,7 +52,7 @@ class StandsController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Stand', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Stand->del($id)) {
+		if ($this->Stand->delete($id)) {
 			$this->Session->setFlash(__('Stand deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

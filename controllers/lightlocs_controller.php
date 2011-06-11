@@ -58,7 +58,7 @@ class LightlocsController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Lightloc', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Lightloc->del($id)) {
+		if ($this->Lightloc->delete($id)) {
 			$this->Session->setFlash(__('Lightloc deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

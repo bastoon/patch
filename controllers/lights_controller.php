@@ -62,7 +62,7 @@ class LightsController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Light', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Light->del($id)) {
+		if ($this->Light->delete($id)) {
 			$this->Session->setFlash(__('Light deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

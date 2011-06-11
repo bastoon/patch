@@ -3,37 +3,37 @@ class SoundpatchesController extends AppController {
 
 	var $name = 'Soundpatches';
 	var $helpers = array('Html', 'Form');
-        var $components = array('Patch');
+	var $components = array('Patch');
 
 	function index() {
-                if($this->Auth->user()){
-                        $this->Soundpatch->recursive = 0;
-                        $this->paginate = array(
+		if($this->Auth->user()){
+			$this->Soundpatch->recursive = 0;
+			$this->paginate = array(
                                 'conditions' => array('Soundpatch.user_id' => $this->Patch->getId()),
                                 'order' => 'Soundpatch.title ASC',
-                        );
-                        $this->set('soundpatches', $this->paginate());
-                        $this->set(compact('soundpatches'));
-                }
+			);
+			$this->set('soundpatches', $this->paginate());
+			$this->set(compact('soundpatches'));
+		}
 
 	}
 
 	function view($id = null) {
-                if($this->Auth->user()){
+		if($this->Auth->user()){
 			if (!$id) {
 				$this->Session->setFlash(__('Invalid Soundpatch.', true));
 				$this->redirect(array('action'=>'index'));
 			}
 			$this->Soundpatch->recursive = 2;
 			$this->set('soundpatch', $this->Soundpatch->read(null, $id));
-                        if ( ! $this->Patch->IsOwner($this->Soundpatch) ) {
-		                $this->redirect(array('controller' => 'users', 'action'=>'bo_accueil'));
-                		$this->Session->setFlash(__('Not your items', true));
+			if ( ! $this->Patch->IsOwner($this->Soundpatch) ) {
+				$this->redirect(array('controller' => 'users', 'action'=>'bo_accueil'));
+				$this->Session->setFlash(__('Not your items', true));
 			}
 		} else {
 			$this->redirect(array('action'=>'login'));
-                        $this->Session->setFlash(__('Acces reserve aux membres', true));
-                }
+			$this->Session->setFlash(__('Acces reserve aux membres', true));
+		}
 
 	}
 
@@ -80,7 +80,7 @@ class SoundpatchesController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Soundpatch', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Soundpatch->del($id)) {
+		if ($this->Soundpatch->delete($id)) {
 			$this->Session->setFlash(__('Soundpatch deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

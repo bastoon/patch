@@ -56,7 +56,7 @@ class TeffectsController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Teffect', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Teffect->del($id)) {
+		if ($this->Teffect->delete($id)) {
 			$this->Session->setFlash(__('Teffect deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

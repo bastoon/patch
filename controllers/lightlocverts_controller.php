@@ -52,7 +52,7 @@ class LightlocvertsController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Lightlocvert', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Lightlocvert->del($id)) {
+		if ($this->Lightlocvert->delete($id)) {
 			$this->Session->setFlash(__('Lightlocvert deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

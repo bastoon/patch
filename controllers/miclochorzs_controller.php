@@ -52,7 +52,7 @@ class MiclochorzsController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Miclochorz', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Miclochorz->del($id)) {
+		if ($this->Miclochorz->delete($id)) {
 			$this->Session->setFlash(__('Miclochorz deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

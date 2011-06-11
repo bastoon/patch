@@ -58,7 +58,7 @@ class StageplansController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Stageplan', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Stageplan->del($id)) {
+		if ($this->Stageplan->delete($id)) {
 			$this->Session->setFlash(__('Stageplan deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

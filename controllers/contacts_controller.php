@@ -3,22 +3,22 @@ class ContactsController extends AppController {
 
 	var $name = 'Contacts';
 	var $helpers = array('Html', 'Form');
-        var $components = array('Patch');
+	var $components = array('Patch');
 
 	function index() {
-                if($this->Auth->user()){
+		if($this->Auth->user()){
 			$this->Contact->recursive = 0;
-                	$this->paginate = array(
+			$this->paginate = array(
                         	'conditions' => array('Contact.user_id' => $this->Patch->getId()),
                         	'order' => 'Contact.name ASC',
-                	); 
-                	$this->set('contacts', $this->paginate());
-                	$this->set(compact('contacts'));
+			);
+			$this->set('contacts', $this->paginate());
+			$this->set(compact('contacts'));
 		}
 	}
 
 	function view($id = null) {
-                if($this->Auth->user()){
+		if($this->Auth->user()){
 			if (!$id) {
 				$this->Session->setFlash(__('Invalid Contact.', true));
 				$this->redirect(array('action'=>'index'));
@@ -26,7 +26,7 @@ class ContactsController extends AppController {
 			$this->set('contact', $this->Contact->read(null, $id));
 		}
 	}
-	
+
 	function add() {
 		if (!empty($this->data)) {
 			$this->Contact->create();
@@ -69,7 +69,7 @@ class ContactsController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Contact', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Contact->del($id)) {
+		if ($this->Contact->delete($id)) {
 			$this->Session->setFlash(__('Contact deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

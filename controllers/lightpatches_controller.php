@@ -56,7 +56,7 @@ class LightpatchesController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Lightpatch', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Lightpatch->del($id)) {
+		if ($this->Lightpatch->delete($id)) {
 			$this->Session->setFlash(__('Lightpatch deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

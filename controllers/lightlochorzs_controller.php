@@ -52,7 +52,7 @@ class LightlochorzsController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Lightlochorz', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Lightlochorz->del($id)) {
+		if ($this->Lightlochorz->delete($id)) {
 			$this->Session->setFlash(__('Lightlochorz deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

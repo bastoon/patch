@@ -60,7 +60,7 @@ class MicrosController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Micro', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Micro->del($id)) {
+		if ($this->Micro->delete($id)) {
 			$this->Session->setFlash(__('Micro deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

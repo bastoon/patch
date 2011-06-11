@@ -56,7 +56,7 @@ class TinsertsController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Tinsert', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Tinsert->del($id)) {
+		if ($this->Tinsert->delete($id)) {
 			$this->Session->setFlash(__('Tinsert deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

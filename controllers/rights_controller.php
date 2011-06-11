@@ -56,7 +56,7 @@ class RightsController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Right', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Right->del($id)) {
+		if ($this->Right->delete($id)) {
 			$this->Session->setFlash(__('Right deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

@@ -56,7 +56,7 @@ class InstrumentsController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Instrument', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Instrument->del($id)) {
+		if ($this->Instrument->delete($id)) {
 			$this->Session->setFlash(__('Instrument deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

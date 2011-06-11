@@ -60,7 +60,7 @@ class MiclocsController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Micloc', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Micloc->del($id)) {
+		if ($this->Micloc->delete($id)) {
 			$this->Session->setFlash(__('Micloc deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

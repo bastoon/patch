@@ -52,7 +52,7 @@ class WedgelochorzsController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Wedgelochorz', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Wedgelochorz->del($id)) {
+		if ($this->Wedgelochorz->delete($id)) {
 			$this->Session->setFlash(__('Wedgelochorz deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

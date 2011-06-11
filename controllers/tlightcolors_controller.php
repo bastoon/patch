@@ -56,7 +56,7 @@ class TlightcolorsController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Tlightcolor', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Tlightcolor->del($id)) {
+		if ($this->Tlightcolor->delete($id)) {
 			$this->Session->setFlash(__('Tlightcolor deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

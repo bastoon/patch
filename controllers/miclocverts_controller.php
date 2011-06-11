@@ -52,7 +52,7 @@ class MiclocvertsController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Miclocvert', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Miclocvert->del($id)) {
+		if ($this->Miclocvert->delete($id)) {
 			$this->Session->setFlash(__('Miclocvert deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

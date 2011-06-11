@@ -52,7 +52,7 @@ class LogosController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Logo', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Logo->del($id)) {
+		if ($this->Logo->delete($id)) {
 			$this->Session->setFlash(__('Logo deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

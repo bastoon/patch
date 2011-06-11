@@ -52,7 +52,7 @@ class TmicrosController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Tmicro', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Tmicro->del($id)) {
+		if ($this->Tmicro->delete($id)) {
 			$this->Session->setFlash(__('Tmicro deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}
