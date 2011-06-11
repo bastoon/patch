@@ -9,7 +9,7 @@
 //		echo $form->input('published');
 		echo $form->input('email', array('label'=>'Adresse mail'));
                 echo $form->input('name', array('label'=>'Nom du groupe'));
-		echo $form->input('password', array('label'=>'Mot de passe'));
+		echo $form->input('password', array('label'=>'Mot de passe', 'value' => ''));
 	?>
 	</fieldset>
 <?php echo $form->end('Valider');?>

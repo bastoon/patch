@@ -7,7 +7,7 @@ endif;
 ?>
 
 <div class="actions">
-        <ul>
+        <ul>/
                 <li><?php //echo $html->link(__('Accueil', true), array('action' => 'home'));?></li>
                 <li><?php echo $html->link(__('Login', true), array('controller' => 'users','action' => 'login'));?></li>
                 <li><?php echo $html->link(__('Inscription', true), array('controller' => 'users','action' => 'add'));?></li>
