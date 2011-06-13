@@ -140,6 +140,29 @@ class UsersController extends AppController {
 		}
 	}
 
+	function lang(){
+		$url = null;
+		// Check on the bootstrap if the language is defined
+		if (in_array($this->params['language'], Configure::read('Config.languages'))){
+			// Change the Session language with the new one
+			$this->Session->write('User.language',$this->params['language']);
+			// Change the 'url referer' with new one
+			if (isset($_SERVER['HTTP_REFERER'])){
+				// Find the third first character after the server name
+				$languageIndex = stripos($_SERVER['HTTP_REFERER'], $_SERVER['SERVER_NAME'])+strlen($_SERVER['SERVER_NAME']) + 1;
+				// Find in the bootstrap if the language exist => To modify only if needed
+				if (in_array(substr($_SERVER['HTTP_REFERER'],$languageIndex,3),Configure::read('Config.languages'))){
+					$url = "/".$this->params['language']."/".substr($_SERVER['HTTP_REFERER'],$languageIndex+4);
+				} else {
+					$url = "/";
+				}
+			}
+		} else {
+			$url = "/";
+		}
+		$this->redirect($url);
+	}
+
 	private function tpl_pack_1p_12t_5c($id, $name) {
 		$this->tpl_contact_5($id);
 		$this->tpl_patch_1p_12t($id, $name);

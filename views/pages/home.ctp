@@ -1,4 +1,5 @@
 <h2><?php __('Fiches techniques')?></h2>
+<h3><?php e('into home.ctp')?></h3>
 
 <?php
 if(Configure::read() > 0):
@@ -8,8 +9,8 @@ endif;
 
 <div class="actions">
         <ul>
-                <li><?php echo $i18n->link(__('Login', true), array('controller' => 'users','action' => 'login'));?></li>
-                <li><?php echo $i18n->link(__('Inscription', true), array('controller' => 'users','action' => 'add'));?></li>
+                <li><?php echo $html->link(__('Login', true), array('controller' => 'users','action' => 'login'));?></li>
+                <li><?php echo $html->link(__('Inscription', true), array('controller' => 'users','action' => 'add'));?></li>
 
         </ul>
 </div>

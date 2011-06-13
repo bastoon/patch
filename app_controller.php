@@ -13,7 +13,7 @@ class AppController extends Controller {
 	/*
 	 * Gère la langue
 	 * */
-	 function i18nSession(){
+	function i18nSession(){
 		if (!$this->Session->read('User.language')){
 			$this->Session->write('User.language',Configure::read('Config.language'));
 		}
@@ -24,7 +24,7 @@ class AppController extends Controller {
 		}
 		Configure::write('Config.language', $this->Session->read('User.language'));
 		$this->params['language'] = $this->Session->read('User.language');
-	 }
+	}
 
 	/*
 	 * Gère l'authentification

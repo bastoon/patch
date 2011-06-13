@@ -43,8 +43,8 @@
 			<h1><?php echo $html->link(__(ucfirst(APP_DIR), true), '/../../'); ?></h1>
 		</div>
 		<div id="flags">
-			<a href="/fre">Français</a> |
-			<a href="/eng">English</a>
+			<a href="/fre/users/lang"><img src="/img/flag_fr.png" alt="FR" /></a> |
+			<a href="/eng/users/lang"><img src="/img/flag_en.png" alt="EN" /></a>
 		</div>
 		<div id="content">
 
