@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Patch v0.9\n"
 "POT-Creation-Date: 2011-06-12 13:35+0000\n"
-"PO-Revision-Date: 2011-06-13 14:18+0100\n"
+"PO-Revision-Date: 2011-06-13 20:14+0100\n"
 "Last-Translator: Wethli <bastien@weth.li>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1371,7 +1371,7 @@ msgstr "Actions"
 #: \views\wedges\index.ctp:47
 #: \views\wedges\view.ctp:83
 msgid "View"
-msgstr "View"
+msgstr "Voir"
 
 #: \views\admingroupes\index.ctp:44
 #: \views\admingroupes\view.ctp:75;125
@@ -1438,7 +1438,7 @@ msgstr "View"
 #: \views\wedges\index.ctp:48
 #: \views\wedges\view.ctp:84
 msgid "Edit"
-msgstr "Edit"
+msgstr "Modifier"
 
 #: \views\admingroupes\index.ctp:53
 #: \views\instruments\index.ctp:61
@@ -1912,7 +1912,7 @@ msgstr "Lightpatch"
 #: \views\wedgelocverts\view.ctp:9;45
 #: \views\wedges\view.ctp:19;59
 msgid "Title"
-msgstr "Titrte"
+msgstr "Titre"
 
 #: \views\channels\view.ctp:44
 msgid "Delete Channel"
@@ -2043,7 +2043,7 @@ msgstr "New Track"
 #: \views\contacts\edit.ctp:4
 #: \views\contacts\view.ctp:53
 msgid "Edit Contact"
-msgstr "Edit Contact"
+msgstr "Modifier le contact"
 
 #: \views\contacts\admin_index.ctp:2
 #: \views\contacts\index.ctp:2
@@ -2102,7 +2102,7 @@ msgstr "Contact"
 #: \views\contacts\view.ctp:9
 #: \views\tcontacts\view.ctp:2
 msgid "Tcontact"
-msgstr "Type of contact"
+msgstr "Type de contacts"
 
 #: \views\contacts\view.ctp:14
 #: \views\instruments\view.ctp:9
@@ -2127,7 +2127,7 @@ msgstr "User"
 #: \views\tcontacts\view.ctp:59
 #: \views\users\view.ctp:100
 msgid "Phone"
-msgstr "Phone"
+msgstr "Téléphone"
 
 #: \views\contacts\view.ctp:54
 msgid "Delete Contact"
@@ -3560,7 +3560,7 @@ msgstr "Add Track"
 #: \views\tracks\edit.ctp:4
 #: \views\tracks\view.ctp:73
 msgid "Edit Track"
-msgstr "Edit Track"
+msgstr "Modifier la piste"
 
 #: \views\tracks\index.ctp:2
 msgid "Tracks"
