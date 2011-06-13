@@ -48,3 +48,13 @@
  * Inflector::rules('plural', array('rules' => array(), 'irregular' => array(), 'uninflected' => array()));
  *
  */
+// Encodage
+// --------
+Configure::write('App.encoding', 'utf-8');
+
+
+/**
+ * i18n
+ */
+Configure::write('Config.languages',array('fre','eng'));
+Configure::write('Config.language','fre');

@@ -9,7 +9,7 @@
                 <li><?php echo $html->link(__('Instruments', true), array('controller' => 'instruments', 'action' => 'index')); ?> </li>
                 <li><?php echo $html->link(__('Micros', true), array('controller' => 'micros', 'action' => 'index')); ?> </li>
                 <li><?php echo $html->link(__('Mic brand', true), array('controller' => 'marques', 'action' => 'index')); ?> </li>
-		<li><?php echo $html->link(__('Stands', true), array('controller' => 'stands', 'action' => 'index')); ?> </li>
+				<li><?php echo $html->link(__('Stands', true), array('controller' => 'stands', 'action' => 'index')); ?> </li>
                 <li><?php echo $html->link(__('Wedge', true), array('controller' => 'wedges', 'action' => 'index')); ?> </li>
           </ul>
          </td><td>
@@ -20,6 +20,18 @@
 	 </td></tr>
 	</table>
 
+	<table>
+	 <tr><th>Other</th><th>-</th></tr>
+	 <tr><td> 
+          <ul>
+                <li><?php echo $html->link(__('Contact type', true), array('controller' => 'tcontacts', 'action' => 'index')); ?> </li>
+          </ul>
+         </td><td>
+          <ul>
+                <li><?php echo "-"?> </li>
+          </ul>
+	 </td></tr>
+	</table>
 
 </div>
 

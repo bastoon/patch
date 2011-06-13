@@ -52,7 +52,7 @@ class AdmingroupesController extends AppController {
 			$this->Session->setFlash(__('Invalid id for Groupe', true));
 			$this->redirect(array('action'=>'index'));
 		}
-		if ($this->Groupe->del($id)) {
+		if ($this->Groupe->delete($id)) {
 			$this->Session->setFlash(__('Groupe deleted', true));
 			$this->redirect(array('action'=>'index'));
 		}

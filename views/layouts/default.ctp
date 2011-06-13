@@ -42,6 +42,10 @@
 		<div id="header">
 			<h1><?php echo $html->link(__(ucfirst(APP_DIR), true), '/../../'); ?></h1>
 		</div>
+		<div id="flags">
+			<a href="/fre">Français</a> |
+			<a href="/eng">English</a>
+		</div>
 		<div id="content">
 
 			<?php //echo Security::hash('12345',null,true); ?>

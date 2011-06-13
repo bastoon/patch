@@ -3,7 +3,7 @@
 	<fieldset>
  		<legend><?php __('Inscription');?></legend>
 	<?php
-		echo $form->input('email',array('label'=>'Adresse mail'));
+		echo $form->input('email',array('label'=>'E-mail'));
         echo $form->input('name',array('label'=>'Nom du groupe'));
 		echo $form->input('password',array('label'=>'Mot de passe'));
 	?>
@@ -12,8 +12,8 @@
 </div>
 <div class="actions">
 	<ul>
-                <li><?php echo $html->link(__('Accueil', true), '/../');?></li> 
-                <li><?php echo $html->link(__('Login', true), array('action' => 'login'));?></li>
+        <li><?php echo $html->link(__('Accueil', true), '/../');?></li> 
+        <li><?php echo $html->link(__('Login', true), array('action' => 'login'));?></li>
 
 
 		<li><?php //echo $html->link(__('List Users', true), array('action' => 'index'));?></li>

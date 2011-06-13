@@ -1,0 +1,3928 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Patch v0.9\n"
+"POT-Creation-Date: 2011-06-12 11:47+0000\n"
+"PO-Revision-Date: 2011-06-12 15:41+0100\n"
+"Last-Translator: Wethli <bastien@weth.li>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: SWITZERLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: \app_controller.php:32
+msgid "Identifiant ou mot de passe incorrects."
+msgstr "User or password invalid"
+
+#: \app_controller.php:33
+msgid "Désolé, vous n'avez pas les droits suffisants."
+msgstr "Sorry, you don't have enought rights."
+
+#: \controllers\admingroupes_controller.php:14
+msgid "Invalid Groupe."
+msgstr "Invalid Groupe."
+
+#: \controllers\admingroupes_controller.php:24;39
+msgid "The Groupe has been saved"
+msgstr "The Groupe has been saved"
+
+#: \controllers\admingroupes_controller.php:27;42
+msgid "The Groupe could not be saved. Please, try again."
+msgstr "The Groupe could not be saved. Please, try again."
+
+#: \controllers\admingroupes_controller.php:34
+msgid "Invalid Groupe"
+msgstr "Invalid groupe"
+
+#: \controllers\admingroupes_controller.php:52
+msgid "Invalid id for Groupe"
+msgstr "Invalid id for groupe"
+
+#: \controllers\admingroupes_controller.php:56
+msgid "Groupe deleted"
+msgstr "Groupe deleted"
+
+#: \controllers\channels_controller.php:14
+msgid "Invalid Channel."
+msgstr "Invalid channel"
+
+#: \controllers\channels_controller.php:24;42
+msgid "The Channel has been saved"
+msgstr "The Channel has been saved"
+
+#: \controllers\channels_controller.php:27;45
+msgid "The Channel could not be saved. Please, try again."
+msgstr "The Channel could not be saved. Please, try again."
+
+#: \controllers\channels_controller.php:37
+msgid "Invalid Channel"
+msgstr "Invalid Channel"
+
+#: \controllers\channels_controller.php:58
+msgid "Invalid id for Channel"
+msgstr "Invalid id for Channel"
+
+#: \controllers\channels_controller.php:62
+msgid "Channel deleted"
+msgstr "Channel deleted"
+
+#: \controllers\contacts_controller.php:23
+msgid "Invalid Contact."
+msgstr "Invalid Contact."
+
+#: \controllers\contacts_controller.php:34;52
+msgid "The Contact has been saved"
+msgstr "The Contact has been saved"
+
+#: \controllers\contacts_controller.php:37;55
+msgid "The Contact could not be saved. Please, try again."
+msgstr "The Contact could not be saved. Please, try again."
+
+#: \controllers\contacts_controller.php:47
+msgid "Invalid Contact"
+msgstr "Invalid Contact"
+
+#: \controllers\contacts_controller.php:69
+msgid "Invalid id for Contact"
+msgstr "Invalid id for Contact"
+
+#: \controllers\contacts_controller.php:73
+msgid "Contact deleted"
+msgstr "Contact deleted"
+
+#: \controllers\instruments_controller.php:14
+msgid "Invalid Instrument."
+msgstr "Invalid Instrument."
+
+#: \controllers\instruments_controller.php:24;41
+msgid "The Instrument has been saved"
+msgstr "The Instrument has been saved"
+
+#: \controllers\instruments_controller.php:27;44
+msgid "The Instrument could not be saved. Please, try again."
+msgstr "The Instrument could not be saved. Please, try again."
+
+#: \controllers\instruments_controller.php:36
+msgid "Invalid Instrument"
+msgstr "Invalid Instrument"
+
+#: \controllers\instruments_controller.php:56
+msgid "Invalid id for Instrument"
+msgstr "Invalid id for Instrument"
+
+#: \controllers\instruments_controller.php:60
+msgid "Instrument deleted"
+msgstr "Instrument deleted"
+
+#: \controllers\lightcolors_controller.php:14
+msgid "Invalid Lightcolor."
+msgstr "Invalid Lightcolor."
+
+#: \controllers\lightcolors_controller.php:24;41
+msgid "The Lightcolor has been saved"
+msgstr "The Lightcolor has been saved"
+
+#: \controllers\lightcolors_controller.php:27;44
+msgid "The Lightcolor could not be saved. Please, try again."
+msgstr "The Lightcolor could not be saved. Please, try again."
+
+#: \controllers\lightcolors_controller.php:36
+msgid "Invalid Lightcolor"
+msgstr "Invalid Lightcolor"
+
+#: \controllers\lightcolors_controller.php:56
+msgid "Invalid id for Lightcolor"
+msgstr "Invalid id for Lightcolor"
+
+#: \controllers\lightcolors_controller.php:60
+msgid "Lightcolor deleted"
+msgstr "Lightcolor deleted"
+
+#: \controllers\lightlochorzs_controller.php:14
+msgid "Invalid Lightlochorz."
+msgstr "Invalid Lightlochorz."
+
+#: \controllers\lightlochorzs_controller.php:24;39
+msgid "The Lightlochorz has been saved"
+msgstr "The Lightlochorz has been saved"
+
+#: \controllers\lightlochorzs_controller.php:27;42
+msgid "The Lightlochorz could not be saved. Please, try again."
+msgstr "The Lightlochorz could not be saved. Please, try again."
+
+#: \controllers\lightlochorzs_controller.php:34
+msgid "Invalid Lightlochorz"
+msgstr "Invalid Lightlochorz"
+
+#: \controllers\lightlochorzs_controller.php:52
+msgid "Invalid id for Lightlochorz"
+msgstr "Invalid id for Lightlochorz"
+
+#: \controllers\lightlochorzs_controller.php:56
+msgid "Lightlochorz deleted"
+msgstr "Lightlochorz deleted"
+
+#: \controllers\lightlocs_controller.php:14
+msgid "Invalid Lightloc."
+msgstr "Invalid Lightloc."
+
+#: \controllers\lightlocs_controller.php:24;42
+msgid "The Lightloc has been saved"
+msgstr "The Lightloc has been saved"
+
+#: \controllers\lightlocs_controller.php:27;45
+msgid "The Lightloc could not be saved. Please, try again."
+msgstr "The Lightloc could not be saved. Please, try again."
+
+#: \controllers\lightlocs_controller.php:37
+msgid "Invalid Lightloc"
+msgstr "Invalid Lightloc"
+
+#: \controllers\lightlocs_controller.php:58
+msgid "Invalid id for Lightloc"
+msgstr "Invalid id for Lightloc"
+
+#: \controllers\lightlocs_controller.php:62
+msgid "Lightloc deleted"
+msgstr "Lightloc deleted"
+
+#: \controllers\lightlocverts_controller.php:14
+msgid "Invalid Lightlocvert."
+msgstr "Invalid Lightlocvert."
+
+#: \controllers\lightlocverts_controller.php:24;39
+msgid "The Lightlocvert has been saved"
+msgstr "The Lightlocvert has been saved"
+
+#: \controllers\lightlocverts_controller.php:27;42
+msgid "The Lightlocvert could not be saved. Please, try again."
+msgstr "The Lightlocvert could not be saved. Please, try again."
+
+#: \controllers\lightlocverts_controller.php:34
+msgid "Invalid Lightlocvert"
+msgstr "Invalid Lightlocvert"
+
+#: \controllers\lightlocverts_controller.php:52
+msgid "Invalid id for Lightlocvert"
+msgstr "Invalid id for Lightlocvert"
+
+#: \controllers\lightlocverts_controller.php:56
+msgid "Lightlocvert deleted"
+msgstr "Lightlocvert deleted"
+
+#: \controllers\lightpatches_controller.php:14
+msgid "Invalid Lightpatch."
+msgstr "Invalid Lightpatch."
+
+#: \controllers\lightpatches_controller.php:24;41
+msgid "The Lightpatch has been saved"
+msgstr "The Lightpatch has been saved"
+
+#: \controllers\lightpatches_controller.php:27;44
+msgid "The Lightpatch could not be saved. Please, try again."
+msgstr "The Lightpatch could not be saved. Please, try again."
+
+#: \controllers\lightpatches_controller.php:36
+msgid "Invalid Lightpatch"
+msgstr "Invalid Lightpatch"
+
+#: \controllers\lightpatches_controller.php:56
+msgid "Invalid id for Lightpatch"
+msgstr "Invalid id for Lightpatch"
+
+#: \controllers\lightpatches_controller.php:60
+msgid "Lightpatch deleted"
+msgstr "Lightpatch deleted"
+
+#: \controllers\lights_controller.php:14
+msgid "Invalid Light."
+msgstr "Invalid Light."
+
+#: \controllers\lights_controller.php:24;44
+msgid "The Light has been saved"
+msgstr "The Light has been saved"
+
+#: \controllers\lights_controller.php:27;47
+msgid "The Light could not be saved. Please, try again."
+msgstr "The Light could not be saved. Please, try again."
+
+#: \controllers\lights_controller.php:39
+msgid "Invalid Light"
+msgstr "Invalid Light"
+
+#: \controllers\lights_controller.php:62
+msgid "Invalid id for Light"
+msgstr "Invalid id for Light"
+
+#: \controllers\lights_controller.php:66
+msgid "Light deleted"
+msgstr "Light deleted"
+
+#: \controllers\logos_controller.php:14
+msgid "Invalid Logo."
+msgstr "Invalid Logo."
+
+#: \controllers\logos_controller.php:24;39
+msgid "The Logo has been saved"
+msgstr "The Logo has been saved"
+
+#: \controllers\logos_controller.php:27;42
+msgid "The Logo could not be saved. Please, try again."
+msgstr "The Logo could not be saved. Please, try again."
+
+#: \controllers\logos_controller.php:34
+msgid "Invalid Logo"
+msgstr "Invalid Logo"
+
+#: \controllers\logos_controller.php:52
+msgid "Invalid id for Logo"
+msgstr "Invalid id for Logo"
+
+#: \controllers\logos_controller.php:56
+msgid "Logo deleted"
+msgstr "Logo deleted"
+
+#: \controllers\marques_controller.php:14
+msgid "Invalid Marque."
+msgstr "Invalid Marque."
+
+#: \controllers\marques_controller.php:24;41
+msgid "The Marque has been saved"
+msgstr "The Marque has been saved"
+
+#: \controllers\marques_controller.php:27;44
+msgid "The Marque could not be saved. Please, try again."
+msgstr "The Marque could not be saved. Please, try again."
+
+#: \controllers\marques_controller.php:36
+msgid "Invalid Marque"
+msgstr "Invalid Marque"
+
+#: \controllers\marques_controller.php:56
+msgid "Invalid id for Marque"
+msgstr "Invalid id for Marque"
+
+#: \controllers\marques_controller.php:60
+msgid "Marque deleted"
+msgstr "Marque deleted"
+
+#: \controllers\miclochorzs_controller.php:14
+msgid "Invalid Miclochorz."
+msgstr "Invalid Miclochorz."
+
+#: \controllers\miclochorzs_controller.php:24;39
+msgid "The Miclochorz has been saved"
+msgstr "The Miclochorz has been saved"
+
+#: \controllers\miclochorzs_controller.php:27;42
+msgid "The Miclochorz could not be saved. Please, try again."
+msgstr "The Miclochorz could not be saved. Please, try again."
+
+#: \controllers\miclochorzs_controller.php:34
+msgid "Invalid Miclochorz"
+msgstr "Invalid Miclochorz"
+
+#: \controllers\miclochorzs_controller.php:52
+msgid "Invalid id for Miclochorz"
+msgstr "Invalid id for Miclochorz"
+
+#: \controllers\miclochorzs_controller.php:56
+msgid "Miclochorz deleted"
+msgstr "Miclochorz deleted"
+
+#: \controllers\miclocs_controller.php:14
+msgid "Invalid Micloc."
+msgstr "Invalid Micloc."
+
+#: \controllers\miclocs_controller.php:24;43
+msgid "The Micloc has been saved"
+msgstr "The Micloc has been saved"
+
+#: \controllers\miclocs_controller.php:27;46
+msgid "The Micloc could not be saved. Please, try again."
+msgstr "The Micloc could not be saved. Please, try again."
+
+#: \controllers\miclocs_controller.php:38
+msgid "Invalid Micloc"
+msgstr "Invalid Micloc"
+
+#: \controllers\miclocs_controller.php:60
+msgid "Invalid id for Micloc"
+msgstr "Invalid id for Micloc"
+
+#: \controllers\miclocs_controller.php:64
+msgid "Micloc deleted"
+msgstr "Micloc deleted"
+
+#: \controllers\miclocverts_controller.php:14
+msgid "Invalid Miclocvert."
+msgstr "Invalid Miclocvert."
+
+#: \controllers\miclocverts_controller.php:24;39
+msgid "The Miclocvert has been saved"
+msgstr "The Miclocvert has been saved"
+
+#: \controllers\miclocverts_controller.php:27;42
+msgid "The Miclocvert could not be saved. Please, try again."
+msgstr "The Miclocvert could not be saved. Please, try again."
+
+#: \controllers\miclocverts_controller.php:34
+msgid "Invalid Miclocvert"
+msgstr "Invalid Miclocvert"
+
+#: \controllers\miclocverts_controller.php:52
+msgid "Invalid id for Miclocvert"
+msgstr "Invalid id for Miclocvert"
+
+#: \controllers\miclocverts_controller.php:56
+msgid "Miclocvert deleted"
+msgstr "Miclocvert deleted"
+
+#: \controllers\micros_controller.php:14
+msgid "Invalid Micro."
+msgstr "Invalid Micro."
+
+#: \controllers\micros_controller.php:24;43
+msgid "The Micro has been saved"
+msgstr "The Micro has been saved"
+
+#: \controllers\micros_controller.php:27;46
+msgid "The Micro could not be saved. Please, try again."
+msgstr "The Micro could not be saved. Please, try again."
+
+#: \controllers\micros_controller.php:38
+msgid "Invalid Micro"
+msgstr "Invalid Micro"
+
+#: \controllers\micros_controller.php:60
+msgid "Invalid id for Micro"
+msgstr "Invalid id for Micro"
+
+#: \controllers\micros_controller.php:64
+msgid "Micro deleted"
+msgstr "Micro deleted"
+
+#: \controllers\rights_controller.php:14
+msgid "Invalid Right."
+msgstr "Invalid Right."
+
+#: \controllers\rights_controller.php:24;41
+msgid "The Right has been saved"
+msgstr "The Right has been saved"
+
+#: \controllers\rights_controller.php:27;44
+msgid "The Right could not be saved. Please, try again."
+msgstr "The Right could not be saved. Please, try again."
+
+#: \controllers\rights_controller.php:36
+msgid "Invalid Right"
+msgstr "Invalid Right"
+
+#: \controllers\rights_controller.php:56
+msgid "Invalid id for Right"
+msgstr "Invalid id for Right"
+
+#: \controllers\rights_controller.php:60
+msgid "Right deleted"
+msgstr "Right deleted"
+
+#: \controllers\soundpatches_controller.php:24
+msgid "Invalid Soundpatch."
+msgstr "Invalid Soundpatch."
+
+#: \controllers\soundpatches_controller.php:31
+msgid "Not your items"
+msgstr "Not your items"
+
+#: \controllers\soundpatches_controller.php:35
+msgid "Acces reserve aux membres"
+msgstr "Access resctrited to members"
+
+#: \controllers\soundpatches_controller.php:44;62
+msgid "The Soundpatch has been saved"
+msgstr "The Soundpatch has been saved"
+
+#: \controllers\soundpatches_controller.php:47;67
+msgid "The Soundpatch could not be saved. Please, try again."
+msgstr "The Soundpatch could not be saved. Please, try again."
+
+#: \controllers\soundpatches_controller.php:57
+msgid "Invalid Soundpatch"
+msgstr "Invalid Soundpatch"
+
+#: \controllers\soundpatches_controller.php:80
+msgid "Invalid id for Soundpatch"
+msgstr "Invalid id for Soundpatch"
+
+#: \controllers\soundpatches_controller.php:84
+msgid "Soundpatch deleted"
+msgstr "Soundpatch deleted"
+
+#: \controllers\stageplans_controller.php:14
+msgid "Invalid Stageplan."
+msgstr "Invalid Stageplan."
+
+#: \controllers\stageplans_controller.php:24;42
+msgid "The Stageplan has been saved"
+msgstr "The Stageplan has been saved"
+
+#: \controllers\stageplans_controller.php:27;45
+msgid "The Stageplan could not be saved. Please, try again."
+msgstr "The Stageplan could not be saved. Please, try again."
+
+#: \controllers\stageplans_controller.php:37
+msgid "Invalid Stageplan"
+msgstr "Invalid Stageplan"
+
+#: \controllers\stageplans_controller.php:58
+msgid "Invalid id for Stageplan"
+msgstr "Invalid id for Stageplan"
+
+#: \controllers\stageplans_controller.php:62
+msgid "Stageplan deleted"
+msgstr "Stageplan deleted"
+
+#: \controllers\stands_controller.php:14
+msgid "Invalid Stand."
+msgstr "Invalid Stand."
+
+#: \controllers\stands_controller.php:24;39
+msgid "The Stand has been saved"
+msgstr "The Stand has been saved"
+
+#: \controllers\stands_controller.php:27;42
+msgid "The Stand could not be saved. Please, try again."
+msgstr "The Stand could not be saved. Please, try again."
+
+#: \controllers\stands_controller.php:34
+msgid "Invalid Stand"
+msgstr "Invalid Stand"
+
+#: \controllers\stands_controller.php:52
+msgid "Invalid id for Stand"
+msgstr "Invalid id for Stand"
+
+#: \controllers\stands_controller.php:56
+msgid "Stand deleted"
+msgstr "Stand deleted"
+
+#: \controllers\tcontacts_controller.php:14
+msgid "Invalid Tcontact."
+msgstr "Invalid Tcontact."
+
+#: \controllers\tcontacts_controller.php:24;41
+msgid "The Tcontact has been saved"
+msgstr "The Tcontact has been saved"
+
+#: \controllers\tcontacts_controller.php:27;44
+msgid "The Tcontact could not be saved. Please, try again."
+msgstr "The Tcontact could not be saved. Please, try again."
+
+#: \controllers\tcontacts_controller.php:36
+msgid "Invalid Tcontact"
+msgstr "Invalid Tcontact"
+
+#: \controllers\tcontacts_controller.php:56
+msgid "Invalid id for Tcontact"
+msgstr "Invalid id for Tcontact"
+
+#: \controllers\tcontacts_controller.php:60
+msgid "Tcontact deleted"
+msgstr "Tcontact deleted"
+
+#: \controllers\teffects_controller.php:14
+msgid "Invalid Teffect."
+msgstr "Invalid Teffect."
+
+#: \controllers\teffects_controller.php:24;41
+msgid "The Teffect has been saved"
+msgstr "The Teffect has been saved"
+
+#: \controllers\teffects_controller.php:27;44
+msgid "The Teffect could not be saved. Please, try again."
+msgstr "The Teffect could not be saved. Please, try again."
+
+#: \controllers\teffects_controller.php:36
+msgid "Invalid Teffect"
+msgstr "Invalid Teffect"
+
+#: \controllers\teffects_controller.php:56
+msgid "Invalid id for Teffect"
+msgstr "Invalid id for Teffect"
+
+#: \controllers\teffects_controller.php:60
+msgid "Teffect deleted"
+msgstr "Teffect deleted"
+
+#: \controllers\tinserts_controller.php:14
+msgid "Invalid Tinsert."
+msgstr "Invalid Tinsert."
+
+#: \controllers\tinserts_controller.php:24;41
+msgid "The Tinsert has been saved"
+msgstr "The Tinsert has been saved"
+
+#: \controllers\tinserts_controller.php:27;44
+msgid "The Tinsert could not be saved. Please, try again."
+msgstr "The Tinsert could not be saved. Please, try again."
+
+#: \controllers\tinserts_controller.php:36
+msgid "Invalid Tinsert"
+msgstr "Invalid Tinsert"
+
+#: \controllers\tinserts_controller.php:56
+msgid "Invalid id for Tinsert"
+msgstr "Invalid id for Tinsert"
+
+#: \controllers\tinserts_controller.php:60
+msgid "Tinsert deleted"
+msgstr "Tinsert deleted"
+
+#: \controllers\tlightcolors_controller.php:14
+msgid "Invalid Tlightcolor."
+msgstr "Invalid Tlightcolor."
+
+#: \controllers\tlightcolors_controller.php:24;41
+msgid "The Tlightcolor has been saved"
+msgstr "The Tlightcolor has been saved"
+
+#: \controllers\tlightcolors_controller.php:27;44
+msgid "The Tlightcolor could not be saved. Please, try again."
+msgstr "The Tlightcolor could not be saved. Please, try again."
+
+#: \controllers\tlightcolors_controller.php:36
+msgid "Invalid Tlightcolor"
+msgstr "Invalid Tlightcolor"
+
+#: \controllers\tlightcolors_controller.php:56
+msgid "Invalid id for Tlightcolor"
+msgstr "Invalid id for Tlightcolor"
+
+#: \controllers\tlightcolors_controller.php:60
+msgid "Tlightcolor deleted"
+msgstr "Tlightcolor deleted"
+
+#: \controllers\tlights_controller.php:14
+msgid "Invalid Tlight."
+msgstr "Invalid Tlight."
+
+#: \controllers\tlights_controller.php:24;41
+msgid "The Tlight has been saved"
+msgstr "The Tlight has been saved"
+
+#: \controllers\tlights_controller.php:27;44
+msgid "The Tlight could not be saved. Please, try again."
+msgstr "The Tlight could not be saved. Please, try again."
+
+#: \controllers\tlights_controller.php:36
+msgid "Invalid Tlight"
+msgstr "Invalid Tlight"
+
+#: \controllers\tlights_controller.php:56
+msgid "Invalid id for Tlight"
+msgstr "Invalid id for Tlight"
+
+#: \controllers\tlights_controller.php:60
+msgid "Tlight deleted"
+msgstr "Tlight deleted"
+
+#: \controllers\tmicros_controller.php:14
+msgid "Invalid Tmicro."
+msgstr "Invalid Tmicro."
+
+#: \controllers\tmicros_controller.php:24;39
+msgid "The Tmicro has been saved"
+msgstr "The Tmicro has been saved"
+
+#: \controllers\tmicros_controller.php:27;42
+msgid "The Tmicro could not be saved. Please, try again."
+msgstr "The Tmicro could not be saved. Please, try again."
+
+#: \controllers\tmicros_controller.php:34
+msgid "Invalid Tmicro"
+msgstr "Invalid Tmicro"
+
+#: \controllers\tmicros_controller.php:52
+msgid "Invalid id for Tmicro"
+msgstr "Invalid id for Tmicro"
+
+#: \controllers\tmicros_controller.php:56
+msgid "Tmicro deleted"
+msgstr "Tmicro deleted"
+
+#: \controllers\tracks_controller.php:15
+msgid "Invalid Track."
+msgstr "Invalid Track."
+
+#: \controllers\tracks_controller.php:25;49
+msgid "The Track has been saved"
+msgstr "The Track has been saved"
+
+#: \controllers\tracks_controller.php:28;55
+msgid "The Track could not be saved. Please, try again."
+msgstr "The Track could not be saved. Please, try again."
+
+#: \controllers\tracks_controller.php:44
+msgid "Invalid Track"
+msgstr "Invalid Track"
+
+#: \controllers\tracks_controller.php:73
+msgid "Invalid id for Track"
+msgstr "Invalid id for Track"
+
+#: \controllers\tracks_controller.php:77
+msgid "Track deleted"
+msgstr "Track deleted"
+
+#: \controllers\users_controller.php:49
+msgid "Votre compte n'a pas Ã©tÃ© activÃ©"
+msgstr "Your account is not enabled. Please check your mail."
+
+#: \controllers\users_controller.php:76
+msgid "TOKEN not FOUND !"
+msgstr "TOKEN not FOUND !"
+
+#: \controllers\users_controller.php:88
+msgid "Invalid User."
+msgstr "Invalid User."
+
+#: \controllers\users_controller.php:100;119
+msgid "The User has been saved"
+msgstr "The User has been saved"
+
+#: \controllers\users_controller.php:105;122
+msgid "The User could not be saved. Please, try again."
+msgstr "The User could not be saved. Please, try again."
+
+#: \controllers\users_controller.php:114
+msgid "Invalid User"
+msgstr "Invalid User"
+
+#: \controllers\users_controller.php:134
+msgid "Invalid id for User"
+msgstr "Invalid id for User"
+
+#: \controllers\users_controller.php:138
+msgid "User deleted"
+msgstr "User deleted"
+
+#: \controllers\wedgelochorzs_controller.php:14
+msgid "Invalid Wedgelochorz."
+msgstr "Invalid Wedgelochorz."
+
+#: \controllers\wedgelochorzs_controller.php:24;39
+msgid "The Wedgelochorz has been saved"
+msgstr "The Wedgelochorz has been saved"
+
+#: \controllers\wedgelochorzs_controller.php:27;42
+msgid "The Wedgelochorz could not be saved. Please, try again."
+msgstr "The Wedgelochorz could not be saved. Please, try again."
+
+#: \controllers\wedgelochorzs_controller.php:34
+msgid "Invalid Wedgelochorz"
+msgstr "Invalid Wedgelochorz"
+
+#: \controllers\wedgelochorzs_controller.php:52
+msgid "Invalid id for Wedgelochorz"
+msgstr "Invalid id for Wedgelochorz"
+
+#: \controllers\wedgelochorzs_controller.php:56
+msgid "Wedgelochorz deleted"
+msgstr "Wedgelochorz deleted"
+
+#: \controllers\wedgelocrotations_controller.php:14
+msgid "Invalid Wedgelocrotation."
+msgstr "Invalid Wedgelocrotation."
+
+#: \controllers\wedgelocrotations_controller.php:24;39
+msgid "The Wedgelocrotation has been saved"
+msgstr "The Wedgelocrotation has been saved"
+
+#: \controllers\wedgelocrotations_controller.php:27;42
+msgid "The Wedgelocrotation could not be saved. Please, try again."
+msgstr "The Wedgelocrotation could not be saved. Please, try again."
+
+#: \controllers\wedgelocrotations_controller.php:34
+msgid "Invalid Wedgelocrotation"
+msgstr "Invalid Wedgelocrotation"
+
+#: \controllers\wedgelocrotations_controller.php:52
+msgid "Invalid id for Wedgelocrotation"
+msgstr "Invalid id for Wedgelocrotation"
+
+#: \controllers\wedgelocrotations_controller.php:56
+msgid "Wedgelocrotation deleted"
+msgstr "Wedgelocrotation deleted"
+
+#: \controllers\wedgelocs_controller.php:14
+msgid "Invalid Wedgeloc."
+msgstr "Invalid Wedgeloc."
+
+#: \controllers\wedgelocs_controller.php:24;43
+msgid "The Wedgeloc has been saved"
+msgstr "The Wedgeloc has been saved"
+
+#: \controllers\wedgelocs_controller.php:27;46
+msgid "The Wedgeloc could not be saved. Please, try again."
+msgstr "The Wedgeloc could not be saved. Please, try again."
+
+#: \controllers\wedgelocs_controller.php:38
+msgid "Invalid Wedgeloc"
+msgstr "Invalid Wedgeloc"
+
+#: \controllers\wedgelocs_controller.php:60
+msgid "Invalid id for Wedgeloc"
+msgstr "Invalid id for Wedgeloc"
+
+#: \controllers\wedgelocs_controller.php:64
+msgid "Wedgeloc deleted"
+msgstr "Wedgeloc deleted"
+
+#: \controllers\wedgelocverts_controller.php:14
+msgid "Invalid Wedgelocvert."
+msgstr "Invalid Wedgelocvert."
+
+#: \controllers\wedgelocverts_controller.php:24;39
+msgid "The Wedgelocvert has been saved"
+msgstr "The Wedgelocvert has been saved"
+
+#: \controllers\wedgelocverts_controller.php:27;42
+msgid "The Wedgelocvert could not be saved. Please, try again."
+msgstr "The Wedgelocvert could not be saved. Please, try again."
+
+#: \controllers\wedgelocverts_controller.php:34
+msgid "Invalid Wedgelocvert"
+msgstr "Invalid Wedgelocvert"
+
+#: \controllers\wedgelocverts_controller.php:52
+msgid "Invalid id for Wedgelocvert"
+msgstr "Invalid id for Wedgelocvert"
+
+#: \controllers\wedgelocverts_controller.php:56
+msgid "Wedgelocvert deleted"
+msgstr "Wedgelocvert deleted"
+
+#: \controllers\wedges_controller.php:14
+msgid "Invalid Wedge."
+msgstr "Invalid Wedge."
+
+#: \controllers\wedges_controller.php:24;42
+msgid "The Wedge has been saved"
+msgstr "The Wedge has been saved"
+
+#: \controllers\wedges_controller.php:27;45
+msgid "The Wedge could not be saved. Please, try again."
+msgstr "The Wedge could not be saved. Please, try again."
+
+#: \controllers\wedges_controller.php:37
+msgid "Invalid Wedge"
+msgstr "Invalid Wedge"
+
+#: \controllers\wedges_controller.php:58
+msgid "Invalid id for Wedge"
+msgstr "Invalid id for Wedge"
+
+#: \controllers\wedges_controller.php:62
+msgid "Wedge deleted"
+msgstr "Wedge deleted"
+
+#: \views\admingroupes\add.ctp:4
+msgid "Add Groupe"
+msgstr "Add Groupe"
+
+#: \views\admingroupes\add.ctp:14
+#: \views\admingroupes\edit.ctp:16
+#: \views\admingroupes\view.ctp:35
+#: \views\rights\add.ctp:17
+#: \views\rights\edit.ctp:19
+#: \views\rights\index.ctp:62
+#: \views\rights\view.ctp:47
+#: \views\users\admin_add.ctp:19
+#: \views\users\admin_edit.ctp:21
+#: \views\users\index.ctp:70
+#: \views\users\view.ctp:57
+msgid "List Groupes"
+msgstr "List Groupes"
+
+#: \views\admingroupes\add.ctp:15
+#: \views\admingroupes\edit.ctp:17
+#: \views\admingroupes\index.ctp:55
+#: \views\admingroupes\view.ctp:37
+#: \views\rights\add.ctp:16
+#: \views\rights\edit.ctp:18
+#: \views\rights\view.ctp:45
+msgid "List Rights"
+msgstr "List Rights"
+
+#: \views\admingroupes\add.ctp:16
+#: \views\admingroupes\edit.ctp:18
+#: \views\admingroupes\index.ctp:56
+#: \views\admingroupes\view.ctp:38;85
+#: \views\rights\view.ctp:46
+msgid "New Right"
+msgstr "New Right"
+
+#: \views\admingroupes\add.ctp:17
+#: \views\admingroupes\edit.ctp:19
+#: \views\admingroupes\index.ctp:57
+#: \views\admingroupes\view.ctp:39
+#: \views\contacts\add.ctp:21
+#: \views\contacts\admin_edit.ctp:23
+#: \views\contacts\admin_index.ctp:77
+#: \views\contacts\view.ctp:59
+#: \views\instruments\add.ctp:17
+#: \views\instruments\edit.ctp:19
+#: \views\instruments\index.ctp:63
+#: \views\instruments\view.ctp:47
+#: \views\lightpatches\add.ctp:16
+#: \views\lightpatches\edit.ctp:18
+#: \views\lightpatches\index.ctp:63
+#: \views\lightpatches\view.ctp:42
+#: \views\lights\add.ctp:21
+#: \views\lights\edit.ctp:23
+#: \views\lights\index.ctp:77
+#: \views\lights\view.ctp:59
+#: \views\marques\add.ctp:16
+#: \views\marques\edit.ctp:18
+#: \views\marques\index.ctp:59
+#: \views\marques\view.ctp:42
+#: \views\micros\add.ctp:19
+#: \views\micros\edit.ctp:21
+#: \views\micros\index.ctp:71
+#: \views\micros\view.ctp:57
+#: \views\soundpatches\add.ctp:18
+#: \views\soundpatches\admin_index.ctp:71
+#: \views\soundpatches\admin_view.ctp:52
+#: \views\stageplans\add.ctp:17
+#: \views\stageplans\edit.ctp:19
+#: \views\stageplans\index.ctp:67
+#: \views\stageplans\view.ctp:47
+#: \views\tcontacts\add.ctp:16
+#: \views\tcontacts\edit.ctp:18
+#: \views\tcontacts\index.ctp:58
+#: \views\tcontacts\view.ctp:42
+#: \views\teffects\add.ctp:16
+#: \views\teffects\edit.ctp:18
+#: \views\teffects\index.ctp:63
+#: \views\teffects\view.ctp:42
+#: \views\tinserts\add.ctp:16
+#: \views\tinserts\edit.ctp:18
+#: \views\tinserts\index.ctp:63
+#: \views\tinserts\view.ctp:42
+#: \views\tlightcolors\add.ctp:16
+#: \views\tlightcolors\edit.ctp:18
+#: \views\tlightcolors\index.ctp:63
+#: \views\tlightcolors\view.ctp:42
+#: \views\tlights\add.ctp:16
+#: \views\tlights\edit.ctp:18
+#: \views\tlights\index.ctp:63
+#: \views\tlights\view.ctp:42
+#: \views\users\admin_add.ctp:18
+#: \views\users\admin_edit.ctp:20
+#: \views\users\view.ctp:55
+#: \views\wedges\add.ctp:16
+#: \views\wedges\edit.ctp:18
+#: \views\wedges\index.ctp:59
+#: \views\wedges\view.ctp:42
+msgid "List Users"
+msgstr "List Users"
+
+#: \views\admingroupes\add.ctp:18
+#: \views\admingroupes\edit.ctp:20
+#: \views\admingroupes\index.ctp:58
+#: \views\admingroupes\view.ctp:40;135
+#: \views\contacts\add.ctp:22
+#: \views\contacts\admin_edit.ctp:24
+#: \views\contacts\admin_index.ctp:78
+#: \views\contacts\view.ctp:60
+#: \views\instruments\add.ctp:18
+#: \views\instruments\edit.ctp:20
+#: \views\instruments\index.ctp:64
+#: \views\instruments\view.ctp:48
+#: \views\lightpatches\add.ctp:17
+#: \views\lightpatches\edit.ctp:19
+#: \views\lightpatches\index.ctp:64
+#: \views\lightpatches\view.ctp:43
+#: \views\lights\add.ctp:22
+#: \views\lights\edit.ctp:24
+#: \views\lights\index.ctp:78
+#: \views\lights\view.ctp:60
+#: \views\marques\add.ctp:17
+#: \views\marques\edit.ctp:19
+#: \views\marques\index.ctp:60
+#: \views\marques\view.ctp:43
+#: \views\micros\add.ctp:20
+#: \views\micros\edit.ctp:22
+#: \views\micros\index.ctp:72
+#: \views\micros\view.ctp:58
+#: \views\soundpatches\add.ctp:19
+#: \views\soundpatches\admin_index.ctp:72
+#: \views\soundpatches\admin_view.ctp:53
+#: \views\stageplans\add.ctp:18
+#: \views\stageplans\edit.ctp:20
+#: \views\stageplans\index.ctp:68
+#: \views\stageplans\view.ctp:48
+#: \views\tcontacts\add.ctp:17
+#: \views\tcontacts\edit.ctp:19
+#: \views\tcontacts\index.ctp:59
+#: \views\tcontacts\view.ctp:43
+#: \views\teffects\add.ctp:17
+#: \views\teffects\edit.ctp:19
+#: \views\teffects\index.ctp:64
+#: \views\teffects\view.ctp:43
+#: \views\tinserts\add.ctp:17
+#: \views\tinserts\edit.ctp:19
+#: \views\tinserts\index.ctp:64
+#: \views\tinserts\view.ctp:43
+#: \views\tlightcolors\add.ctp:17
+#: \views\tlightcolors\edit.ctp:19
+#: \views\tlightcolors\index.ctp:64
+#: \views\tlightcolors\view.ctp:43
+#: \views\tlights\add.ctp:17
+#: \views\tlights\edit.ctp:19
+#: \views\tlights\index.ctp:64
+#: \views\tlights\view.ctp:43
+#: \views\users\index.ctp:69
+#: \views\users\view.ctp:56
+#: \views\wedges\add.ctp:17
+#: \views\wedges\edit.ctp:19
+#: \views\wedges\index.ctp:60
+#: \views\wedges\view.ctp:43
+msgid "New User"
+msgstr "New User"
+
+#: \views\admingroupes\edit.ctp:4
+#: \views\admingroupes\view.ctp:33
+msgid "Edit Groupe"
+msgstr "Edit Groupe"
+
+#: \views\admingroupes\edit.ctp:15
+#: \views\admingroupes\index.ctp:45
+#: \views\admingroupes\view.ctp:76;126
+#: \views\channels\edit.ctp:17
+#: \views\channels\index.ctp:53
+#: \views\contacts\admin_edit.ctp:19
+#: \views\contacts\admin_index.ctp:61
+#: \views\contacts\view.ctp:110
+#: \views\instruments\edit.ctp:17
+#: \views\instruments\index.ctp:53
+#: \views\instruments\view.ctp:98
+#: \views\lightcolors\edit.ctp:15
+#: \views\lightcolors\index.ctp:45
+#: \views\lightcolors\view.ctp:80
+#: \views\lightlochorzs\edit.ctp:14
+#: \views\lightlochorzs\index.ctp:41
+#: \views\lightlochorzs\view.ctp:67
+#: \views\lightlocs\edit.ctp:16
+#: \views\lightlocs\index.ctp:49
+#: \views\lightlocs\view.ctp:87
+#: \views\lightlocverts\edit.ctp:14
+#: \views\lightlocverts\index.ctp:41
+#: \views\lightlocverts\view.ctp:67
+#: \views\lightpatches\edit.ctp:16
+#: \views\lightpatches\index.ctp:49
+#: \views\lightpatches\view.ctp:81
+#: \views\lights\edit.ctp:19
+#: \views\lights\index.ctp:61
+#: \views\lights\view.ctp:102
+#: \views\logos\edit.ctp:15
+#: \views\logos\index.ctp:45
+#: \views\logos\view.ctp:74
+#: \views\marques\edit.ctp:16
+#: \views\marques\index.ctp:49
+#: \views\marques\view.ctp:85
+#: \views\miclochorzs\edit.ctp:14
+#: \views\miclochorzs\index.ctp:41
+#: \views\miclochorzs\view.ctp:69
+#: \views\miclocs\edit.ctp:17
+#: \views\miclocs\index.ctp:53
+#: \views\miclocs\view.ctp:102
+#: \views\miclocverts\edit.ctp:14
+#: \views\miclocverts\index.ctp:41
+#: \views\miclocverts\view.ctp:69
+#: \views\micros\edit.ctp:19
+#: \views\micros\index.ctp:61
+#: \views\micros\view.ctp:112
+#: \views\rights\edit.ctp:17
+#: \views\rights\index.ctp:53
+#: \views\soundpatches\admin_index.ctp:57
+#: \views\soundpatches\admin_view.ctp:95;153
+#: \views\stageplans\edit.ctp:17
+#: \views\stageplans\index.ctp:53
+#: \views\stands\edit.ctp:14
+#: \views\stands\index.ctp:41
+#: \views\stands\view.ctp:81
+#: \views\tcontacts\edit.ctp:16
+#: \views\tcontacts\index.ctp:49
+#: \views\tcontacts\view.ctp:85
+#: \views\teffects\edit.ctp:16
+#: \views\teffects\index.ctp:49
+#: \views\teffects\view.ctp:93
+#: \views\tinserts\edit.ctp:16
+#: \views\tinserts\index.ctp:49
+#: \views\tinserts\view.ctp:93
+#: \views\tlightcolors\edit.ctp:16
+#: \views\tlightcolors\index.ctp:49
+#: \views\tlightcolors\view.ctp:77
+#: \views\tlights\edit.ctp:16
+#: \views\tlights\index.ctp:49
+#: \views\tlights\view.ctp:85
+#: \views\tmicros\edit.ctp:14
+#: \views\tmicros\index.ctp:41
+#: \views\tmicros\view.ctp:73
+#: \views\tracks\index.ctp:77
+#: \views\users\admin_edit.ctp:19
+#: \views\users\index.ctp:60
+#: \views\users\view.ctp:126;172;216;266;310;360;408;454;498;542;586;630;674;718
+#: \views\wedgelochorzs\edit.ctp:14
+#: \views\wedgelochorzs\index.ctp:41
+#: \views\wedgelochorzs\view.ctp:69
+#: \views\wedgelocrotations\edit.ctp:14
+#: \views\wedgelocrotations\index.ctp:41
+#: \views\wedgelocrotations\view.ctp:69
+#: \views\wedgelocs\edit.ctp:17
+#: \views\wedgelocs\index.ctp:53
+#: \views\wedgelocs\view.ctp:88
+#: \views\wedgelocverts\edit.ctp:14
+#: \views\wedgelocverts\index.ctp:41
+#: \views\wedgelocverts\view.ctp:69
+#: \views\wedges\edit.ctp:16
+#: \views\wedges\index.ctp:49
+#: \views\wedges\view.ctp:85
+msgid "Delete"
+msgstr "Delete"
+
+#: \views\admingroupes\edit.ctp:15
+#: \views\admingroupes\index.ctp:45
+#: \views\admingroupes\view.ctp:34;76;126
+#: \views\channels\edit.ctp:17
+#: \views\channels\index.ctp:53
+#: \views\channels\view.ctp:44
+#: \views\contacts\admin_edit.ctp:19
+#: \views\contacts\admin_index.ctp:61
+#: \views\contacts\view.ctp:54;110
+#: \views\instruments\edit.ctp:17
+#: \views\instruments\index.ctp:53
+#: \views\instruments\view.ctp:44;98
+#: \views\lightcolors\edit.ctp:15
+#: \views\lightcolors\index.ctp:45
+#: \views\lightcolors\view.ctp:34;80
+#: \views\lightlochorzs\edit.ctp:14
+#: \views\lightlochorzs\index.ctp:41
+#: \views\lightlochorzs\view.ctp:29;67
+#: \views\lightlocs\edit.ctp:16
+#: \views\lightlocs\index.ctp:49
+#: \views\lightlocs\view.ctp:39;87
+#: \views\lightlocverts\edit.ctp:14
+#: \views\lightlocverts\index.ctp:41
+#: \views\lightlocverts\view.ctp:29;67
+#: \views\lightpatches\edit.ctp:16
+#: \views\lightpatches\index.ctp:49
+#: \views\lightpatches\view.ctp:39;81
+#: \views\lights\edit.ctp:19
+#: \views\lights\index.ctp:61
+#: \views\lights\view.ctp:54;102
+#: \views\logos\edit.ctp:15
+#: \views\logos\index.ctp:45
+#: \views\logos\view.ctp:34;74
+#: \views\marques\edit.ctp:16
+#: \views\marques\index.ctp:49
+#: \views\marques\view.ctp:39;85
+#: \views\miclochorzs\edit.ctp:14
+#: \views\miclochorzs\index.ctp:41
+#: \views\miclochorzs\view.ctp:29;69
+#: \views\miclocs\edit.ctp:17
+#: \views\miclocs\index.ctp:53
+#: \views\miclocs\view.ctp:44;102
+#: \views\miclocverts\edit.ctp:14
+#: \views\miclocverts\index.ctp:41
+#: \views\miclocverts\view.ctp:29;69
+#: \views\micros\edit.ctp:19
+#: \views\micros\index.ctp:61
+#: \views\micros\view.ctp:54;112
+#: \views\rights\edit.ctp:17
+#: \views\rights\index.ctp:53
+#: \views\rights\view.ctp:44
+#: \views\soundpatches\admin_index.ctp:57
+#: \views\soundpatches\admin_view.ctp:49;95;153
+#: \views\stageplans\edit.ctp:17
+#: \views\stageplans\index.ctp:53
+#: \views\stageplans\view.ctp:44
+#: \views\stands\edit.ctp:14
+#: \views\stands\index.ctp:41
+#: \views\stands\view.ctp:29;81
+#: \views\tcontacts\edit.ctp:16
+#: \views\tcontacts\index.ctp:49
+#: \views\tcontacts\view.ctp:39;85
+#: \views\teffects\edit.ctp:16
+#: \views\teffects\index.ctp:49
+#: \views\teffects\view.ctp:39;93
+#: \views\tinserts\edit.ctp:16
+#: \views\tinserts\index.ctp:49
+#: \views\tinserts\view.ctp:39;93
+#: \views\tlightcolors\edit.ctp:16
+#: \views\tlightcolors\index.ctp:49
+#: \views\tlightcolors\view.ctp:39;77
+#: \views\tlights\edit.ctp:16
+#: \views\tlights\index.ctp:49
+#: \views\tlights\view.ctp:39;85
+#: \views\tmicros\edit.ctp:14
+#: \views\tmicros\index.ctp:41
+#: \views\tmicros\view.ctp:29;73
+#: \views\tracks\index.ctp:77
+#: \views\tracks\view.ctp:74
+#: \views\users\admin_edit.ctp:19
+#: \views\users\index.ctp:60
+#: \views\users\view.ctp:54;126;172;216;266;310;360;408;454;498;542;586;630;674;718
+#: \views\wedgelochorzs\edit.ctp:14
+#: \views\wedgelochorzs\index.ctp:41
+#: \views\wedgelochorzs\view.ctp:29;69
+#: \views\wedgelocrotations\edit.ctp:14
+#: \views\wedgelocrotations\index.ctp:41
+#: \views\wedgelocrotations\view.ctp:29;69
+#: \views\wedgelocs\edit.ctp:17
+#: \views\wedgelocs\index.ctp:53
+#: \views\wedgelocs\view.ctp:44;88
+#: \views\wedgelocverts\edit.ctp:14
+#: \views\wedgelocverts\index.ctp:41
+#: \views\wedgelocverts\view.ctp:29;69
+#: \views\wedges\edit.ctp:16
+#: \views\wedges\index.ctp:49
+#: \views\wedges\view.ctp:39;85
+msgid "Are you sure you want to delete # %s?"
+msgstr "Are you sure you want to delete # %s?"
+
+#: \views\admingroupes\index.ctp:2
+msgid "Groupes"
+msgstr "Groupes"
+
+#: \views\admingroupes\index.ctp:6
+#: \views\channels\index.ctp:6
+#: \views\contacts\admin_index.ctp:6
+#: \views\instruments\index.ctp:6
+#: \views\lightcolors\index.ctp:6
+#: \views\lightlochorzs\index.ctp:6
+#: \views\lightlocs\index.ctp:6
+#: \views\lightlocverts\index.ctp:6
+#: \views\lightpatches\index.ctp:6
+#: \views\lights\index.ctp:6
+#: \views\logos\index.ctp:6
+#: \views\marques\index.ctp:6
+#: \views\miclochorzs\index.ctp:6
+#: \views\miclocs\index.ctp:6
+#: \views\miclocverts\index.ctp:6
+#: \views\micros\index.ctp:6
+#: \views\rights\index.ctp:6
+#: \views\soundpatches\admin_index.ctp:6
+#: \views\stageplans\index.ctp:6
+#: \views\stands\index.ctp:6
+#: \views\tcontacts\index.ctp:6
+#: \views\teffects\index.ctp:6
+#: \views\tinserts\index.ctp:6
+#: \views\tlightcolors\index.ctp:6
+#: \views\tlights\index.ctp:6
+#: \views\tmicros\index.ctp:6
+#: \views\tracks\index.ctp:6
+#: \views\users\index.ctp:6
+#: \views\wedgelochorzs\index.ctp:6
+#: \views\wedgelocrotations\index.ctp:6
+#: \views\wedgelocs\index.ctp:6
+#: \views\wedgelocverts\index.ctp:6
+#: \views\wedges\index.ctp:6
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+
+#: \views\admingroupes\index.ctp:16
+#: \views\admingroupes\view.ctp:55;103
+#: \views\channels\index.ctp:18
+#: \views\contacts\admin_index.ctp:20
+#: \views\contacts\index.ctp:17
+#: \views\contacts\view.ctp:83
+#: \views\instruments\index.ctp:18
+#: \views\instruments\view.ctp:71
+#: \views\lightcolors\index.ctp:16
+#: \views\lightcolors\view.ctp:57
+#: \views\lightlochorzs\index.ctp:15
+#: \views\lightlochorzs\view.ctp:47
+#: \views\lightlocs\index.ctp:17
+#: \views\lightlocs\view.ctp:64
+#: \views\lightlocverts\index.ctp:15
+#: \views\lightlocverts\view.ctp:47
+#: \views\lightpatches\index.ctp:17
+#: \views\lightpatches\view.ctp:60
+#: \views\lights\index.ctp:20
+#: \views\lights\view.ctp:81
+#: \views\logos\index.ctp:16
+#: \views\logos\view.ctp:53
+#: \views\marques\index.ctp:17
+#: \views\marques\view.ctp:62
+#: \views\miclochorzs\index.ctp:15
+#: \views\miclochorzs\view.ctp:48
+#: \views\miclocs\index.ctp:18
+#: \views\miclocs\view.ctp:75
+#: \views\miclocverts\index.ctp:15
+#: \views\miclocverts\view.ctp:48
+#: \views\micros\index.ctp:20
+#: \views\micros\view.ctp:85
+#: \views\rights\index.ctp:18
+#: \views\soundpatches\admin_index.ctp:19
+#: \views\soundpatches\admin_view.ctp:74;126
+#: \views\soundpatches\index.ctp:11
+#: \views\soundpatches\view.ctp:78;133
+#: \views\stageplans\index.ctp:18
+#: \views\stands\index.ctp:15
+#: \views\stands\view.ctp:54
+#: \views\tcontacts\index.ctp:17
+#: \views\tcontacts\view.ctp:62
+#: \views\teffects\index.ctp:17
+#: \views\teffects\view.ctp:66
+#: \views\tinserts\index.ctp:17
+#: \views\tinserts\view.ctp:66
+#: \views\tlightcolors\index.ctp:17
+#: \views\tlightcolors\view.ctp:58
+#: \views\tlights\index.ctp:17
+#: \views\tlights\view.ctp:62
+#: \views\tmicros\index.ctp:15
+#: \views\tmicros\view.ctp:50
+#: \views\tracks\index.ctp:24
+#: \views\users\index.ctp:19
+#: \views\users\view.ctp:103;151;196;243;290;337;386;433;478;522;566;610;654;698
+#: \views\wedgelochorzs\index.ctp:15
+#: \views\wedgelochorzs\view.ctp:48
+#: \views\wedgelocrotations\index.ctp:15
+#: \views\wedgelocrotations\view.ctp:48
+#: \views\wedgelocs\index.ctp:18
+#: \views\wedgelocs\view.ctp:68
+#: \views\wedgelocverts\index.ctp:15
+#: \views\wedgelocverts\view.ctp:48
+#: \views\wedges\index.ctp:17
+#: \views\wedges\view.ctp:63
+msgid "Actions"
+msgstr "Actions"
+
+#: \views\admingroupes\index.ctp:43
+#: \views\admingroupes\view.ctp:74;124
+#: \views\channels\index.ctp:51
+#: \views\contacts\admin_index.ctp:59
+#: \views\contacts\view.ctp:108
+#: \views\instruments\index.ctp:51
+#: \views\instruments\view.ctp:96
+#: \views\lightcolors\index.ctp:43
+#: \views\lightcolors\view.ctp:78
+#: \views\lightlochorzs\index.ctp:39
+#: \views\lightlochorzs\view.ctp:65
+#: \views\lightlocs\index.ctp:47
+#: \views\lightlocs\view.ctp:85
+#: \views\lightlocverts\index.ctp:39
+#: \views\lightlocverts\view.ctp:65
+#: \views\lightpatches\index.ctp:47
+#: \views\lightpatches\view.ctp:79
+#: \views\lights\index.ctp:59
+#: \views\lights\view.ctp:100
+#: \views\logos\index.ctp:43
+#: \views\logos\view.ctp:72
+#: \views\marques\index.ctp:47
+#: \views\marques\view.ctp:83
+#: \views\miclochorzs\index.ctp:39
+#: \views\miclochorzs\view.ctp:67
+#: \views\miclocs\index.ctp:51
+#: \views\miclocs\view.ctp:100
+#: \views\miclocverts\index.ctp:39
+#: \views\miclocverts\view.ctp:67
+#: \views\micros\index.ctp:59
+#: \views\micros\view.ctp:110
+#: \views\rights\index.ctp:51
+#: \views\soundpatches\admin_index.ctp:55
+#: \views\soundpatches\admin_view.ctp:93;151
+#: \views\soundpatches\index.ctp:31
+#: \views\soundpatches\view.ctp:97
+#: \views\stageplans\index.ctp:51
+#: \views\stands\index.ctp:39
+#: \views\stands\view.ctp:79
+#: \views\tcontacts\index.ctp:47
+#: \views\tcontacts\view.ctp:83
+#: \views\teffects\index.ctp:47
+#: \views\teffects\view.ctp:91
+#: \views\tinserts\index.ctp:47
+#: \views\tinserts\view.ctp:91
+#: \views\tlightcolors\index.ctp:47
+#: \views\tlightcolors\view.ctp:75
+#: \views\tlights\index.ctp:47
+#: \views\tlights\view.ctp:83
+#: \views\tmicros\index.ctp:39
+#: \views\tmicros\view.ctp:71
+#: \views\tracks\index.ctp:75
+#: \views\users\index.ctp:58
+#: \views\users\view.ctp:124;170;214;264;308;358;406;452;496;540;584;628;672;716
+#: \views\wedgelochorzs\index.ctp:39
+#: \views\wedgelochorzs\view.ctp:67
+#: \views\wedgelocrotations\index.ctp:39
+#: \views\wedgelocrotations\view.ctp:67
+#: \views\wedgelocs\index.ctp:51
+#: \views\wedgelocs\view.ctp:86
+#: \views\wedgelocverts\index.ctp:39
+#: \views\wedgelocverts\view.ctp:67
+#: \views\wedges\index.ctp:47
+#: \views\wedges\view.ctp:83
+msgid "View"
+msgstr "View"
+
+#: \views\admingroupes\index.ctp:44
+#: \views\admingroupes\view.ctp:75;125
+#: \views\channels\index.ctp:52
+#: \views\contacts\admin_index.ctp:60
+#: \views\contacts\index.ctp:48
+#: \views\contacts\view.ctp:109
+#: \views\instruments\index.ctp:52
+#: \views\instruments\view.ctp:97
+#: \views\lightcolors\index.ctp:44
+#: \views\lightcolors\view.ctp:79
+#: \views\lightlochorzs\index.ctp:40
+#: \views\lightlochorzs\view.ctp:66
+#: \views\lightlocs\index.ctp:48
+#: \views\lightlocs\view.ctp:86
+#: \views\lightlocverts\index.ctp:40
+#: \views\lightlocverts\view.ctp:66
+#: \views\lightpatches\index.ctp:48
+#: \views\lightpatches\view.ctp:80
+#: \views\lights\index.ctp:60
+#: \views\lights\view.ctp:101
+#: \views\logos\index.ctp:44
+#: \views\logos\view.ctp:73
+#: \views\marques\index.ctp:48
+#: \views\marques\view.ctp:84
+#: \views\miclochorzs\index.ctp:40
+#: \views\miclochorzs\view.ctp:68
+#: \views\miclocs\index.ctp:52
+#: \views\miclocs\view.ctp:101
+#: \views\miclocverts\index.ctp:40
+#: \views\miclocverts\view.ctp:68
+#: \views\micros\index.ctp:60
+#: \views\micros\view.ctp:111
+#: \views\rights\index.ctp:52
+#: \views\soundpatches\admin_index.ctp:56
+#: \views\soundpatches\admin_view.ctp:94;152
+#: \views\soundpatches\view.ctp:98;159
+#: \views\stageplans\index.ctp:52
+#: \views\stands\index.ctp:40
+#: \views\stands\view.ctp:80
+#: \views\tcontacts\index.ctp:48
+#: \views\tcontacts\view.ctp:84
+#: \views\teffects\index.ctp:48
+#: \views\teffects\view.ctp:92
+#: \views\tinserts\index.ctp:48
+#: \views\tinserts\view.ctp:92
+#: \views\tlightcolors\index.ctp:48
+#: \views\tlightcolors\view.ctp:76
+#: \views\tlights\index.ctp:48
+#: \views\tlights\view.ctp:84
+#: \views\tmicros\index.ctp:40
+#: \views\tmicros\view.ctp:72
+#: \views\tracks\index.ctp:76
+#: \views\users\index.ctp:59
+#: \views\users\view.ctp:125;171;215;265;309;359;407;453;497;541;585;629;673;717
+#: \views\wedgelochorzs\index.ctp:40
+#: \views\wedgelochorzs\view.ctp:68
+#: \views\wedgelocrotations\index.ctp:40
+#: \views\wedgelocrotations\view.ctp:68
+#: \views\wedgelocs\index.ctp:52
+#: \views\wedgelocs\view.ctp:87
+#: \views\wedgelocverts\index.ctp:40
+#: \views\wedgelocverts\view.ctp:68
+#: \views\wedges\index.ctp:48
+#: \views\wedges\view.ctp:84
+msgid "Edit"
+msgstr "Edit"
+
+#: \views\admingroupes\index.ctp:53
+#: \views\instruments\index.ctp:61
+#: \views\marques\index.ctp:57
+#: \views\miclocs\index.ctp:61
+#: \views\micros\index.ctp:69
+#: \views\rights\index.ctp:61
+#: \views\stands\index.ctp:49
+#: \views\tcontacts\index.ctp:57
+#: \views\tracks\index.ctp:85
+#: \views\users\bo_accueil.ctp:13
+#: \views\users\index.ctp:68
+#: \views\wedgelocs\index.ctp:61
+#: \views\wedges\index.ctp:57
+msgid "Zone Admin"
+msgstr "Zone Admin"
+
+#: \views\admingroupes\index.ctp:54
+#: \views\admingroupes\view.ctp:36
+#: \views\rights\add.ctp:18
+#: \views\rights\edit.ctp:20
+#: \views\rights\index.ctp:63
+#: \views\rights\view.ctp:48
+#: \views\users\admin_add.ctp:20
+#: \views\users\admin_edit.ctp:22
+#: \views\users\index.ctp:71
+#: \views\users\view.ctp:58
+msgid "New Groupe"
+msgstr "New Groupe"
+
+#: \views\admingroupes\index.ctp:62
+#: \views\channels\index.ctp:60
+#: \views\contacts\admin_index.ctp:68
+#: \views\instruments\index.ctp:70
+#: \views\lightcolors\index.ctp:52
+#: \views\lightlochorzs\index.ctp:48
+#: \views\lightlocs\index.ctp:56
+#: \views\lightlocverts\index.ctp:48
+#: \views\lightpatches\index.ctp:56
+#: \views\lights\index.ctp:68
+#: \views\logos\index.ctp:52
+#: \views\marques\index.ctp:66
+#: \views\miclochorzs\index.ctp:48
+#: \views\miclocs\index.ctp:74
+#: \views\miclocverts\index.ctp:48
+#: \views\micros\index.ctp:82
+#: \views\rights\index.ctp:67
+#: \views\soundpatches\admin_index.ctp:64
+#: \views\stageplans\index.ctp:60
+#: \views\stands\index.ctp:56
+#: \views\tcontacts\index.ctp:65
+#: \views\teffects\index.ctp:56
+#: \views\tinserts\index.ctp:56
+#: \views\tlightcolors\index.ctp:56
+#: \views\tlights\index.ctp:56
+#: \views\tmicros\index.ctp:48
+#: \views\tracks\index.ctp:106
+#: \views\users\index.ctp:103
+#: \views\wedgelochorzs\index.ctp:48
+#: \views\wedgelocrotations\index.ctp:48
+#: \views\wedgelocs\index.ctp:74
+#: \views\wedgelocverts\index.ctp:48
+#: \views\wedges\index.ctp:68
+msgid "previous"
+msgstr "previous"
+
+#: \views\admingroupes\index.ctp:64
+#: \views\channels\index.ctp:62
+#: \views\contacts\admin_index.ctp:70
+#: \views\instruments\index.ctp:72
+#: \views\lightcolors\index.ctp:54
+#: \views\lightlochorzs\index.ctp:50
+#: \views\lightlocs\index.ctp:58
+#: \views\lightlocverts\index.ctp:50
+#: \views\lightpatches\index.ctp:58
+#: \views\lights\index.ctp:70
+#: \views\logos\index.ctp:54
+#: \views\marques\index.ctp:68
+#: \views\miclochorzs\index.ctp:50
+#: \views\miclocs\index.ctp:76
+#: \views\miclocverts\index.ctp:50
+#: \views\micros\index.ctp:84
+#: \views\rights\index.ctp:69
+#: \views\soundpatches\admin_index.ctp:66
+#: \views\stageplans\index.ctp:62
+#: \views\stands\index.ctp:58
+#: \views\tcontacts\index.ctp:67
+#: \views\teffects\index.ctp:58
+#: \views\tinserts\index.ctp:58
+#: \views\tlightcolors\index.ctp:58
+#: \views\tlights\index.ctp:58
+#: \views\tmicros\index.ctp:50
+#: \views\tracks\index.ctp:108
+#: \views\users\index.ctp:105
+#: \views\wedgelochorzs\index.ctp:50
+#: \views\wedgelocrotations\index.ctp:50
+#: \views\wedgelocs\index.ctp:76
+#: \views\wedgelocverts\index.ctp:50
+#: \views\wedges\index.ctp:70
+msgid "next"
+msgstr "next"
+
+#: \views\admingroupes\view.ctp:2
+#: \views\rights\view.ctp:9
+#: \views\users\view.ctp:9
+msgid "Groupe"
+msgstr "Groupe"
+
+#: \views\admingroupes\view.ctp:4;48;94
+#: \views\channels\view.ctp:4
+#: \views\contacts\view.ctp:4;70
+#: \views\instruments\view.ctp:4;58
+#: \views\lightcolors\view.ctp:4;48
+#: \views\lightlochorzs\view.ctp:4;41
+#: \views\lightlocs\view.ctp:4;55
+#: \views\lightlocverts\view.ctp:4;41
+#: \views\lightpatches\view.ctp:4;53
+#: \views\lights\view.ctp:4;74
+#: \views\logos\view.ctp:4;46
+#: \views\marques\view.ctp:4;53
+#: \views\miclochorzs\view.ctp:4;41
+#: \views\miclocs\view.ctp:4;62
+#: \views\miclocverts\view.ctp:4;41
+#: \views\micros\view.ctp:4;72
+#: \views\rights\view.ctp:4
+#: \views\soundpatches\admin_view.ctp:4;67;113
+#: \views\soundpatches\view.ctp:71
+#: \views\stageplans\view.ctp:4
+#: \views\stands\view.ctp:4;41
+#: \views\tcontacts\view.ctp:4;53
+#: \views\teffects\view.ctp:4;53
+#: \views\tinserts\view.ctp:4;53
+#: \views\tlightcolors\view.ctp:4;53
+#: \views\tlights\view.ctp:4;53
+#: \views\tmicros\view.ctp:4;41
+#: \views\tracks\view.ctp:4
+#: \views\users\view.ctp:4;94;144;190;234;284;328;378;426;472;516;560;604;648;692
+#: \views\wedgelochorzs\view.ctp:4;41
+#: \views\wedgelocrotations\view.ctp:4;41
+#: \views\wedgelocs\view.ctp:4;62
+#: \views\wedgelocverts\view.ctp:4;41
+#: \views\wedges\view.ctp:4;55
+msgid "Id"
+msgstr "Id"
+
+#: \views\admingroupes\view.ctp:9
+msgid "Admin"
+msgstr "Admin"
+
+#: \views\admingroupes\view.ctp:14
+msgid "Description"
+msgstr "Description"
+
+#: \views\admingroupes\view.ctp:19;53;101
+#: \views\channels\view.ctp:29
+#: \views\contacts\view.ctp:39;81
+#: \views\instruments\view.ctp:29;69
+#: \views\lightcolors\view.ctp:19;55
+#: \views\lightlochorzs\view.ctp:14;45
+#: \views\lightlocs\view.ctp:24;62
+#: \views\lightlocverts\view.ctp:14;45
+#: \views\lightpatches\view.ctp:24;58
+#: \views\lights\view.ctp:39;79
+#: \views\logos\view.ctp:19;51
+#: \views\marques\view.ctp:24;60
+#: \views\miclochorzs\view.ctp:14;46
+#: \views\miclocs\view.ctp:29;73
+#: \views\miclocverts\view.ctp:14;46
+#: \views\micros\view.ctp:39;83
+#: \views\rights\view.ctp:29
+#: \views\soundpatches\admin_view.ctp:29;72;124
+#: \views\soundpatches\view.ctp:76
+#: \views\stageplans\view.ctp:29
+#: \views\stands\view.ctp:14;52
+#: \views\tcontacts\view.ctp:24;60
+#: \views\teffects\view.ctp:24;64
+#: \views\tinserts\view.ctp:24;64
+#: \views\tlightcolors\view.ctp:24;56
+#: \views\tlights\view.ctp:24;60
+#: \views\tmicros\view.ctp:14;48
+#: \views\tracks\view.ctp:59
+#: \views\users\view.ctp:39;101;149;194;241;288;335;383;431;476;520;564;608;652;696
+#: \views\wedgelochorzs\view.ctp:14;46
+#: \views\wedgelocrotations\view.ctp:14;46
+#: \views\wedgelocs\view.ctp:29;66
+#: \views\wedgelocverts\view.ctp:14;46
+#: \views\wedges\view.ctp:24;60
+msgid "Created"
+msgstr "Created"
+
+#: \views\admingroupes\view.ctp:24;54;102
+#: \views\channels\view.ctp:34
+#: \views\contacts\view.ctp:44;82
+#: \views\instruments\view.ctp:34;70
+#: \views\lightcolors\view.ctp:24;56
+#: \views\lightlochorzs\view.ctp:19;46
+#: \views\lightlocs\view.ctp:29;63
+#: \views\lightlocverts\view.ctp:19;46
+#: \views\lightpatches\view.ctp:29;59
+#: \views\lights\view.ctp:44;80
+#: \views\logos\view.ctp:24;52
+#: \views\marques\view.ctp:29;61
+#: \views\miclochorzs\view.ctp:19;47
+#: \views\miclocs\view.ctp:34;74
+#: \views\miclocverts\view.ctp:19;47
+#: \views\micros\view.ctp:44;84
+#: \views\rights\view.ctp:34
+#: \views\soundpatches\admin_view.ctp:34;73;125
+#: \views\soundpatches\view.ctp:77
+#: \views\stageplans\view.ctp:34
+#: \views\stands\view.ctp:19;53
+#: \views\tcontacts\view.ctp:29;61
+#: \views\teffects\view.ctp:29;65
+#: \views\tinserts\view.ctp:29;65
+#: \views\tlightcolors\view.ctp:29;57
+#: \views\tlights\view.ctp:29;61
+#: \views\tmicros\view.ctp:19;49
+#: \views\tracks\view.ctp:64
+#: \views\users\view.ctp:44;102;150;195;242;289;336;384;432;477;521;565;609;653;697
+#: \views\wedgelochorzs\view.ctp:19;47
+#: \views\wedgelocrotations\view.ctp:19;47
+#: \views\wedgelocs\view.ctp:34;67
+#: \views\wedgelocverts\view.ctp:19;47
+#: \views\wedges\view.ctp:29;61
+msgid "Modified"
+msgstr "Modified"
+
+#: \views\admingroupes\view.ctp:34
+msgid "Delete Groupe"
+msgstr "Delete Groupe"
+
+#: \views\admingroupes\view.ctp:44
+msgid "Related Rights"
+msgstr "Related Rights"
+
+#: \views\admingroupes\view.ctp:49;95
+msgid "Groupe Id"
+msgstr "Groupe Id"
+
+#: \views\admingroupes\view.ctp:50
+#: \views\rights\view.ctp:14
+msgid "Controller"
+msgstr "Controller"
+
+#: \views\admingroupes\view.ctp:51
+#: \views\rights\view.ctp:19
+msgid "Action"
+msgstr "Action"
+
+#: \views\admingroupes\view.ctp:52
+#: \views\rights\view.ctp:24
+msgid "Autorise"
+msgstr "Autorise"
+
+#: \views\admingroupes\view.ctp:90
+msgid "Related Users"
+msgstr "Related Users"
+
+#: \views\admingroupes\view.ctp:96
+#: \views\users\view.ctp:14
+msgid "Actif"
+msgstr "Actif"
+
+#: \views\admingroupes\view.ctp:97
+#: \views\contacts\view.ctp:19
+#: \views\lightpatches\view.ctp:14
+#: \views\soundpatches\admin_view.ctp:14;70
+#: \views\soundpatches\view.ctp:74
+#: \views\stageplans\view.ctp:19
+#: \views\tcontacts\view.ctp:56
+#: \views\users\view.ctp:19;97;192;380;429
+#: \views\wedges\view.ctp:57
+msgid "Published"
+msgstr "Published"
+
+#: \views\admingroupes\view.ctp:98
+#: \views\contacts\view.ctp:24
+#: \views\tcontacts\view.ctp:57
+#: \views\users\view.ctp:24;98
+msgid "Name"
+msgstr "Name"
+
+#: \views\admingroupes\view.ctp:99
+#: \views\contacts\view.ctp:29
+#: \views\tcontacts\view.ctp:58
+#: \views\users\login.ctp:6
+#: \views\users\view.ctp:29;99
+msgid "Email"
+msgstr "Email"
+
+#: \views\admingroupes\view.ctp:100
+#: \views\users\view.ctp:34
+msgid "Password"
+msgstr "Password"
+
+#: \views\channels\add.ctp:4
+msgid "Add Channel"
+msgstr "Add Channel"
+
+#: \views\channels\add.ctp:16
+#: \views\channels\edit.ctp:18
+#: \views\channels\view.ctp:45
+#: \views\lightpatches\add.ctp:18
+#: \views\lightpatches\edit.ctp:20
+#: \views\lightpatches\index.ctp:65
+#: \views\lightpatches\view.ctp:44
+#: \views\lights\add.ctp:27
+#: \views\lights\edit.ctp:29
+#: \views\lights\index.ctp:83
+#: \views\lights\view.ctp:65
+msgid "List Channels"
+msgstr "List Channels"
+
+#: \views\channels\add.ctp:17
+#: \views\channels\edit.ctp:19
+#: \views\channels\index.ctp:67
+#: \views\channels\view.ctp:47
+#: \views\lightcolors\add.ctp:17
+#: \views\lightcolors\edit.ctp:19
+#: \views\lightcolors\index.ctp:61
+#: \views\lightcolors\view.ctp:39
+#: \views\lightlocs\add.ctp:20
+#: \views\lightlocs\edit.ctp:22
+#: \views\lightlocs\index.ctp:67
+#: \views\lightlocs\view.ctp:46
+#: \views\lights\add.ctp:18
+#: \views\lights\edit.ctp:20
+#: \views\lights\view.ctp:55
+#: \views\tlights\add.ctp:18
+#: \views\tlights\edit.ctp:20
+#: \views\tlights\index.ctp:65
+#: \views\tlights\view.ctp:44
+#: \views\users\admin_add.ctp:27
+#: \views\users\admin_edit.ctp:29
+#: \views\users\index.ctp:78
+#: \views\users\view.ctp:65
+msgid "List Lights"
+msgstr "List Lights"
+
+#: \views\channels\add.ctp:18
+#: \views\channels\edit.ctp:20
+#: \views\channels\index.ctp:68
+#: \views\channels\view.ctp:48
+#: \views\lightcolors\add.ctp:18
+#: \views\lightcolors\edit.ctp:20
+#: \views\lightcolors\index.ctp:62
+#: \views\lightcolors\view.ctp:40;89
+#: \views\lightlocs\add.ctp:21
+#: \views\lightlocs\edit.ctp:23
+#: \views\lightlocs\index.ctp:68
+#: \views\lightlocs\view.ctp:47;96
+#: \views\lights\index.ctp:74
+#: \views\lights\view.ctp:56
+#: \views\tlights\add.ctp:19
+#: \views\tlights\edit.ctp:21
+#: \views\tlights\index.ctp:66
+#: \views\tlights\view.ctp:45;94
+#: \views\users\admin_add.ctp:28
+#: \views\users\admin_edit.ctp:30
+#: \views\users\index.ctp:79
+#: \views\users\view.ctp:66;275
+msgid "New Light"
+msgstr "New Light"
+
+#: \views\channels\add.ctp:19
+#: \views\channels\edit.ctp:21
+#: \views\channels\index.ctp:69
+#: \views\channels\view.ctp:49
+#: \views\lightpatches\add.ctp:15
+#: \views\lightpatches\edit.ctp:17
+#: \views\lightpatches\view.ctp:40
+#: \views\users\admin_add.ctp:25
+#: \views\users\admin_edit.ctp:27
+#: \views\users\index.ctp:76
+#: \views\users\view.ctp:63
+msgid "List Lightpatches"
+msgstr "List Lightpatches"
+
+#: \views\channels\add.ctp:20
+#: \views\channels\edit.ctp:22
+#: \views\channels\index.ctp:70
+#: \views\channels\view.ctp:50
+#: \views\lightpatches\index.ctp:62
+#: \views\lightpatches\view.ctp:41
+#: \views\users\admin_add.ctp:26
+#: \views\users\admin_edit.ctp:28
+#: \views\users\index.ctp:77
+#: \views\users\view.ctp:64;225
+msgid "New Lightpatch"
+msgstr "New Lightpatch"
+
+#: \views\channels\edit.ctp:4
+#: \views\channels\view.ctp:43
+msgid "Edit Channel"
+msgstr "Edit Channel"
+
+#: \views\channels\index.ctp:2
+msgid "Channels"
+msgstr "Channels"
+
+#: \views\channels\index.ctp:66
+#: \views\channels\view.ctp:46
+#: \views\lightpatches\add.ctp:19
+#: \views\lightpatches\edit.ctp:21
+#: \views\lightpatches\index.ctp:66
+#: \views\lightpatches\view.ctp:45;90
+#: \views\lights\add.ctp:28
+#: \views\lights\edit.ctp:30
+#: \views\lights\index.ctp:84
+#: \views\lights\view.ctp:66;111
+msgid "New Channel"
+msgstr "New Channel"
+
+#: \views\channels\view.ctp:2
+msgid "Channel"
+msgstr "Channel"
+
+#: \views\channels\view.ctp:9
+#: \views\contacts\view.ctp:71
+#: \views\instruments\view.ctp:59
+#: \views\lightpatches\view.ctp:54
+#: \views\lights\view.ctp:75
+#: \views\miclocs\view.ctp:63
+#: \views\micros\view.ctp:73
+#: \views\soundpatches\admin_view.ctp:114
+#: \views\stands\view.ctp:42
+#: \views\teffects\view.ctp:54
+#: \views\tinserts\view.ctp:54
+#: \views\tracks\view.ctp:9
+msgid "Rank"
+msgstr "Rank"
+
+#: \views\channels\view.ctp:14
+#: \views\lights\view.ctp:2
+msgid "Light"
+msgstr "Light"
+
+#: \views\channels\view.ctp:19
+#: \views\lightpatches\view.ctp:2
+msgid "Lightpatch"
+msgstr "Lightpatch"
+
+#: \views\channels\view.ctp:24
+#: \views\instruments\view.ctp:19
+#: \views\lightcolors\view.ctp:14;54
+#: \views\lightlochorzs\view.ctp:9;44
+#: \views\lightlocs\view.ctp:19;61
+#: \views\lightlocverts\view.ctp:9;44
+#: \views\lightpatches\view.ctp:19;57
+#: \views\lights\view.ctp:34;78
+#: \views\logos\view.ctp:9;50
+#: \views\marques\view.ctp:19;57
+#: \views\miclochorzs\view.ctp:9;45
+#: \views\miclocs\view.ctp:24
+#: \views\miclocverts\view.ctp:9;45
+#: \views\micros\view.ctp:24
+#: \views\soundpatches\admin_view.ctp:24;71
+#: \views\soundpatches\view.ctp:24;75
+#: \views\stageplans\view.ctp:24
+#: \views\stands\view.ctp:9
+#: \views\tcontacts\view.ctp:19
+#: \views\teffects\view.ctp:19
+#: \views\tinserts\view.ctp:19
+#: \views\tlightcolors\view.ctp:19;55
+#: \views\tlights\view.ctp:19;59
+#: \views\tmicros\view.ctp:9;45
+#: \views\users\view.ctp:147;193;240;287;332;382;430;475;519;563;607;651;695
+#: \views\wedgelochorzs\view.ctp:9;45
+#: \views\wedgelocrotations\view.ctp:9;45
+#: \views\wedgelocs\view.ctp:24;65
+#: \views\wedgelocverts\view.ctp:9;45
+#: \views\wedges\view.ctp:19;59
+msgid "Title"
+msgstr "Title"
+
+#: \views\channels\view.ctp:44
+msgid "Delete Channel"
+msgstr "Delete Channel"
+
+#: \views\contacts\add.ctp:4
+msgid "Add Contact"
+msgstr "Add Contact"
+
+#: \views\contacts\add.ctp:18
+#: \views\contacts\admin_edit.ctp:20
+#: \views\contacts\edit.ctp:22
+#: \views\contacts\view.ctp:55
+#: \views\tcontacts\add.ctp:18
+#: \views\tcontacts\edit.ctp:20
+#: \views\tcontacts\index.ctp:60
+#: \views\tcontacts\view.ctp:44
+#: \views\tracks\add.ctp:23
+#: \views\tracks\index.ctp:87
+#: \views\tracks\view.ctp:77
+#: \views\users\admin_add.ctp:21
+#: \views\users\admin_edit.ctp:23
+#: \views\users\index.ctp:72
+#: \views\users\view.ctp:59
+msgid "List Contacts"
+msgstr "List Contacts"
+
+#: \views\contacts\add.ctp:19
+#: \views\contacts\admin_edit.ctp:21
+#: \views\contacts\admin_index.ctp:75
+#: \views\contacts\view.ctp:57
+#: \views\tcontacts\add.ctp:15
+#: \views\tcontacts\edit.ctp:17
+#: \views\tcontacts\view.ctp:40
+#: \views\users\admin_add.ctp:37
+#: \views\users\admin_edit.ctp:39
+#: \views\users\index.ctp:88
+#: \views\users\view.ctp:75
+msgid "List Tcontacts"
+msgstr "List Tcontacts"
+
+#: \views\contacts\add.ctp:20
+#: \views\contacts\admin_edit.ctp:22
+#: \views\contacts\admin_index.ctp:76
+#: \views\contacts\view.ctp:58
+#: \views\tcontacts\index.ctp:57
+#: \views\tcontacts\view.ctp:41
+#: \views\users\admin_add.ctp:38
+#: \views\users\admin_edit.ctp:40
+#: \views\users\index.ctp:89
+#: \views\users\view.ctp:76;507
+msgid "New Tcontact"
+msgstr "List Tcontacts"
+
+#: \views\contacts\add.ctp:23
+#: \views\contacts\admin_edit.ctp:25
+#: \views\contacts\admin_index.ctp:79
+#: \views\contacts\view.ctp:61
+#: \views\instruments\add.ctp:19
+#: \views\instruments\edit.ctp:21
+#: \views\instruments\index.ctp:65
+#: \views\instruments\view.ctp:49
+#: \views\miclocs\add.ctp:23
+#: \views\miclocs\edit.ctp:25
+#: \views\miclocs\index.ctp:69
+#: \views\miclocs\view.ctp:53
+#: \views\micros\add.ctp:25
+#: \views\micros\edit.ctp:27
+#: \views\micros\index.ctp:77
+#: \views\micros\view.ctp:63
+#: \views\soundpatches\add.ctp:24
+#: \views\soundpatches\admin_index.ctp:77
+#: \views\soundpatches\admin_view.ctp:58
+#: \views\stands\add.ctp:14
+#: \views\stands\edit.ctp:16
+#: \views\stands\index.ctp:51
+#: \views\stands\view.ctp:32
+#: \views\teffects\add.ctp:18
+#: \views\teffects\edit.ctp:20
+#: \views\teffects\index.ctp:65
+#: \views\teffects\view.ctp:44
+#: \views\tinserts\add.ctp:18
+#: \views\tinserts\edit.ctp:20
+#: \views\tinserts\index.ctp:65
+#: \views\tinserts\view.ctp:44
+#: \views\tracks\add.ctp:22
+#: \views\tracks\view.ctp:75
+msgid "List Tracks"
+msgstr "List Tracks"
+
+#: \views\contacts\add.ctp:24
+#: \views\contacts\admin_edit.ctp:26
+#: \views\contacts\admin_index.ctp:80
+#: \views\contacts\view.ctp:62;119
+#: \views\instruments\add.ctp:20
+#: \views\instruments\edit.ctp:22
+#: \views\instruments\index.ctp:66
+#: \views\instruments\view.ctp:50;107
+#: \views\miclocs\add.ctp:24
+#: \views\miclocs\edit.ctp:26
+#: \views\miclocs\index.ctp:70
+#: \views\miclocs\view.ctp:54;111
+#: \views\micros\add.ctp:26
+#: \views\micros\edit.ctp:28
+#: \views\micros\index.ctp:78
+#: \views\micros\view.ctp:64;121
+#: \views\soundpatches\add.ctp:25
+#: \views\soundpatches\admin_index.ctp:78
+#: \views\soundpatches\admin_view.ctp:59;162
+#: \views\stands\add.ctp:15
+#: \views\stands\edit.ctp:17
+#: \views\stands\index.ctp:52
+#: \views\stands\view.ctp:33;90
+#: \views\teffects\add.ctp:19
+#: \views\teffects\edit.ctp:21
+#: \views\teffects\index.ctp:66
+#: \views\teffects\view.ctp:45;102
+#: \views\tinserts\add.ctp:19
+#: \views\tinserts\edit.ctp:21
+#: \views\tinserts\index.ctp:66
+#: \views\tinserts\view.ctp:45;102
+#: \views\tracks\index.ctp:86
+#: \views\tracks\view.ctp:76
+msgid "New Track"
+msgstr "New Track"
+
+#: \views\contacts\admin_edit.ctp:4
+#: \views\contacts\edit.ctp:4
+#: \views\contacts\view.ctp:53
+msgid "Edit Contact"
+msgstr "Edit Contact"
+
+#: \views\contacts\admin_index.ctp:2
+#: \views\contacts\index.ctp:2
+msgid "Contacts"
+msgstr "Contacts"
+
+#: \views\contacts\admin_index.ctp:74
+#: \views\contacts\view.ctp:56
+#: \views\tcontacts\add.ctp:19
+#: \views\tcontacts\edit.ctp:21
+#: \views\tcontacts\index.ctp:61
+#: \views\tcontacts\view.ctp:45;94
+#: \views\tracks\add.ctp:24
+#: \views\tracks\index.ctp:88
+#: \views\tracks\view.ctp:78
+#: \views\users\admin_add.ctp:22
+#: \views\users\admin_edit.ctp:24
+#: \views\users\index.ctp:73
+#: \views\users\view.ctp:60;135
+msgid "New Contact"
+msgstr "New Contact"
+
+#: \views\contacts\edit.ctp:20
+#: \views\contacts\index.ctp:59
+#: \views\soundpatches\index.ctp:65
+#: \views\soundpatches\view.ctp:49
+#: \views\tracks\admin_edit.ctp:23
+#: \views\tracks\edit.ctp:23
+#: \views\users\bo_action_admin.ctp:40
+#: \views\users\edit.ctp:20
+msgid "Acceuil"
+msgstr "Home"
+
+#: \views\contacts\edit.ctp:21
+#: \views\contacts\index.ctp:60
+#: \views\soundpatches\edit.ctp:20
+#: \views\tracks\admin_edit.ctp:24
+#: \views\tracks\edit.ctp:24
+#: \views\users\bo_accueil.ctp:15
+#: \views\users\edit.ctp:21
+msgid "Fiche technique"
+msgstr "Technical riders"
+
+#: \views\contacts\view.ctp:2
+#: \views\soundpatches\edit.ctp:19
+#: \views\soundpatches\index.ctp:66
+#: \views\soundpatches\view.ctp:50
+#: \views\tracks\admin_edit.ctp:25
+#: \views\tracks\edit.ctp:25
+#: \views\tracks\view.ctp:14
+#: \views\users\bo_accueil.ctp:16
+#: \views\users\edit.ctp:22
+msgid "Contact"
+msgstr "Contact"
+
+#: \views\contacts\view.ctp:9
+#: \views\tcontacts\view.ctp:2
+msgid "Tcontact"
+msgstr "Type of contact"
+
+#: \views\contacts\view.ctp:14
+#: \views\instruments\view.ctp:9
+#: \views\lightpatches\view.ctp:9
+#: \views\lights\view.ctp:14
+#: \views\marques\view.ctp:9
+#: \views\micros\view.ctp:9
+#: \views\soundpatches\admin_view.ctp:9
+#: \views\soundpatches\view.ctp:9
+#: \views\stageplans\view.ctp:9
+#: \views\tcontacts\view.ctp:9
+#: \views\teffects\view.ctp:9
+#: \views\tinserts\view.ctp:9
+#: \views\tlightcolors\view.ctp:9
+#: \views\tlights\view.ctp:9
+#: \views\users\view.ctp:2
+#: \views\wedges\view.ctp:9
+msgid "User"
+msgstr "User"
+
+#: \views\contacts\view.ctp:34
+#: \views\tcontacts\view.ctp:59
+#: \views\users\view.ctp:100
+msgid "Phone"
+msgstr "Phone"
+
+#: \views\contacts\view.ctp:54
+msgid "Delete Contact"
+msgstr "Delete Contact"
+
+#: \views\contacts\view.ctp:66
+#: \views\instruments\view.ctp:54
+#: \views\miclocs\view.ctp:58
+#: \views\micros\view.ctp:68
+#: \views\soundpatches\admin_view.ctp:109
+#: \views\soundpatches\view.ctp:129
+#: \views\stands\view.ctp:37
+#: \views\teffects\view.ctp:49
+#: \views\tinserts\view.ctp:49
+msgid "Related Tracks"
+msgstr "Related Tracks"
+
+#: \views\contacts\view.ctp:72
+#: \views\instruments\view.ctp:60
+#: \views\miclocs\view.ctp:64
+#: \views\micros\view.ctp:74
+#: \views\soundpatches\admin_view.ctp:115
+#: \views\stands\view.ctp:43
+#: \views\teffects\view.ctp:55
+#: \views\tinserts\view.ctp:55
+msgid "Contact Id"
+msgstr "Contact Id"
+
+#: \views\contacts\view.ctp:73
+#: \views\instruments\view.ctp:61
+#: \views\miclocs\view.ctp:65
+#: \views\micros\view.ctp:75
+#: \views\soundpatches\admin_view.ctp:69;116
+#: \views\soundpatches\view.ctp:73
+#: \views\stands\view.ctp:44
+#: \views\teffects\view.ctp:56
+#: \views\tinserts\view.ctp:56
+#: \views\users\view.ctp:428
+msgid "Soundpatch Id"
+msgstr "Soundpatch Id"
+
+#: \views\contacts\view.ctp:74
+#: \views\instruments\view.ctp:62
+#: \views\miclocs\view.ctp:66
+#: \views\micros\view.ctp:76
+#: \views\soundpatches\admin_view.ctp:117
+#: \views\stands\view.ctp:45
+#: \views\teffects\view.ctp:57
+#: \views\tinserts\view.ctp:57
+msgid "Instrument Id"
+msgstr "Instrument Id"
+
+#: \views\contacts\view.ctp:75
+#: \views\instruments\view.ctp:63
+#: \views\miclocs\view.ctp:67
+#: \views\micros\view.ctp:77
+#: \views\soundpatches\admin_view.ctp:118
+#: \views\stands\view.ctp:46
+#: \views\teffects\view.ctp:58
+#: \views\tinserts\view.ctp:58
+msgid "Micro Id"
+msgstr "Micro Id"
+
+#: \views\contacts\view.ctp:76
+#: \views\instruments\view.ctp:64
+#: \views\miclocs\view.ctp:68
+#: \views\micros\view.ctp:78
+#: \views\soundpatches\admin_view.ctp:119
+#: \views\stands\view.ctp:47
+#: \views\teffects\view.ctp:59
+#: \views\tinserts\view.ctp:59
+msgid "Tinsert Id"
+msgstr "Tinsert Id"
+
+#: \views\contacts\view.ctp:77
+#: \views\instruments\view.ctp:65
+#: \views\miclocs\view.ctp:69
+#: \views\micros\view.ctp:79
+#: \views\soundpatches\admin_view.ctp:120
+#: \views\stands\view.ctp:48
+#: \views\teffects\view.ctp:60
+#: \views\tinserts\view.ctp:60
+msgid "Teffect Id"
+msgstr "Teffect Id"
+
+#: \views\contacts\view.ctp:78
+#: \views\instruments\view.ctp:66
+#: \views\miclocs\view.ctp:70
+#: \views\micros\view.ctp:80
+#: \views\soundpatches\admin_view.ctp:121
+#: \views\stands\view.ctp:49
+#: \views\teffects\view.ctp:61
+#: \views\tinserts\view.ctp:61
+msgid "Stand Id"
+msgstr "Stand Id"
+
+#: \views\contacts\view.ctp:79
+#: \views\instruments\view.ctp:67
+#: \views\miclocs\view.ctp:71
+#: \views\micros\view.ctp:81
+#: \views\soundpatches\admin_view.ctp:122
+#: \views\stands\view.ctp:50
+#: \views\teffects\view.ctp:62
+#: \views\tinserts\view.ctp:62
+msgid "Micloc Id"
+msgstr "Micloc Id"
+
+#: \views\contacts\view.ctp:80
+#: \views\instruments\view.ctp:68
+#: \views\miclocs\view.ctp:72
+#: \views\micros\view.ctp:82
+#: \views\soundpatches\admin_view.ctp:39;123
+#: \views\soundpatches\view.ctp:39
+#: \views\stands\view.ctp:51
+#: \views\teffects\view.ctp:63
+#: \views\tinserts\view.ctp:63
+#: \views\tracks\view.ctp:54
+#: \views\users\view.ctp:385
+#: \views\wedges\view.ctp:62
+msgid "Note"
+msgstr "Note"
+
+#: \views\instruments\add.ctp:4
+msgid "Add Instrument"
+msgstr "Add Instrument"
+
+#: \views\instruments\add.ctp:16
+#: \views\instruments\edit.ctp:18
+#: \views\instruments\view.ctp:45
+#: \views\tracks\add.ctp:27
+#: \views\tracks\index.ctp:91
+#: \views\tracks\view.ctp:81
+#: \views\users\admin_add.ctp:23
+#: \views\users\admin_edit.ctp:25
+#: \views\users\index.ctp:74
+#: \views\users\view.ctp:61
+msgid "List Instruments"
+msgstr "List Instruments"
+
+#: \views\instruments\edit.ctp:4
+#: \views\instruments\view.ctp:43
+msgid "Edit Instrument"
+msgstr "Edit Instrument"
+
+#: \views\instruments\index.ctp:2
+#: \views\users\bo_action_admin.ctp:9
+msgid "Instruments"
+msgstr "Instruments"
+
+#: \views\instruments\index.ctp:62
+#: \views\instruments\view.ctp:46
+#: \views\tracks\add.ctp:28
+#: \views\tracks\index.ctp:92
+#: \views\tracks\view.ctp:82
+#: \views\users\admin_add.ctp:24
+#: \views\users\admin_edit.ctp:26
+#: \views\users\index.ctp:75
+#: \views\users\view.ctp:62;181
+msgid "New Instrument"
+msgstr "New Instrument"
+
+#: \views\instruments\view.ctp:2
+#: \views\soundpatches\view.ctp:138
+#: \views\tracks\view.ctp:24
+msgid "Instrument"
+msgstr "Instrument"
+
+#: \views\instruments\view.ctp:14
+#: \views\lightcolors\view.ctp:51
+#: \views\lightlocs\view.ctp:58
+#: \views\lights\view.ctp:19
+#: \views\marques\view.ctp:14
+#: \views\tcontacts\view.ctp:14
+#: \views\teffects\view.ctp:14
+#: \views\tinserts\view.ctp:14
+#: \views\tlightcolors\view.ctp:14
+#: \views\tlights\view.ctp:14;56
+#: \views\users\view.ctp:146;237;286;474;518;562;606;650
+msgid "Public"
+msgstr "Public"
+
+#: \views\instruments\view.ctp:24
+#: \views\users\view.ctp:148
+msgid "Symbol"
+msgstr "Symbol"
+
+#: \views\instruments\view.ctp:44
+msgid "Delete Instrument"
+msgstr "Delete Instrument"
+
+#: \views\layouts\default.ctp:57;59
+msgid "Build with within minutes with cakeapp.com a rappid development platform"
+msgstr "Build with within minutes with cakeapp.com a rappid development platform"
+
+#: \views\layouts\default.ctp:63
+msgid "CakePHP: the rapid development php framework"
+msgstr "CakePHP: the rapid development php framework"
+
+#: \views\lightcolors\add.ctp:4
+msgid "Add Lightcolor"
+msgstr "Add Lightcolor"
+
+#: \views\lightcolors\add.ctp:14
+#: \views\lightcolors\edit.ctp:16
+#: \views\lightcolors\view.ctp:35
+#: \views\lights\add.ctp:25
+#: \views\lights\edit.ctp:27
+#: \views\lights\index.ctp:81
+#: \views\lights\view.ctp:63
+#: \views\tlightcolors\add.ctp:18
+#: \views\tlightcolors\edit.ctp:20
+#: \views\tlightcolors\index.ctp:65
+#: \views\tlightcolors\view.ctp:44
+msgid "List Lightcolors"
+msgstr "List Lightcolors"
+
+#: \views\lightcolors\add.ctp:15
+#: \views\lightcolors\edit.ctp:17
+#: \views\lightcolors\index.ctp:59
+#: \views\lightcolors\view.ctp:37
+#: \views\tlightcolors\add.ctp:15
+#: \views\tlightcolors\edit.ctp:17
+#: \views\tlightcolors\view.ctp:40
+#: \views\users\admin_add.ctp:43
+#: \views\users\admin_edit.ctp:45
+#: \views\users\index.ctp:94
+#: \views\users\view.ctp:81
+msgid "List Tlightcolors"
+msgstr "List Tlightcolors"
+
+#: \views\lightcolors\add.ctp:16
+#: \views\lightcolors\edit.ctp:18
+#: \views\lightcolors\index.ctp:60
+#: \views\lightcolors\view.ctp:38
+#: \views\tlightcolors\index.ctp:62
+#: \views\tlightcolors\view.ctp:41
+#: \views\users\admin_add.ctp:44
+#: \views\users\admin_edit.ctp:46
+#: \views\users\index.ctp:95
+#: \views\users\view.ctp:82;639
+msgid "New Tlightcolor"
+msgstr "New Tlightcolor"
+
+#: \views\lightcolors\edit.ctp:4
+#: \views\lightcolors\view.ctp:33
+msgid "Edit Lightcolor"
+msgstr "Edit Lightcolor"
+
+#: \views\lightcolors\index.ctp:2
+msgid "Lightcolors"
+msgstr "Lightcolors"
+
+#: \views\lightcolors\index.ctp:58
+#: \views\lightcolors\view.ctp:36
+#: \views\lights\add.ctp:26
+#: \views\lights\edit.ctp:28
+#: \views\lights\index.ctp:82
+#: \views\lights\view.ctp:64
+#: \views\tlightcolors\add.ctp:19
+#: \views\tlightcolors\edit.ctp:21
+#: \views\tlightcolors\index.ctp:66
+#: \views\tlightcolors\view.ctp:45;86
+msgid "New Lightcolor"
+msgstr "New Lightcolor"
+
+#: \views\lightcolors\view.ctp:2
+#: \views\lights\view.ctp:29
+msgid "Lightcolor"
+msgstr "Lightcolor"
+
+#: \views\lightcolors\view.ctp:9
+#: \views\tlightcolors\view.ctp:2
+msgid "Tlightcolor"
+msgstr "Tlightcolor"
+
+#: \views\lightcolors\view.ctp:34
+msgid "Delete Lightcolor"
+msgstr "Delete Lightcolor"
+
+#: \views\lightcolors\view.ctp:44
+#: \views\lightlocs\view.ctp:51
+#: \views\tlights\view.ctp:49
+#: \views\users\view.ctp:230
+msgid "Related Lights"
+msgstr "Related Lights"
+
+#: \views\lightcolors\view.ctp:49
+#: \views\lightlocs\view.ctp:56
+#: \views\tlights\view.ctp:54
+#: \views\users\view.ctp:235
+msgid "Tlight Id"
+msgstr "Tlight Id"
+
+#: \views\lightcolors\view.ctp:50
+#: \views\lightlocs\view.ctp:57
+#: \views\marques\view.ctp:54
+#: \views\soundpatches\admin_view.ctp:68
+#: \views\soundpatches\view.ctp:72
+#: \views\tcontacts\view.ctp:55
+#: \views\tlights\view.ctp:55
+#: \views\tmicros\view.ctp:42
+#: \views\users\view.ctp:96;145;191;236;285;329;379;427;473;517;561;605;649;693
+#: \views\wedgelocs\view.ctp:63
+#: \views\wedges\view.ctp:56
+msgid "User Id"
+msgstr "User Id"
+
+#: \views\lightcolors\view.ctp:52
+#: \views\lightlocs\view.ctp:59
+#: \views\tlights\view.ctp:57
+#: \views\users\view.ctp:238
+msgid "Lightloc Id"
+msgstr "Lightloc Id"
+
+#: \views\lightcolors\view.ctp:53
+#: \views\lightlocs\view.ctp:60
+#: \views\tlights\view.ctp:58
+#: \views\users\view.ctp:239
+msgid "Lightcolor Id"
+msgstr "Lightcolor Id"
+
+#: \views\lightlochorzs\add.ctp:4
+msgid "Add Lightlochorz"
+msgstr "Add Lightlochorz"
+
+#: \views\lightlochorzs\add.ctp:13
+#: \views\lightlochorzs\edit.ctp:15
+#: \views\lightlochorzs\view.ctp:30
+#: \views\lightlocs\add.ctp:16
+#: \views\lightlocs\edit.ctp:18
+#: \views\lightlocs\index.ctp:63
+#: \views\lightlocs\view.ctp:42
+msgid "List Lightlochorzs"
+msgstr "List Lightlochorzs"
+
+#: \views\lightlochorzs\add.ctp:14
+#: \views\lightlochorzs\edit.ctp:16
+#: \views\lightlochorzs\index.ctp:55
+#: \views\lightlochorzs\view.ctp:32
+#: \views\lightlocs\add.ctp:15
+#: \views\lightlocs\edit.ctp:17
+#: \views\lightlocs\view.ctp:40
+#: \views\lightlocverts\add.ctp:14
+#: \views\lightlocverts\edit.ctp:16
+#: \views\lightlocverts\index.ctp:55
+#: \views\lightlocverts\view.ctp:32
+#: \views\lights\add.ctp:23
+#: \views\lights\edit.ctp:25
+#: \views\lights\index.ctp:79
+#: \views\lights\view.ctp:61
+msgid "List Lightlocs"
+msgstr "List Lightlocs"
+
+#: \views\lightlochorzs\add.ctp:15
+#: \views\lightlochorzs\edit.ctp:17
+#: \views\lightlochorzs\index.ctp:56
+#: \views\lightlochorzs\view.ctp:33;76
+#: \views\lightlocs\index.ctp:62
+#: \views\lightlocs\view.ctp:41
+#: \views\lightlocverts\add.ctp:15
+#: \views\lightlocverts\edit.ctp:17
+#: \views\lightlocverts\index.ctp:56
+#: \views\lightlocverts\view.ctp:33;76
+#: \views\lights\add.ctp:24
+#: \views\lights\edit.ctp:26
+#: \views\lights\index.ctp:80
+#: \views\lights\view.ctp:62
+msgid "New Lightloc"
+msgstr "New Lightloc"
+
+#: \views\lightlochorzs\edit.ctp:4
+#: \views\lightlochorzs\view.ctp:28
+msgid "Edit Lightlochorz"
+msgstr "Edit Lightlochorz"
+
+#: \views\lightlochorzs\index.ctp:2
+msgid "Lightlochorzs"
+msgstr "Lightlochorzs"
+
+#: \views\lightlochorzs\index.ctp:54
+#: \views\lightlochorzs\view.ctp:31
+#: \views\lightlocs\add.ctp:17
+#: \views\lightlocs\edit.ctp:19
+#: \views\lightlocs\index.ctp:64
+#: \views\lightlocs\view.ctp:43
+msgid "New Lightlochorz"
+msgstr "New Lightlochorz"
+
+#: \views\lightlochorzs\view.ctp:2
+#: \views\lightlocs\view.ctp:9
+msgid "Lightlochorz"
+msgstr "Lightlochorz"
+
+#: \views\lightlochorzs\view.ctp:29
+msgid "Delete Lightlochorz"
+msgstr "Delete Lightlochorz"
+
+#: \views\lightlochorzs\view.ctp:37
+#: \views\lightlocverts\view.ctp:37
+msgid "Related Lightlocs"
+msgstr "Related Lightlocs"
+
+#: \views\lightlochorzs\view.ctp:42
+#: \views\lightlocverts\view.ctp:42
+msgid "Lightlochorz Id"
+msgstr "Lightlochorz Id"
+
+#: \views\lightlochorzs\view.ctp:43
+#: \views\lightlocverts\view.ctp:43
+msgid "Lightlocvert Id"
+msgstr "Lightlocvert Id"
+
+#: \views\lightlocs\add.ctp:4
+msgid "Add Lightloc"
+msgstr "Add Lightloc"
+
+#: \views\lightlocs\add.ctp:18
+#: \views\lightlocs\edit.ctp:20
+#: \views\lightlocs\index.ctp:65
+#: \views\lightlocs\view.ctp:44
+#: \views\lightlocverts\add.ctp:13
+#: \views\lightlocverts\edit.ctp:15
+#: \views\lightlocverts\view.ctp:30
+msgid "List Lightlocverts"
+msgstr "List Lightlocverts"
+
+#: \views\lightlocs\add.ctp:19
+#: \views\lightlocs\edit.ctp:21
+#: \views\lightlocs\index.ctp:66
+#: \views\lightlocs\view.ctp:45
+#: \views\lightlocverts\index.ctp:54
+#: \views\lightlocverts\view.ctp:31
+msgid "New Lightlocvert"
+msgstr "New Lightlocvert"
+
+#: \views\lightlocs\edit.ctp:4
+#: \views\lightlocs\view.ctp:38
+msgid "Edit Lightloc"
+msgstr "Edit Lightloc"
+
+#: \views\lightlocs\index.ctp:2
+msgid "Lightlocs"
+msgstr "Lightlocs"
+
+#: \views\lightlocs\view.ctp:2
+#: \views\lights\view.ctp:24
+msgid "Lightloc"
+msgstr "Lightloc"
+
+#: \views\lightlocs\view.ctp:14
+#: \views\lightlocverts\view.ctp:2
+msgid "Lightlocvert"
+msgstr "Lightlocvert"
+
+#: \views\lightlocs\view.ctp:39
+msgid "Delete Lightloc"
+msgstr "Delete Lightloc"
+
+#: \views\lightlocverts\add.ctp:4
+msgid "Add Lightlocvert"
+msgstr "Add Lightlocvert"
+
+#: \views\lightlocverts\edit.ctp:4
+#: \views\lightlocverts\view.ctp:28
+msgid "Edit Lightlocvert"
+msgstr "Edit Lightlocvert"
+
+#: \views\lightlocverts\index.ctp:2
+msgid "Lightlocverts"
+msgstr "Lightlocverts"
+
+#: \views\lightlocverts\view.ctp:29
+msgid "Delete Lightlocvert"
+msgstr "Delete Lightlocvert"
+
+#: \views\lightpatches\add.ctp:4
+msgid "Add Lightpatch"
+msgstr "Add Lightpatch"
+
+#: \views\lightpatches\edit.ctp:4
+#: \views\lightpatches\view.ctp:38
+msgid "Edit Lightpatch"
+msgstr "Edit Lightpatch"
+
+#: \views\lightpatches\index.ctp:2
+msgid "Lightpatches"
+msgstr "Lightpatches"
+
+#: \views\lightpatches\view.ctp:39
+msgid "Delete Lightpatch"
+msgstr "Delete Lightpatch"
+
+#: \views\lightpatches\view.ctp:49
+#: \views\lights\view.ctp:70
+msgid "Related Channels"
+msgstr "Related Channels"
+
+#: \views\lightpatches\view.ctp:55
+#: \views\lights\view.ctp:76
+msgid "Light Id"
+msgstr "Light Id"
+
+#: \views\lightpatches\view.ctp:56
+#: \views\lights\view.ctp:77
+msgid "Lightpatch Id"
+msgstr "Lightpatch Id"
+
+#: \views\lights\add.ctp:4
+msgid "Add Light"
+msgstr "Add Light"
+
+#: \views\lights\add.ctp:19
+#: \views\lights\edit.ctp:21
+#: \views\lights\index.ctp:75
+#: \views\lights\view.ctp:57
+#: \views\tlights\add.ctp:15
+#: \views\tlights\edit.ctp:17
+#: \views\tlights\view.ctp:40
+#: \views\users\admin_add.ctp:45
+#: \views\users\admin_edit.ctp:47
+#: \views\users\index.ctp:96
+#: \views\users\view.ctp:83
+msgid "List Tlights"
+msgstr "List Tlights"
+
+#: \views\lights\add.ctp:20
+#: \views\lights\edit.ctp:22
+#: \views\lights\index.ctp:76
+#: \views\lights\view.ctp:58
+#: \views\tlights\index.ctp:62
+#: \views\tlights\view.ctp:41
+#: \views\users\admin_add.ctp:46
+#: \views\users\admin_edit.ctp:48
+#: \views\users\index.ctp:97
+#: \views\users\view.ctp:84;683
+msgid "New Tlight"
+msgstr "New Tlight"
+
+#: \views\lights\edit.ctp:4
+#: \views\lights\view.ctp:53
+msgid "Edit Light"
+msgstr "Edit Light"
+
+#: \views\lights\index.ctp:2
+msgid "Lights"
+msgstr "Lights"
+
+#: \views\lights\view.ctp:9
+#: \views\tlights\view.ctp:2
+msgid "Tlight"
+msgstr "Tlight"
+
+#: \views\lights\view.ctp:54
+msgid "Delete Light"
+msgstr "Delete Light"
+
+#: \views\logos\add.ctp:4
+msgid "Add Logo"
+msgstr "Add Logo"
+
+#: \views\logos\add.ctp:14
+#: \views\logos\edit.ctp:16
+#: \views\logos\view.ctp:35
+#: \views\miclocs\add.ctp:21
+#: \views\miclocs\edit.ctp:23
+#: \views\miclocs\index.ctp:67
+#: \views\miclocs\view.ctp:51
+msgid "List Logos"
+msgstr "List Logos"
+
+#: \views\logos\add.ctp:15
+#: \views\logos\edit.ctp:17
+#: \views\logos\index.ctp:59
+#: \views\logos\view.ctp:37
+#: \views\miclochorzs\add.ctp:14
+#: \views\miclochorzs\edit.ctp:16
+#: \views\miclochorzs\index.ctp:55
+#: \views\miclochorzs\view.ctp:32
+#: \views\miclocs\add.ctp:16
+#: \views\miclocs\edit.ctp:18
+#: \views\miclocs\view.ctp:45
+#: \views\miclocverts\add.ctp:14
+#: \views\miclocverts\edit.ctp:16
+#: \views\miclocverts\index.ctp:55
+#: \views\miclocverts\view.ctp:32
+#: \views\tracks\add.ctp:37
+#: \views\tracks\index.ctp:101
+#: \views\tracks\view.ctp:91
+msgid "List Miclocs"
+msgstr "List Miclocs"
+
+#: \views\logos\add.ctp:16
+#: \views\logos\edit.ctp:18
+#: \views\logos\index.ctp:60
+#: \views\logos\view.ctp:38;83
+#: \views\miclochorzs\add.ctp:15
+#: \views\miclochorzs\edit.ctp:17
+#: \views\miclochorzs\index.ctp:56
+#: \views\miclochorzs\view.ctp:33;78
+#: \views\miclocs\index.ctp:62
+#: \views\miclocs\view.ctp:46
+#: \views\miclocverts\add.ctp:15
+#: \views\miclocverts\edit.ctp:17
+#: \views\miclocverts\index.ctp:56
+#: \views\miclocverts\view.ctp:33;78
+#: \views\tracks\add.ctp:38
+#: \views\tracks\index.ctp:102
+#: \views\tracks\view.ctp:92
+msgid "New Micloc"
+msgstr "New Micloc"
+
+#: \views\logos\edit.ctp:4
+#: \views\logos\view.ctp:33
+msgid "Edit Logo"
+msgstr "Edit Logo"
+
+#: \views\logos\index.ctp:2
+msgid "Logos"
+msgstr "Logos"
+
+#: \views\logos\index.ctp:58
+#: \views\logos\view.ctp:36
+#: \views\miclocs\add.ctp:22
+#: \views\miclocs\edit.ctp:24
+#: \views\miclocs\index.ctp:68
+#: \views\miclocs\view.ctp:52
+msgid "New Logo"
+msgstr "New Logo"
+
+#: \views\logos\view.ctp:2
+#: \views\miclocs\view.ctp:19
+msgid "Logo"
+msgstr "Logo"
+
+#: \views\logos\view.ctp:14
+msgid "Path"
+msgstr "Path"
+
+#: \views\logos\view.ctp:34
+msgid "Delete Logo"
+msgstr "Delete Logo"
+
+#: \views\logos\view.ctp:42
+#: \views\miclochorzs\view.ctp:37
+#: \views\miclocverts\view.ctp:37
+msgid "Related Miclocs"
+msgstr "Related Miclocs"
+
+#: \views\logos\view.ctp:47
+#: \views\miclochorzs\view.ctp:42
+#: \views\miclocverts\view.ctp:42
+msgid "Miclochorz Id"
+msgstr "Miclochorz Id"
+
+#: \views\logos\view.ctp:48
+#: \views\miclochorzs\view.ctp:43
+#: \views\miclocverts\view.ctp:43
+msgid "Miclocvert Id"
+msgstr "Miclocvert Id"
+
+#: \views\logos\view.ctp:49
+#: \views\miclochorzs\view.ctp:44
+#: \views\miclocverts\view.ctp:44
+msgid "Logo Id"
+msgstr "Logo Id"
+
+#: \views\marques\add.ctp:4
+msgid "Add Marque"
+msgstr "Add Marque"
+
+#: \views\marques\add.ctp:15
+#: \views\marques\edit.ctp:17
+#: \views\marques\view.ctp:40
+#: \views\micros\add.ctp:21
+#: \views\micros\edit.ctp:23
+#: \views\micros\index.ctp:73
+#: \views\micros\view.ctp:59
+#: \views\users\admin_add.ctp:29
+#: \views\users\admin_edit.ctp:31
+#: \views\users\index.ctp:80
+#: \views\users\view.ctp:67
+msgid "List Marques"
+msgstr "List Marques"
+
+#: \views\marques\add.ctp:18
+#: \views\marques\edit.ctp:20
+#: \views\marques\index.ctp:61
+#: \views\marques\view.ctp:44
+#: \views\micros\add.ctp:18
+#: \views\micros\edit.ctp:20
+#: \views\micros\view.ctp:55
+#: \views\tmicros\add.ctp:14
+#: \views\tmicros\edit.ctp:16
+#: \views\tmicros\index.ctp:55
+#: \views\tmicros\view.ctp:32
+#: \views\tracks\add.ctp:29
+#: \views\tracks\index.ctp:93
+#: \views\tracks\view.ctp:83
+#: \views\users\admin_add.ctp:31
+#: \views\users\admin_edit.ctp:33
+#: \views\users\index.ctp:82
+#: \views\users\view.ctp:69
+msgid "List Micros"
+msgstr "List Micros"
+
+#: \views\marques\add.ctp:19
+#: \views\marques\edit.ctp:21
+#: \views\marques\index.ctp:62
+#: \views\marques\view.ctp:45;94
+#: \views\micros\index.ctp:70
+#: \views\micros\view.ctp:56
+#: \views\tmicros\add.ctp:15
+#: \views\tmicros\edit.ctp:17
+#: \views\tmicros\index.ctp:56
+#: \views\tmicros\view.ctp:33;82
+#: \views\tracks\add.ctp:30
+#: \views\tracks\index.ctp:94
+#: \views\tracks\view.ctp:84
+#: \views\users\admin_add.ctp:32
+#: \views\users\admin_edit.ctp:34
+#: \views\users\index.ctp:83
+#: \views\users\view.ctp:70;369
+msgid "New Micro"
+msgstr "New Micro"
+
+#: \views\marques\edit.ctp:4
+#: \views\marques\view.ctp:38
+msgid "Edit Marque"
+msgstr "Edit Marque"
+
+#: \views\marques\index.ctp:2
+msgid "Marques"
+msgstr "Marques"
+
+#: \views\marques\index.ctp:58
+#: \views\marques\view.ctp:41
+#: \views\micros\add.ctp:22
+#: \views\micros\edit.ctp:24
+#: \views\micros\index.ctp:74
+#: \views\micros\view.ctp:60
+#: \views\users\admin_add.ctp:30
+#: \views\users\admin_edit.ctp:32
+#: \views\users\index.ctp:81
+#: \views\users\view.ctp:68;319
+msgid "New Marque"
+msgstr "New Marque"
+
+#: \views\marques\view.ctp:2
+#: \views\micros\view.ctp:14
+msgid "Marque"
+msgstr "Marque"
+
+#: \views\marques\view.ctp:39
+msgid "Delete Marque"
+msgstr "Delete Marque"
+
+#: \views\marques\view.ctp:49
+#: \views\tmicros\view.ctp:37
+#: \views\users\view.ctp:324
+msgid "Related Micros"
+msgstr "Related Micros"
+
+#: \views\marques\view.ctp:55
+#: \views\tmicros\view.ctp:43
+#: \views\users\view.ctp:330
+msgid "Marque Id"
+msgstr "Marque Id"
+
+#: \views\marques\view.ctp:56
+#: \views\tmicros\view.ctp:44
+#: \views\users\view.ctp:331
+msgid "Tmicro Id"
+msgstr "Tmicro Id"
+
+#: \views\marques\view.ctp:58
+#: \views\micros\view.ctp:29
+#: \views\tmicros\view.ctp:46
+#: \views\users\view.ctp:333
+msgid "Remarque"
+msgstr "Remarque"
+
+#: \views\marques\view.ctp:59
+#: \views\micros\view.ctp:34
+#: \views\tmicros\view.ctp:47
+#: \views\users\view.ctp:334
+msgid "Usage"
+msgstr "Usage"
+
+#: \views\miclochorzs\add.ctp:4
+msgid "Add Miclochorz"
+msgstr "Add Miclochorz"
+
+#: \views\miclochorzs\add.ctp:13
+#: \views\miclochorzs\edit.ctp:15
+#: \views\miclochorzs\view.ctp:30
+#: \views\miclocs\add.ctp:17
+#: \views\miclocs\edit.ctp:19
+#: \views\miclocs\index.ctp:63
+#: \views\miclocs\view.ctp:47
+msgid "List Miclochorzs"
+msgstr "List Miclochorzs"
+
+#: \views\miclochorzs\edit.ctp:4
+#: \views\miclochorzs\view.ctp:28
+msgid "Edit Miclochorz"
+msgstr "Edit Miclochorz"
+
+#: \views\miclochorzs\index.ctp:2
+msgid "Miclochorzs"
+msgstr "Miclochorzs"
+
+#: \views\miclochorzs\index.ctp:54
+#: \views\miclochorzs\view.ctp:31
+#: \views\miclocs\add.ctp:18
+#: \views\miclocs\edit.ctp:20
+#: \views\miclocs\index.ctp:64
+#: \views\miclocs\view.ctp:48
+msgid "New Miclochorz"
+msgstr "New Miclochorz"
+
+#: \views\miclochorzs\view.ctp:2
+#: \views\miclocs\view.ctp:9
+msgid "Miclochorz"
+msgstr "Miclochorz"
+
+#: \views\miclochorzs\view.ctp:29
+msgid "Delete Miclochorz"
+msgstr "Delete Miclochorz"
+
+#: \views\miclocs\add.ctp:4
+msgid "Add Micloc"
+msgstr "Add Micloc"
+
+#: \views\miclocs\add.ctp:19
+#: \views\miclocs\edit.ctp:21
+#: \views\miclocs\index.ctp:65
+#: \views\miclocs\view.ctp:49
+#: \views\miclocverts\add.ctp:13
+#: \views\miclocverts\edit.ctp:15
+#: \views\miclocverts\view.ctp:30
+msgid "List Miclocverts"
+msgstr "List Miclocverts"
+
+#: \views\miclocs\add.ctp:20
+#: \views\miclocs\edit.ctp:22
+#: \views\miclocs\index.ctp:66
+#: \views\miclocs\view.ctp:50
+#: \views\miclocverts\index.ctp:54
+#: \views\miclocverts\view.ctp:31
+msgid "New Miclocvert"
+msgstr "New Miclocvert"
+
+#: \views\miclocs\edit.ctp:4
+#: \views\miclocs\view.ctp:43
+msgid "Edit Micloc"
+msgstr "Edit Micloc"
+
+#: \views\miclocs\index.ctp:2
+msgid "Miclocs"
+msgstr "Miclocs"
+
+#: \views\miclocs\view.ctp:2
+#: \views\tracks\view.ctp:49
+msgid "Micloc"
+msgstr "Micloc"
+
+#: \views\miclocs\view.ctp:14
+#: \views\miclocverts\view.ctp:2
+msgid "Miclocvert"
+msgstr "Miclocvert"
+
+#: \views\miclocs\view.ctp:44
+msgid "Delete Micloc"
+msgstr "Delete Micloc"
+
+#: \views\miclocverts\add.ctp:4
+msgid "Add Miclocvert"
+msgstr "Add Miclocvert"
+
+#: \views\miclocverts\edit.ctp:4
+#: \views\miclocverts\view.ctp:28
+msgid "Edit Miclocvert"
+msgstr "Edit Miclocvert"
+
+#: \views\miclocverts\index.ctp:2
+msgid "Miclocverts"
+msgstr "Miclocverts"
+
+#: \views\miclocverts\view.ctp:29
+msgid "Delete Miclocvert"
+msgstr "Delete Miclocvert"
+
+#: \views\micros\add.ctp:4
+msgid "Add Micro"
+msgstr "Add Micro"
+
+#: \views\micros\add.ctp:23
+#: \views\micros\edit.ctp:25
+#: \views\micros\index.ctp:75
+#: \views\micros\view.ctp:61
+#: \views\tmicros\add.ctp:13
+#: \views\tmicros\edit.ctp:15
+#: \views\tmicros\view.ctp:30
+msgid "List Tmicros"
+msgstr "List Tmicros"
+
+#: \views\micros\add.ctp:24
+#: \views\micros\edit.ctp:26
+#: \views\micros\index.ctp:76
+#: \views\micros\view.ctp:62
+#: \views\tmicros\index.ctp:54
+#: \views\tmicros\view.ctp:31
+msgid "New Tmicro"
+msgstr "New Tmicro"
+
+#: \views\micros\edit.ctp:4
+#: \views\micros\view.ctp:53
+msgid "Edit Micro"
+msgstr "Edit Micro"
+
+#: \views\micros\index.ctp:2
+#: \views\users\bo_action_admin.ctp:10
+msgid "Micros"
+msgstr "Micros"
+
+#: \views\micros\view.ctp:2
+#: \views\soundpatches\view.ctp:139
+#: \views\tracks\view.ctp:29
+msgid "Micro"
+msgstr "Micro"
+
+#: \views\micros\view.ctp:19
+#: \views\tmicros\view.ctp:2
+msgid "Tmicro"
+msgstr "Tmicro"
+
+#: \views\micros\view.ctp:54
+msgid "Delete Micro"
+msgstr "Delete Micro"
+
+#: \views\pages\home.ctp:12
+#: \views\users\add.ctp:16
+#: \views\users\login.ctp:2
+#: \views\users\validmail.ctp:19
+msgid "Login"
+msgstr "Login"
+
+#: \views\pages\home.ctp:13
+#: \views\users\add.ctp:4
+#: \views\users\login.ctp:29
+#: \views\users\validmail.ctp:20
+msgid "Inscription"
+msgstr "Inscription"
+
+#: \views\pages\home.ctp:57
+msgid "Your tmp directory is writable."
+msgstr "Your tmp directory is writable."
+
+#: \views\pages\home.ctp:61
+msgid "Your tmp directory is NOT writable."
+msgstr "Your tmp directory is NOT writable."
+
+#: \views\pages\home.ctp:71
+msgid "The %s is being used for caching. To change the config edit APP/config/core.php "
+msgstr "The %s is being used for caching. To change the config edit APP/config/core.php "
+
+#: \views\pages\home.ctp:75
+msgid "Your cache is NOT working. Please check the settings in APP/config/core.php"
+msgstr "Your cache is NOT working. Please check the settings in APP/config/core.php"
+
+#: \views\pages\home.ctp:85
+msgid "Your database configuration file is present."
+msgstr "Your database configuration file is present."
+
+#: \views\pages\home.ctp:90
+msgid "Your database configuration file is NOT present."
+msgstr "Your database configuration file is NOT present."
+
+#: \views\pages\home.ctp:92
+msgid "Rename config/database.php.default to config/database.php"
+msgstr "Rename config/database.php.default to config/database.php"
+
+#: \views\pages\home.ctp:107
+msgid "Cake is able to connect to the database."
+msgstr "Cake is able to connect to the database."
+
+#: \views\pages\home.ctp:111
+msgid "Cake is NOT able to connect to the database."
+msgstr "Cake is NOT able to connect to the database."
+
+#: \views\rights\add.ctp:4
+msgid "Add Right"
+msgstr "Add Right"
+
+#: \views\rights\edit.ctp:4
+#: \views\rights\view.ctp:43
+msgid "Edit Right"
+msgstr "Edit Right"
+
+#: \views\rights\index.ctp:2
+msgid "Rights"
+msgstr "Rights"
+
+#: \views\rights\view.ctp:2
+msgid "Right"
+msgstr "Right"
+
+#: \views\rights\view.ctp:44
+msgid "Delete Right"
+msgstr "Delete Right"
+
+#: \views\soundpatches\add.ctp:4
+msgid "Add Soundpatch"
+msgstr "Add Soundpatch"
+
+#: \views\soundpatches\add.ctp:17
+#: \views\soundpatches\admin_view.ctp:50
+#: \views\stageplans\add.ctp:19
+#: \views\stageplans\edit.ctp:21
+#: \views\stageplans\index.ctp:69
+#: \views\stageplans\view.ctp:49
+#: \views\tracks\add.ctp:25
+#: \views\tracks\index.ctp:89
+#: \views\tracks\view.ctp:79
+#: \views\users\admin_add.ctp:33
+#: \views\users\admin_edit.ctp:35
+#: \views\users\index.ctp:84
+#: \views\users\view.ctp:71
+#: \views\wedges\add.ctp:20
+#: \views\wedges\edit.ctp:22
+#: \views\wedges\index.ctp:63
+#: \views\wedges\view.ctp:46
+msgid "List Soundpatches"
+msgstr "List Soundpatches"
+
+#: \views\soundpatches\add.ctp:20
+#: \views\soundpatches\admin_index.ctp:73
+#: \views\soundpatches\admin_view.ctp:54
+#: \views\users\admin_add.ctp:47
+#: \views\users\admin_edit.ctp:49
+#: \views\users\index.ctp:98
+#: \views\users\view.ctp:85
+#: \views\wedgelocs\add.ctp:23
+#: \views\wedgelocs\edit.ctp:25
+#: \views\wedgelocs\index.ctp:69
+#: \views\wedgelocs\view.ctp:53
+#: \views\wedges\add.ctp:15
+#: \views\wedges\edit.ctp:17
+#: \views\wedges\view.ctp:40
+msgid "List Wedges"
+msgstr "List Wedges"
+
+#: \views\soundpatches\add.ctp:21
+#: \views\soundpatches\admin_index.ctp:74
+#: \views\soundpatches\admin_view.ctp:55
+#: \views\users\admin_add.ctp:48
+#: \views\users\admin_edit.ctp:50
+#: \views\users\index.ctp:99
+#: \views\users\view.ctp:86;727
+#: \views\wedgelocs\add.ctp:24
+#: \views\wedgelocs\edit.ctp:26
+#: \views\wedgelocs\index.ctp:70
+#: \views\wedgelocs\view.ctp:54;97
+#: \views\wedges\index.ctp:58
+#: \views\wedges\view.ctp:41
+msgid "New Wedge"
+msgstr "New Wedge"
+
+#: \views\soundpatches\add.ctp:22
+#: \views\soundpatches\admin_index.ctp:75
+#: \views\soundpatches\admin_view.ctp:56
+#: \views\stageplans\add.ctp:16
+#: \views\stageplans\edit.ctp:18
+#: \views\stageplans\view.ctp:45
+#: \views\users\admin_add.ctp:35
+#: \views\users\admin_edit.ctp:37
+#: \views\users\index.ctp:86
+#: \views\users\view.ctp:73
+msgid "List Stageplans"
+msgstr "List Stageplans"
+
+#: \views\soundpatches\add.ctp:23
+#: \views\soundpatches\admin_index.ctp:76
+#: \views\soundpatches\admin_view.ctp:57;104
+#: \views\stageplans\index.ctp:66
+#: \views\stageplans\view.ctp:46
+#: \views\users\admin_add.ctp:36
+#: \views\users\admin_edit.ctp:38
+#: \views\users\index.ctp:87
+#: \views\users\view.ctp:74;463
+msgid "New Stageplan"
+msgstr "New Stageplan"
+
+#: \views\soundpatches\admin_edit.ctp:4
+#: \views\soundpatches\admin_view.ctp:48
+#: \views\soundpatches\edit.ctp:4
+msgid "Edit Soundpatch"
+msgstr "Edit Soundpatch"
+
+#: \views\soundpatches\admin_index.ctp:2
+msgid "Soundpatches"
+msgstr "Soundpatches"
+
+#: \views\soundpatches\admin_index.ctp:70
+#: \views\soundpatches\admin_view.ctp:51
+#: \views\stageplans\add.ctp:20
+#: \views\stageplans\edit.ctp:22
+#: \views\stageplans\index.ctp:70
+#: \views\stageplans\view.ctp:50
+#: \views\tracks\add.ctp:26
+#: \views\tracks\index.ctp:90
+#: \views\tracks\view.ctp:80
+#: \views\users\admin_add.ctp:34
+#: \views\users\admin_edit.ctp:36
+#: \views\users\index.ctp:85
+#: \views\users\view.ctp:72;417
+#: \views\wedges\add.ctp:21
+#: \views\wedges\edit.ctp:23
+#: \views\wedges\index.ctp:64
+#: \views\wedges\view.ctp:47;94
+msgid "New Soundpatch"
+msgstr "New Soundpatch"
+
+#: \views\soundpatches\admin_view.ctp:2
+#: \views\stageplans\view.ctp:14
+#: \views\tracks\view.ctp:19
+msgid "Soundpatch"
+msgstr "Soundpatch"
+
+#: \views\soundpatches\admin_view.ctp:19
+#: \views\users\bo_action_admin.ctp:13
+#: \views\wedges\view.ctp:2
+msgid "Wedge"
+msgstr "Wedge"
+
+#: \views\soundpatches\admin_view.ctp:49
+msgid "Delete Soundpatch"
+msgstr "Delete Soundpatch"
+
+#: \views\soundpatches\admin_view.ctp:63
+#: \views\users\view.ctp:422
+msgid "Related Stageplans"
+msgstr "Related Stageplans"
+
+#: \views\soundpatches\edit.ctp:18
+#: \views\users\add.ctp:15
+#: \views\users\login.ctp:27
+msgid "Accueil"
+msgstr "Home"
+
+#: \views\soundpatches\index.ctp:2
+msgid "Fiches techniques"
+msgstr "Technicals riders"
+
+#: \views\soundpatches\view.ctp:2
+msgid "Fiche techique"
+msgstr "Technical rider"
+
+#: \views\soundpatches\view.ctp:52
+msgid "Modifier la F. technique"
+msgstr "Modify the riders"
+
+#: \views\soundpatches\view.ctp:135
+msgid "Piste"
+msgstr "Track"
+
+#: \views\soundpatches\view.ctp:136
+msgid "Musicien"
+msgstr "Musician"
+
+#: \views\soundpatches\view.ctp:140
+msgid "Insert"
+msgstr "Insert"
+
+#: \views\soundpatches\view.ctp:141
+msgid "Effet"
+msgstr "Effect"
+
+#: \views\soundpatches\view.ctp:142
+msgid "Pied de micro"
+msgstr "Stand"
+
+#: \views\stageplans\add.ctp:4
+msgid "Add Stageplan"
+msgstr "Add Stageplan"
+
+#: \views\stageplans\edit.ctp:4
+#: \views\stageplans\view.ctp:43
+msgid "Edit Stageplan"
+msgstr "Edit Stageplan"
+
+#: \views\stageplans\index.ctp:2
+msgid "Stageplans"
+msgstr "Stageplans"
+
+#: \views\stageplans\view.ctp:2
+msgid "Stageplan"
+msgstr "Stageplan"
+
+#: \views\stageplans\view.ctp:44
+msgid "Delete Stageplan"
+msgstr "Delete Stageplan"
+
+#: \views\stands\add.ctp:4
+msgid "Add Stand"
+msgstr "Add Stand"
+
+#: \views\stands\add.ctp:13
+#: \views\stands\edit.ctp:15
+#: \views\stands\view.ctp:30
+#: \views\tracks\add.ctp:35
+#: \views\tracks\index.ctp:99
+#: \views\tracks\view.ctp:89
+msgid "List Stands"
+msgstr "List Stands"
+
+#: \views\stands\edit.ctp:4
+#: \views\stands\view.ctp:28
+msgid "Edit Stand"
+msgstr "Edit Stand"
+
+#: \views\stands\index.ctp:2
+#: \views\users\bo_action_admin.ctp:12
+msgid "Stands"
+msgstr "Stands"
+
+#: \views\stands\index.ctp:50
+#: \views\stands\view.ctp:31
+#: \views\tracks\add.ctp:36
+#: \views\tracks\index.ctp:100
+#: \views\tracks\view.ctp:90
+msgid "New Stand"
+msgstr "New Stand"
+
+#: \views\stands\view.ctp:2
+#: \views\tracks\view.ctp:44
+msgid "Stand"
+msgstr "Stand"
+
+#: \views\stands\view.ctp:29
+msgid "Delete Stand"
+msgstr "Delete Stand"
+
+#: \views\tcontacts\add.ctp:4
+msgid "Add Tcontact"
+msgstr "Add type of contact"
+
+#: \views\tcontacts\edit.ctp:4
+#: \views\tcontacts\view.ctp:38
+msgid "Edit Tcontact"
+msgstr "Edit type of contact"
+
+#: \views\tcontacts\index.ctp:2
+msgid "Tcontacts"
+msgstr "Type of contacts"
+
+#: \views\tcontacts\view.ctp:39
+msgid "Delete Tcontact"
+msgstr "Delete type of contact"
+
+#: \views\tcontacts\view.ctp:49
+#: \views\users\view.ctp:90
+msgid "Related Contacts"
+msgstr "Related Contacts"
+
+#: \views\tcontacts\view.ctp:54
+#: \views\users\view.ctp:95
+msgid "Tcontact Id"
+msgstr "Type of contact Id"
+
+#: \views\teffects\add.ctp:4
+msgid "Add Teffect"
+msgstr "Add Teffect"
+
+#: \views\teffects\add.ctp:15
+#: \views\teffects\edit.ctp:17
+#: \views\teffects\view.ctp:40
+#: \views\tracks\add.ctp:33
+#: \views\tracks\index.ctp:97
+#: \views\tracks\view.ctp:87
+#: \views\users\admin_add.ctp:39
+#: \views\users\admin_edit.ctp:41
+#: \views\users\index.ctp:90
+#: \views\users\view.ctp:77
+msgid "List Teffects"
+msgstr "List Teffects"
+
+#: \views\teffects\edit.ctp:4
+#: \views\teffects\view.ctp:38
+msgid "Edit Teffect"
+msgstr "Edit Teffect"
+
+#: \views\teffects\index.ctp:2
+msgid "Teffects"
+msgstr "Teffects"
+
+#: \views\teffects\index.ctp:62
+#: \views\teffects\view.ctp:41
+#: \views\tracks\add.ctp:34
+#: \views\tracks\index.ctp:98
+#: \views\tracks\view.ctp:88
+#: \views\users\admin_add.ctp:40
+#: \views\users\admin_edit.ctp:42
+#: \views\users\index.ctp:91
+#: \views\users\view.ctp:78;551
+msgid "New Teffect"
+msgstr "New Teffect"
+
+#: \views\teffects\view.ctp:2
+#: \views\tracks\view.ctp:39
+msgid "Teffect"
+msgstr "Teffect"
+
+#: \views\teffects\view.ctp:39
+msgid "Delete Teffect"
+msgstr "Delete Teffect"
+
+#: \views\tinserts\add.ctp:4
+msgid "Add Tinsert"
+msgstr "Add Tinsert"
+
+#: \views\tinserts\add.ctp:15
+#: \views\tinserts\edit.ctp:17
+#: \views\tinserts\view.ctp:40
+#: \views\tracks\add.ctp:31
+#: \views\tracks\index.ctp:95
+#: \views\tracks\view.ctp:85
+#: \views\users\admin_add.ctp:41
+#: \views\users\admin_edit.ctp:43
+#: \views\users\index.ctp:92
+#: \views\users\view.ctp:79
+msgid "List Tinserts"
+msgstr "List Tinserts"
+
+#: \views\tinserts\edit.ctp:4
+#: \views\tinserts\view.ctp:38
+msgid "Edit Tinsert"
+msgstr "Edit Tinsert"
+
+#: \views\tinserts\index.ctp:2
+msgid "Tinserts"
+msgstr "Tinserts"
+
+#: \views\tinserts\index.ctp:62
+#: \views\tinserts\view.ctp:41
+#: \views\tracks\add.ctp:32
+#: \views\tracks\index.ctp:96
+#: \views\tracks\view.ctp:86
+#: \views\users\admin_add.ctp:42
+#: \views\users\admin_edit.ctp:44
+#: \views\users\index.ctp:93
+#: \views\users\view.ctp:80;595
+msgid "New Tinsert"
+msgstr "New Tinsert"
+
+#: \views\tinserts\view.ctp:2
+#: \views\tracks\view.ctp:34
+msgid "Tinsert"
+msgstr "Tinsert"
+
+#: \views\tinserts\view.ctp:39
+msgid "Delete Tinsert"
+msgstr "Delete Tinsert"
+
+#: \views\tlightcolors\add.ctp:4
+msgid "Add Tlightcolor"
+msgstr "Add Tlightcolor"
+
+#: \views\tlightcolors\edit.ctp:4
+#: \views\tlightcolors\view.ctp:38
+msgid "Edit Tlightcolor"
+msgstr "Edit Tlightcolor"
+
+#: \views\tlightcolors\index.ctp:2
+msgid "Tlightcolors"
+msgstr "Tlightcolors"
+
+#: \views\tlightcolors\view.ctp:39
+msgid "Delete Tlightcolor"
+msgstr "Delete Tlightcolor"
+
+#: \views\tlightcolors\view.ctp:49
+msgid "Related Lightcolors"
+msgstr "Related Lightcolors"
+
+#: \views\tlightcolors\view.ctp:54
+msgid "Tlightcolor Id"
+msgstr "Tlightcolor Id"
+
+#: \views\tlights\add.ctp:4
+msgid "Add Tlight"
+msgstr "Add Tlight"
+
+#: \views\tlights\edit.ctp:4
+#: \views\tlights\view.ctp:38
+msgid "Edit Tlight"
+msgstr "Edit Tlight"
+
+#: \views\tlights\index.ctp:2
+msgid "Tlights"
+msgstr "Tlights"
+
+#: \views\tlights\view.ctp:39
+msgid "Delete Tlight"
+msgstr "Delete Tlight"
+
+#: \views\tmicros\add.ctp:4
+msgid "Add Tmicro"
+msgstr "Add Tmicro"
+
+#: \views\tmicros\edit.ctp:4
+#: \views\tmicros\view.ctp:28
+msgid "Edit Tmicro"
+msgstr "Edit Tmicro"
+
+#: \views\tmicros\index.ctp:2
+msgid "Tmicros"
+msgstr "Tmicros"
+
+#: \views\tmicros\view.ctp:29
+msgid "Delete Tmicro"
+msgstr "Delete Tmicro"
+
+#: \views\tracks\add.ctp:4
+msgid "Add Track"
+msgstr "Add Track"
+
+#: \views\tracks\admin_edit.ctp:4
+#: \views\tracks\edit.ctp:4
+#: \views\tracks\view.ctp:73
+msgid "Edit Track"
+msgstr "Edit Track"
+
+#: \views\tracks\index.ctp:2
+msgid "Tracks"
+msgstr "Tracks"
+
+#: \views\tracks\view.ctp:2
+msgid "Track"
+msgstr "Track"
+
+#: \views\tracks\view.ctp:74
+msgid "Delete Track"
+msgstr "Delete Track"
+
+#: \views\users\admin_add.ctp:4
+msgid "Add User"
+msgstr "Add User"
+
+#: \views\users\admin_edit.ctp:4
+#: \views\users\view.ctp:53
+msgid "Edit User"
+msgstr "Edit User"
+
+#: \views\users\bo_accueil.ctp:14
+#: \views\users\edit.ctp:4
+msgid "Mes infos"
+msgstr "My account"
+
+#: \views\users\bo_accueil.ctp:18
+#: \views\users\bo_action_admin.ctp:48
+msgid "Logout"
+msgstr "Logout"
+
+#: \views\users\bo_action_admin.ctp:11
+msgid "Mic brand"
+msgstr "Mic brand"
+
+#: \views\users\bo_action_admin.ctp:17
+msgid "Mic Location"
+msgstr "Mic Location"
+
+#: \views\users\bo_action_admin.ctp:18
+msgid "Wedge Location"
+msgstr "Wedge Location"
+
+#: \views\users\bo_action_admin.ctp:27
+msgid "Contact type"
+msgstr "Contact type"
+
+#: \views\users\bo_action_admin.ctp:41
+msgid "Contacts List"
+msgstr "Contacts List"
+
+#: \views\users\bo_action_admin.ctp:42
+msgid "Patchs List"
+msgstr "Patchs List"
+
+#: \views\users\bo_action_admin.ctp:44
+#: \views\users\index.ctp:2
+msgid "Users"
+msgstr "Users"
+
+#: \views\users\bo_action_admin.ctp:45
+msgid "Users Rights"
+msgstr "Users Rights"
+
+#: \views\users\login.ctp:10
+msgid "Mot de passe"
+msgstr "Password"
+
+#: \views\users\login.ctp:17
+msgid "Connexion"
+msgstr "Connection"
+
+#: \views\users\validmail.ctp:4
+msgid "Validez votre adresse mail"
+msgstr "Valid your email"
+
+#: \views\users\view.ctp:54
+msgid "Delete User"
+msgstr "Delete User"
+
+#: \views\users\view.ctp:140
+msgid "Related Instruments"
+msgstr "Related Instruments"
+
+#: \views\users\view.ctp:186
+msgid "Related Lightpatches"
+msgstr "Related Lightpatches"
+
+#: \views\users\view.ctp:280
+msgid "Related Marques"
+msgstr "Related Marques"
+
+#: \views\users\view.ctp:374
+#: \views\wedges\view.ctp:51
+msgid "Related Soundpatches"
+msgstr "Related Soundpatches"
+
+#: \views\users\view.ctp:381
+#: \views\wedges\view.ctp:58
+msgid "Wedge Id"
+msgstr "Wedge Id"
+
+#: \views\users\view.ctp:468
+msgid "Related Tcontacts"
+msgstr "Related Tcontacts"
+
+#: \views\users\view.ctp:512
+msgid "Related Teffects"
+msgstr "Related Teffects"
+
+#: \views\users\view.ctp:556
+msgid "Related Tinserts"
+msgstr "Related Tinserts"
+
+#: \views\users\view.ctp:600
+msgid "Related Tlightcolors"
+msgstr "Related Tlightcolors"
+
+#: \views\users\view.ctp:644
+msgid "Related Tlights"
+msgstr "Related Tlights"
+
+#: \views\users\view.ctp:688
+#: \views\wedgelocs\view.ctp:58
+msgid "Related Wedges"
+msgstr "Related Wedges"
+
+#: \views\users\view.ctp:694
+#: \views\wedgelocs\view.ctp:64
+msgid "Wedgeloc Id"
+msgstr "Wedgeloc Id"
+
+#: \views\wedgelochorzs\add.ctp:4
+msgid "Add Wedgelochorz"
+msgstr "Add Wedgelochorz"
+
+#: \views\wedgelochorzs\add.ctp:13
+#: \views\wedgelochorzs\edit.ctp:15
+#: \views\wedgelochorzs\view.ctp:30
+#: \views\wedgelocs\add.ctp:17
+#: \views\wedgelocs\edit.ctp:19
+#: \views\wedgelocs\index.ctp:63
+#: \views\wedgelocs\view.ctp:47
+msgid "List Wedgelochorzs"
+msgstr "List Wedgelochorzs"
+
+#: \views\wedgelochorzs\add.ctp:14
+#: \views\wedgelochorzs\edit.ctp:16
+#: \views\wedgelochorzs\index.ctp:55
+#: \views\wedgelochorzs\view.ctp:32
+#: \views\wedgelocrotations\add.ctp:14
+#: \views\wedgelocrotations\edit.ctp:16
+#: \views\wedgelocrotations\index.ctp:55
+#: \views\wedgelocrotations\view.ctp:32
+#: \views\wedgelocs\add.ctp:16
+#: \views\wedgelocs\edit.ctp:18
+#: \views\wedgelocs\view.ctp:45
+#: \views\wedgelocverts\add.ctp:14
+#: \views\wedgelocverts\edit.ctp:16
+#: \views\wedgelocverts\index.ctp:55
+#: \views\wedgelocverts\view.ctp:32
+#: \views\wedges\add.ctp:18
+#: \views\wedges\edit.ctp:20
+#: \views\wedges\index.ctp:61
+#: \views\wedges\view.ctp:44
+msgid "List Wedgelocs"
+msgstr "List Wedgelocs"
+
+#: \views\wedgelochorzs\add.ctp:15
+#: \views\wedgelochorzs\edit.ctp:17
+#: \views\wedgelochorzs\index.ctp:56
+#: \views\wedgelochorzs\view.ctp:33;78
+#: \views\wedgelocrotations\add.ctp:15
+#: \views\wedgelocrotations\edit.ctp:17
+#: \views\wedgelocrotations\index.ctp:56
+#: \views\wedgelocrotations\view.ctp:33;78
+#: \views\wedgelocs\index.ctp:62
+#: \views\wedgelocs\view.ctp:46
+#: \views\wedgelocverts\add.ctp:15
+#: \views\wedgelocverts\edit.ctp:17
+#: \views\wedgelocverts\index.ctp:56
+#: \views\wedgelocverts\view.ctp:33;78
+#: \views\wedges\add.ctp:19
+#: \views\wedges\edit.ctp:21
+#: \views\wedges\index.ctp:62
+#: \views\wedges\view.ctp:45
+msgid "New Wedgeloc"
+msgstr "New Wedgeloc"
+
+#: \views\wedgelochorzs\edit.ctp:4
+#: \views\wedgelochorzs\view.ctp:28
+msgid "Edit Wedgelochorz"
+msgstr "Edit Wedgelochorz"
+
+#: \views\wedgelochorzs\index.ctp:2
+msgid "Wedgelochorzs"
+msgstr "Wedgelochorzs"
+
+#: \views\wedgelochorzs\index.ctp:54
+#: \views\wedgelochorzs\view.ctp:31
+#: \views\wedgelocs\add.ctp:18
+#: \views\wedgelocs\edit.ctp:20
+#: \views\wedgelocs\index.ctp:64
+#: \views\wedgelocs\view.ctp:48
+msgid "New Wedgelochorz"
+msgstr "New Wedgelochorz"
+
+#: \views\wedgelochorzs\view.ctp:2
+#: \views\wedgelocs\view.ctp:9
+msgid "Wedgelochorz"
+msgstr "Wedgelochorz"
+
+#: \views\wedgelochorzs\view.ctp:29
+msgid "Delete Wedgelochorz"
+msgstr "Delete Wedgelochorz"
+
+#: \views\wedgelochorzs\view.ctp:37
+#: \views\wedgelocrotations\view.ctp:37
+#: \views\wedgelocverts\view.ctp:37
+msgid "Related Wedgelocs"
+msgstr "Related Wedgelocs"
+
+#: \views\wedgelochorzs\view.ctp:42
+#: \views\wedgelocrotations\view.ctp:42
+#: \views\wedgelocverts\view.ctp:42
+msgid "Wedgelochorz Id"
+msgstr "Wedgelochorz Id"
+
+#: \views\wedgelochorzs\view.ctp:43
+#: \views\wedgelocrotations\view.ctp:43
+#: \views\wedgelocverts\view.ctp:43
+msgid "Wedgelocvert Id"
+msgstr "Wedgelocvert Id"
+
+#: \views\wedgelochorzs\view.ctp:44
+#: \views\wedgelocrotations\view.ctp:44
+#: \views\wedgelocverts\view.ctp:44
+msgid "Wedgelocrotation Id"
+msgstr "Wedgelocrotation Id"
+
+#: \views\wedgelocrotations\add.ctp:4
+msgid "Add Wedgelocrotation"
+msgstr "Add Wedgelocrotation"
+
+#: \views\wedgelocrotations\add.ctp:13
+#: \views\wedgelocrotations\edit.ctp:15
+#: \views\wedgelocrotations\view.ctp:30
+#: \views\wedgelocs\add.ctp:21
+#: \views\wedgelocs\edit.ctp:23
+#: \views\wedgelocs\index.ctp:67
+#: \views\wedgelocs\view.ctp:51
+msgid "List Wedgelocrotations"
+msgstr "List Wedgelocrotations"
+
+#: \views\wedgelocrotations\edit.ctp:4
+#: \views\wedgelocrotations\view.ctp:28
+msgid "Edit Wedgelocrotation"
+msgstr "Edit Wedgelocrotation"
+
+#: \views\wedgelocrotations\index.ctp:2
+msgid "Wedgelocrotations"
+msgstr "Wedgelocrotations"
+
+#: \views\wedgelocrotations\index.ctp:54
+#: \views\wedgelocrotations\view.ctp:31
+#: \views\wedgelocs\add.ctp:22
+#: \views\wedgelocs\edit.ctp:24
+#: \views\wedgelocs\index.ctp:68
+#: \views\wedgelocs\view.ctp:52
+msgid "New Wedgelocrotation"
+msgstr "New Wedgelocrotation"
+
+#: \views\wedgelocrotations\view.ctp:2
+#: \views\wedgelocs\view.ctp:19
+msgid "Wedgelocrotation"
+msgstr "Wedgelocrotation"
+
+#: \views\wedgelocrotations\view.ctp:29
+msgid "Delete Wedgelocrotation"
+msgstr "Delete Wedgelocrotation"
+
+#: \views\wedgelocs\add.ctp:4
+msgid "Add Wedgeloc"
+msgstr "Add Wedgeloc"
+
+#: \views\wedgelocs\add.ctp:19
+#: \views\wedgelocs\edit.ctp:21
+#: \views\wedgelocs\index.ctp:65
+#: \views\wedgelocs\view.ctp:49
+#: \views\wedgelocverts\add.ctp:13
+#: \views\wedgelocverts\edit.ctp:15
+#: \views\wedgelocverts\view.ctp:30
+msgid "List Wedgelocverts"
+msgstr "List Wedgelocverts"
+
+#: \views\wedgelocs\add.ctp:20
+#: \views\wedgelocs\edit.ctp:22
+#: \views\wedgelocs\index.ctp:66
+#: \views\wedgelocs\view.ctp:50
+#: \views\wedgelocverts\index.ctp:54
+#: \views\wedgelocverts\view.ctp:31
+msgid "New Wedgelocvert"
+msgstr "New Wedgelocvert"
+
+#: \views\wedgelocs\edit.ctp:4
+#: \views\wedgelocs\view.ctp:43
+msgid "Edit Wedgeloc"
+msgstr "Edit Wedgeloc"
+
+#: \views\wedgelocs\index.ctp:2
+msgid "Wedgelocs"
+msgstr "Wedgelocs"
+
+#: \views\wedgelocs\view.ctp:2
+#: \views\wedges\view.ctp:14
+msgid "Wedgeloc"
+msgstr "Wedgeloc"
+
+#: \views\wedgelocs\view.ctp:14
+#: \views\wedgelocverts\view.ctp:2
+msgid "Wedgelocvert"
+msgstr "Wedgelocvert"
+
+#: \views\wedgelocs\view.ctp:44
+msgid "Delete Wedgeloc"
+msgstr "Delete Wedgeloc"
+
+#: \views\wedgelocverts\add.ctp:4
+msgid "Add Wedgelocvert"
+msgstr "Add Wedgelocvert"
+
+#: \views\wedgelocverts\edit.ctp:4
+#: \views\wedgelocverts\view.ctp:28
+msgid "Edit Wedgelocvert"
+msgstr "Edit Wedgelocvert"
+
+#: \views\wedgelocverts\index.ctp:2
+msgid "Wedgelocverts"
+msgstr "Wedgelocverts"
+
+#: \views\wedgelocverts\view.ctp:29
+msgid "Delete Wedgelocvert"
+msgstr "Delete Wedgelocvert"
+
+#: \views\wedges\add.ctp:4
+msgid "Add Wedge"
+msgstr "Add Wedge"
+
+#: \views\wedges\edit.ctp:4
+#: \views\wedges\view.ctp:38
+msgid "Edit Wedge"
+msgstr "Edit Wedge"
+
+#: \views\wedges\index.ctp:2
+msgid "Wedges"
+msgstr "Wedges"
+
+#: \views\wedges\view.ctp:39
+msgid "Delete Wedge"
+msgstr "Delete Wedge"
+
+#: \webroot\test.php:88
+msgid "Debug setting does not allow access to this url."
+msgstr "Debug setting does not allow access to this url."
+

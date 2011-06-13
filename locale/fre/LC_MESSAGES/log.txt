@@ -1,0 +1,2 @@
+13:52:18: C:\wamp\www\patch\app\locale\eng\LC_MESSAGES\default.po:5: invalid nplurals value
+13:52:18: msgfmt: found 2 fatal errors
