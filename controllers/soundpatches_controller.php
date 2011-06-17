@@ -5,17 +5,38 @@ class SoundpatchesController extends AppController {
 	var $helpers = array('Html', 'Form');
 	var $components = array('Patch');
 
+	function viewpdf($id = null){
+		if($this->Auth->user()){
+			if (!$id){
+				$this->Session->setFlash('Sorry, there was no property ID submitted.');
+				$this->redirect(array('action'=>'index'), null, true);
+			}
+			Configure::write('debug',0); // Otherwise we cannot use this method while developing
+			$id = intval($id);
+			//$property = $this->__view($id); // here the data is pulled from the database and set for the view
+			$property = array("un","deux");
+			//$property = $this->view($id);
+			if (empty($property)){
+				$this->Session->setFlash('Sorry, there is no property with the submitted ID.');
+				$this->redirect(array('action'=>'index'), null, true);
+			}
+			$this->Soundpatch->recursive = 2;
+			$this->set('soundpatch', $this->Soundpatch->read(null, $id));
+			$this->layout = 'pdf'; //this will use the pdf.ctp layout
+			$this->render();
+		}
+	}
+
 	function index() {
 		if($this->Auth->user()){
 			$this->Soundpatch->recursive = 0;
 			$this->paginate = array(
-                                'conditions' => array('Soundpatch.user_id' => $this->Patch->getId()),
-                                'order' => 'Soundpatch.title ASC',
+            	'conditions' => array('Soundpatch.user_id' => $this->Patch->getId()),
+                'order' => 'Soundpatch.title ASC',
 			);
 			$this->set('soundpatches', $this->paginate());
 			$this->set(compact('soundpatches'));
 		}
-
 	}
 
 	function view($id = null) {
@@ -34,7 +55,6 @@ class SoundpatchesController extends AppController {
 			$this->redirect(array('action'=>'login'));
 			$this->Session->setFlash(__('Acces reserve aux membres', true));
 		}
-
 	}
 
 	function add() {
@@ -85,6 +105,5 @@ class SoundpatchesController extends AppController {
 			$this->redirect(array('action'=>'index'));
 		}
 	}
-
 }
 ?>

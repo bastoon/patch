@@ -1,5 +1,4 @@
 <h2><?php __('Fiches techniques')?></h2>
-<h3><?php e('into home.ctp')?></h3>
 
 <?php
 if(Configure::read() > 0):

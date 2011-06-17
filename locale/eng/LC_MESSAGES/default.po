@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Patch v0.9\n"
 "POT-Creation-Date: 2011-06-12 11:47+0000\n"
-"PO-Revision-Date: 2011-06-12 15:41+0100\n"
+"PO-Revision-Date: 2011-06-13 22:34+0100\n"
 "Last-Translator: Wethli <bastien@weth.li>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -2810,7 +2810,7 @@ msgstr "Add Marque"
 #: \views\users\index.ctp:80
 #: \views\users\view.ctp:67
 msgid "List Marques"
-msgstr "List Marques"
+msgstr "List Brands"
 
 #: \views\marques\add.ctp:18
 #: \views\marques\edit.ctp:20
@@ -2860,7 +2860,7 @@ msgstr "Edit Marque"
 
 #: \views\marques\index.ctp:2
 msgid "Marques"
-msgstr "Marques"
+msgstr "Brands"
 
 #: \views\marques\index.ctp:58
 #: \views\marques\view.ctp:41
@@ -3651,7 +3651,7 @@ msgstr "Related Lightpatches"
 
 #: \views\users\view.ctp:280
 msgid "Related Marques"
-msgstr "Related Marques"
+msgstr "Related Brands"
 
 #: \views\users\view.ctp:374
 #: \views\wedges\view.ctp:51

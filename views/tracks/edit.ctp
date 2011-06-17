@@ -3,17 +3,29 @@
 	<fieldset>
  		<legend><?php __('Edit Track');?></legend>
 	<?php
+		echo "\n<table>\n";
 		echo $form->input('id');
 		echo $form->hidden('rank', array('value' =>  $form->value('Track.rank') ) );
-		echo $form->input('contact_id', array('label'=>'Musicien'));
-		echo $form->hidden('soundpatch_id', array('value' => $form->value('Track.soundpatch_id') ) );
-		echo $form->input('instrument_id');
-		echo $form->input('micro_id');
-		echo $form->input('tinsert_id', array('label'=>'Type d insert'));
-		echo $form->input('teffect_id', array('label'=>'Type d effet'));
-		echo $form->input('stand_id', array('label'=>'Pied de micro'));
 		echo $form->hidden('micloc_id', array('value' => $form->value('Track.micloc_id') ) );
+		echo $form->hidden('soundpatch_id', array('value' => $form->value('Track.soundpatch_id') ) );
+		echo "\n<TR><TH COLSPAN=3>\n";
+		echo $form->input('contact_id', array('label'=>'Musicien'));
+		echo "\n</TH></TR><TR><TD>\n";
+		echo $form->input('instrument_id');
+		echo "\n</TD><TD>\n";
+		echo $form->input('micro_id');
+		echo "\n</TD><TD>\n";
+		echo $form->input('stand_id', array('label'=>'Pied de micro'));
+		echo "\n</TD></TR><TR><TD>\n";
+		echo "&nbsp;";
+		echo "\n</TD><TD>\n";
+		echo $form->input('tinsert_id', array('label'=>'Type d insert'));
+		echo "\n</TD><TD>\n";
+		echo $form->input('teffect_id', array('label'=>'Type d effet'));
+		echo "\n</TD></TR><TR><TD COLSPAN=3>\n";
 		echo $form->input('note');
+		echo "\n</TD></TR>\n";
+		echo "</table>";
 	?>
 	</fieldset>
 <?php echo $form->end('Submit');?>

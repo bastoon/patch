@@ -11,17 +11,17 @@ class soundpatch extends AppModel {
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
-		),
+			),
 		'Wedge' => array(
 			'className' => 'Wedge',
 			'foreignKey' => 'wedge_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
-		)
-	);
+			)
+			);
 
-	var $hasMany = array(
+			var $hasMany = array(
 		'Stageplan' => array(
 			'className' => 'Stageplan',
 			'foreignKey' => 'soundpatch_id',
@@ -34,7 +34,7 @@ class soundpatch extends AppModel {
 			'exclusive' => '',
 			'finderQuery' => '',
 			'counterQuery' => ''
-		),
+			),
 		'Track' => array(
 			'className' => 'Track',
 			'foreignKey' => 'soundpatch_id',
@@ -47,8 +47,8 @@ class soundpatch extends AppModel {
 			'exclusive' => '',
 			'finderQuery' => '',
 			'counterQuery' => ''
-		)
-	);
+			)
+			);
 
 }
 ?>

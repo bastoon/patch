@@ -1,11 +1,6 @@
 <div class="soundpatches view">
 	<h2><?php  __('Fiche techique');?></h2>
 	<dl><?php $i = 0; $class = ' class="altrow"';?>
-		<dt<?php //if ($i % 2 == 0) echo $class;?>><?php //__('Id'); ?></dt>
-		<dd<?php //if ($i++ % 2 == 0) echo $class;?>>
-			<?php //echo $soundpatch['Soundpatch']['id']; ?>
-			&nbsp;
-		</dd>
 		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('User'); ?></dt>
 		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
 			<?php echo $html->link($soundpatch['User']['name'], array('controller' => 'users', 'action' => 'view', $soundpatch['User']['id'])); ?>
@@ -16,24 +11,9 @@
 			<?php //echo $soundpatch['Soundpatch']['published']; ?>
 			&nbsp;
 		</dd>
-		<dt<?php //if ($i % 2 == 0) echo $class;?>><?//php __('Wedge'); ?></dt>
-		<dd<?php //if ($i++ % 2 == 0) echo $class;?>>
-			<?php //echo $html->link($soundpatch['Wedge']['title'], array('controller' => 'wedges', 'action' => 'view', $soundpatch['Wedge']['id'])); ?>
-			&nbsp;
-		</dd>
 		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Title'); ?></dt>
 		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
 			<?php echo $soundpatch['Soundpatch']['title']; ?>
-			&nbsp;
-		</dd>
-		<dt<?php //if ($i % 2 == 0) echo $class;?>><?php //__('Created'); ?></dt>
-		<dd<?php //if ($i++ % 2 == 0) echo $class;?>>
-			<?php //echo $soundpatch['Soundpatch']['created']; ?>
-			&nbsp;
-		</dd>
-		<dt<?php //if ($i % 2 == 0) echo $class;?>><?php //__('Modified'); ?></dt>
-		<dd<?php //if ($i++ % 2 == 0) echo $class;?>>
-			<?php //echo $soundpatch['Soundpatch']['modified']; ?>
 			&nbsp;
 		</dd>
 		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Note'); ?></dt>
@@ -42,12 +22,12 @@
 			&nbsp;
 		</dd>
 	</dl>
+	<?php echo $html->link(__('Print Soundpatch', true), array('action' => 'viewpdf', $soundpatch['Soundpatch']['id'])); ?>
 </div>
 <div class="actions">
 	<ul>
-
-                <li><?php echo $html->link(__('Acceuil', true), array('controller' => 'users', 'action' => 'bo_accueil')); ?> </li>
-                <li><?php echo $html->link(__('Contact', true), array('controller' => 'contacts', 'action' => 'index')); ?> </li>
+        <li><?php echo $html->link(__('Acceuil', true), array('controller' => 'users', 'action' => 'bo_accueil')); ?> </li>
+        <li><?php echo $html->link(__('Contact', true), array('controller' => 'contacts', 'action' => 'index')); ?> </li>
 		<li><BR></li>
 		<li><?php echo $html->link(__('Modifier la F. technique', true), array('action' => 'edit', $soundpatch['Soundpatch']['id'])); ?> </li>
 		<li><?php //echo $html->link(__('Delete Soundpatch', true), array('action' => 'delete', $soundpatch['Soundpatch']['id']), null, sprintf(__('Are you sure you want to delete # %s?', true), $soundpatch['Soundpatch']['id'])); ?> </li>
