@@ -22,7 +22,12 @@
 			&nbsp;
 		</dd>
 	</dl>
-	<?php echo $html->link(__('Print Soundpatch', true), array('action' => 'viewpdf', $soundpatch['Soundpatch']['id'])); ?>
+	
+	<?php echo $html->link(
+	    $html->image('/img/pdf.png', array('alt' => 'PDF', 'title'=>'PDF')),
+    	array('action'=>'viewpdf', $soundpatch['Soundpatch']['id']), array('escape' => false));
+    ?>
+	
 </div>
 <div class="actions">
 	<ul>

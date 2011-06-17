@@ -42,7 +42,7 @@
 		<div id="header">
 			<h1><?php echo $html->link(__(ucfirst(APP_DIR), true), '/../../'); ?></h1>
 		</div>
-		<div id="flags">
+		<div id="flags" align="right">
 			<a href="/fre/users/lang"><img src="/img/flag_fr.png" alt="FR" /></a> |
 			<a href="/eng/users/lang"><img src="/img/flag_en.png" alt="EN" /></a>
 		</div>
