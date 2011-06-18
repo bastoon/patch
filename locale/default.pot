@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2011-06-18 19:04+0000\n"
+"POT-Creation-Date: 2011-06-18 21:25+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -3078,6 +3078,10 @@ msgstr ""
 
 #: \views\pages\home.ctp:5
 msgid "homepage_p1"
+msgstr ""
+
+#: \views\pages\home.ctp:7
+msgid "homepage_p2"
 msgstr ""
 
 #: \views\pages\home.ctp:10

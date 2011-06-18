@@ -3,12 +3,13 @@
 
 
 <?php __('homepage_p1')?>
-</BR></BR>
-<?php //__('homepage_p2')?>
-</BR></BR>
-<HR>
-<?php __('homepage_p3')?>
-
+<BR/><BR/><HR><BR/>
+<?php __('homepage_p2')?>
+<BR/><BR/><HR><BR/>
+<?php __('homepage_p3')?> :
+<BR/><BR/>
+<P ALIGN=CENTER><A HREF="files/demo.pdf" target="_blank"><IMG SRC="img/pdf_download.png" ALT="" WIDTH=64 HEIGHT=64 BORDER=0></A>
+</P>
 
 
 <?php

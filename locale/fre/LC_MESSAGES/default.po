@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Patch v0.9\n"
-"POT-Creation-Date: 2011-06-18 19:04+0000\n"
-"PO-Revision-Date: 2011-06-18 21:07+0100\n"
+"POT-Creation-Date: 2011-06-18 21:25+0000\n"
+"PO-Revision-Date: 2011-06-19 00:06+0100\n"
 "Last-Translator: Wethli <bastien@weth.li>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -3082,9 +3082,13 @@ msgstr "Fiches techniques"
 msgid "homepage_p1"
 msgstr "Vous êtes la recherche d'un site permettant de créer la <STRONG>fiche technique</STRONG> de votre groupe ?<br/>Vous avez besoin de créer une <STRONG>fiche technique</STRONG> mais n'y connaissez rien ?<br/>Vous avez besoin de mettre à jour régulièrement votre <STRONG>fiche technique</STRONG> ?<br/><br/>Ce service est fait pour vous !"
 
+#: \views\pages\home.ctp:7
+msgid "homepage_p2"
+msgstr "A quoi sert une <STRONG>fiche technique ?</STRONG><BR /><BR /><em>\"La <STRONG>fiche technique</STRONG> permet aux organisateurs de concerts de s'assurer de la compatibilité du matériel entre celui attendu par les musiciens de celui founit.\"</em>"
+
 #: \views\pages\home.ctp:10
 msgid "homepage_p3"
-msgstr "A quoi sert une <STRONG>fiche technique ?<STRONG></BR>"
+msgstr "Téléchargez un exemple de démonstration"
 
 #: \views\pages\home.ctp:23
 #: \views\users\add.ctp:16

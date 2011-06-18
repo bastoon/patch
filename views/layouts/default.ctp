@@ -31,9 +31,7 @@
 	</title>
 	<?php
 		echo $html->meta('icon');
-
 		echo $html->css('cake.generic');
-
 		echo $scripts_for_layout;
 	?>
 </head>
@@ -44,16 +42,11 @@
 		</div>
 		<div id="flags" align="right">
 			<a href="/fre/users/lang"><img src="/img/flag_fr.png" alt="FR" /></a> |
-			<a href="/eng/users/lang"><img src="/img/flag_en.png" alt="EN" /></a>
+			<a href="/eng/users/lang"><img src="/img/flag_en.png" alt="EN" /></a>&nbsp;&nbsp;
 		</div>
 		<div id="content">
-
-			<?php //echo Security::hash('12345',null,true); ?>
-
 			<?php $session->flash(); ?>
-
 			<?php echo $content_for_layout; ?>
-
 		</div>
 		<div id="footer">
 			<?php 

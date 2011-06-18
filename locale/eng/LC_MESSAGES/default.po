@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Patch v0.9\n"
-"POT-Creation-Date: 2011-06-18 19:04+0000\n"
-"PO-Revision-Date: 2011-06-18 21:07+0100\n"
+"POT-Creation-Date: 2011-06-18 21:25+0000\n"
+"PO-Revision-Date: 2011-06-19 00:09+0100\n"
 "Last-Translator: Wethli <bastien@weth.li>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -3082,9 +3082,13 @@ msgstr "Technicals riders"
 msgid "homepage_p1"
 msgstr "You are looking for a site to create the <STRONG>technical riders</STRONG> for your group ?<br/>You need to create a <STRONG>technical riders</STRONG> but know nothing ?<br/>You need to regularly update your <STRONG>technical riders</STRONG> ?<br/> </BR> This service is for you!"
 
+#: \views\pages\home.ctp:7
+msgid "homepage_p2"
+msgstr "What is a <STRONG>technical riders</STRONG> ?<BR /><BR /><em>\"The <STRONG>technical riders</STRONG> allows concert promoters to ensure hardware compatibility between the one expected by the musicians of the foun.\"</em>"
+
 #: \views\pages\home.ctp:10
 msgid "homepage_p3"
-msgstr "What is a <STRONG>technical riders</STRONG> ?"
+msgstr "Download a demonstration"
 
 #: \views\pages\home.ctp:23
 #: \views\users\add.ctp:16
