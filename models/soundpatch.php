@@ -41,7 +41,7 @@ class soundpatch extends AppModel {
 			'dependent' => false,
 			'conditions' => '',
 			'fields' => '',
-			'order' => '',
+			'order' => 'rank',
 			'limit' => '',
 			'offset' => '',
 			'exclusive' => '',

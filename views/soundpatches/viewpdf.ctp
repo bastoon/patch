@@ -48,6 +48,7 @@ $tcpdf = new XTCPDF();
     $tcpdf->SetFont('','','8');	
     
     $fill = 0;
+//    $soundpatch['Track'] = sort($soundpatch['Track']);
     foreach($soundpatch['Track'] as $row) {
         $tcpdf->Cell($w[0], 5, $row['rank'], 'LR', 0, 'C', $fill);
         $tcpdf->Cell($w[1], 5, $row['Contact']['name'], 'LR', 0, 'L', $fill);
