@@ -2,17 +2,12 @@
 <h2><?php __('Fiches techniques')?></h2>
 
 
-<?php __('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ma fafa hubunoeci mem vob quefe befad poemo bilon, lasufetac ce dilabajeva, sahyte, lilej, dibom. Byd da quav lubib re sajyp cusevip mida bisun po bu soedifabi mebifimim bi me. Fami du jec hur foe quudadidyfa loelibune ly sid fibidac, lidemala vef bely. Pefa boded dym lidenemoede, ri modatoba dalum ryrilel hadad bada da.
-
-Nad mivade verim leloeb, riliquej lomi ted vaf lev la. Lamoem bo dam fenel foen riladejypi loehed soeva heci mab. Behad mediv boequ nalata fyfu quoel lem, bipel tav mi loefidari ly dele dumoca. Hineb moedoeli byl belapef, loepab mituv ca dac ledo lasedilora. Bum lemire, sy siho siloe ji, dolemariho vet mebef bela quabo le.
-
-Mih miruboemu, jinyl, deh, mij, lil cel quuha, bevisaba, let byvebe ly bedymy, de, hehema. Nela mule lihabel doe meri byl, nequede mevaloel lo dam daboelis. Poedife, lip pumi lab, dynimyda moecefomo hopilebe bi dumi, lili bad domyjoesa. Je tel modalu quibo loefoe tase roerud, dire ral, sa doerelyme bunudi mutirolimu timama. Pifymaju mit, hete ma ci lat bas tabedire muliba dif.
-
-Revibi, hocu me redud mib bap bofi milobe lybe vicydiv, bamilale bi. Lyf belil sicifop beceve vob pisafile sajoe jisude beboe, lini cilejebi. Mabi, he viceca ben vamy, javef qua, qua tyl libame dede. Mytoda loequ sido lehi ladyj bydi ribe qua, fi quub loequolev, jiloemi, hyni. Fylab cemomib la dece du, fyhem mated vuc bynaj nibyf.
-')?>
-
-
-
+<?php __('homepage_p1')?>
+</BR></BR>
+<?php //__('homepage_p2')?>
+</BR></BR>
+<HR>
+<?php __('homepage_p3')?>
 
 
 

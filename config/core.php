@@ -203,7 +203,7 @@
  */
 //	Configure::write('Security.salt', 'DYhG93b0qyJfIxfs2guVoUubWwvniR2G0FgaC9mi');
 
-	Configure::write('Security.salt', '76118740363ef9d5eBWE01e7e79ffa76545e1f57'); 
+	Configure::write('Security.salt', '76118740363ef9d5eBWE01e7e79ffa76545e1f57');
 
 /**
  * A random numeric string (digits only) used to encrypt/decrypt strings.

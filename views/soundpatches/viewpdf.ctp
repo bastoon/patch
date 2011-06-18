@@ -49,7 +49,7 @@ $tcpdf = new XTCPDF();
     
     $fill = 0;
     foreach($soundpatch['Track'] as $row) {
-        $tcpdf->Cell($w[0], 5, $row['id'], 'LR', 0, 'C', $fill);
+        $tcpdf->Cell($w[0], 5, $row['rank'], 'LR', 0, 'C', $fill);
         $tcpdf->Cell($w[1], 5, $row['Contact']['name'], 'LR', 0, 'L', $fill);
         $tcpdf->Cell($w[2], 5, $row['Instrument']['title'], 'LR', 0, 'L', $fill);
         $tcpdf->Cell($w[3], 5, $row['Micro']['title'], 'LR', 0, 'C', $fill);

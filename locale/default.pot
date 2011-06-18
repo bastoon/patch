@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2011-06-12 13:35+0000\n"
+"POT-Creation-Date: 2011-06-18 19:04+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -14,12 +14,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: \app_controller.php:32
+#: \app_controller.php:48
 msgid "Identifiant ou mot de passe incorrects."
 msgstr ""
 
-#: \app_controller.php:33
+#: \app_controller.php:49
 msgid "Désolé, vous n'avez pas les droits suffisants."
+msgstr ""
+
+#: \app_controller.php:50
+msgid "Désolé, la session est terminée. Vous pouvez vous reconnectez."
 msgstr ""
 
 #: \controllers\admingroupes_controller.php:14
@@ -430,35 +434,35 @@ msgstr ""
 msgid "Right deleted"
 msgstr ""
 
-#: \controllers\soundpatches_controller.php:24
+#: \controllers\soundpatches_controller.php:45
 msgid "Invalid Soundpatch."
 msgstr ""
 
-#: \controllers\soundpatches_controller.php:31
+#: \controllers\soundpatches_controller.php:52
 msgid "Not your items"
 msgstr ""
 
-#: \controllers\soundpatches_controller.php:35
+#: \controllers\soundpatches_controller.php:56
 msgid "Acces reserve aux membres"
 msgstr ""
 
-#: \controllers\soundpatches_controller.php:44;62
+#: \controllers\soundpatches_controller.php:64;82
 msgid "The Soundpatch has been saved"
 msgstr ""
 
-#: \controllers\soundpatches_controller.php:47;67
+#: \controllers\soundpatches_controller.php:67;87
 msgid "The Soundpatch could not be saved. Please, try again."
 msgstr ""
 
-#: \controllers\soundpatches_controller.php:57
+#: \controllers\soundpatches_controller.php:77
 msgid "Invalid Soundpatch"
 msgstr ""
 
-#: \controllers\soundpatches_controller.php:80
+#: \controllers\soundpatches_controller.php:100
 msgid "Invalid id for Soundpatch"
 msgstr ""
 
-#: \controllers\soundpatches_controller.php:84
+#: \controllers\soundpatches_controller.php:104
 msgid "Soundpatch deleted"
 msgstr ""
 
@@ -1272,7 +1276,7 @@ msgstr ""
 #: \views\soundpatches\admin_index.ctp:19
 #: \views\soundpatches\admin_view.ctp:74;126
 #: \views\soundpatches\index.ctp:11
-#: \views\soundpatches\view.ctp:78;133
+#: \views\soundpatches\view.ctp:63;118
 #: \views\stageplans\index.ctp:18
 #: \views\stands\index.ctp:15
 #: \views\stands\view.ctp:54
@@ -1338,8 +1342,8 @@ msgstr ""
 #: \views\rights\index.ctp:51
 #: \views\soundpatches\admin_index.ctp:55
 #: \views\soundpatches\admin_view.ctp:93;151
-#: \views\soundpatches\index.ctp:31
-#: \views\soundpatches\view.ctp:97
+#: \views\soundpatches\index.ctp:29
+#: \views\soundpatches\view.ctp:82
 #: \views\stageplans\index.ctp:51
 #: \views\stands\index.ctp:39
 #: \views\stands\view.ctp:79
@@ -1406,7 +1410,7 @@ msgstr ""
 #: \views\rights\index.ctp:52
 #: \views\soundpatches\admin_index.ctp:56
 #: \views\soundpatches\admin_view.ctp:94;152
-#: \views\soundpatches\view.ctp:98;159
+#: \views\soundpatches\view.ctp:83;144
 #: \views\stageplans\index.ctp:52
 #: \views\stands\index.ctp:40
 #: \views\stands\view.ctp:80
@@ -1447,7 +1451,7 @@ msgstr ""
 #: \views\stands\index.ctp:49
 #: \views\tcontacts\index.ctp:57
 #: \views\tracks\index.ctp:85
-#: \views\users\bo_accueil.ctp:13
+#: \views\users\bo_accueil.ctp:15
 #: \views\users\index.ctp:68
 #: \views\wedgelocs\index.ctp:61
 #: \views\wedges\index.ctp:57
@@ -1563,7 +1567,7 @@ msgstr ""
 #: \views\micros\view.ctp:4;72
 #: \views\rights\view.ctp:4
 #: \views\soundpatches\admin_view.ctp:4;67;113
-#: \views\soundpatches\view.ctp:71
+#: \views\soundpatches\view.ctp:56
 #: \views\stageplans\view.ctp:4
 #: \views\stands\view.ctp:4;41
 #: \views\tcontacts\view.ctp:4;53
@@ -1608,7 +1612,7 @@ msgstr ""
 #: \views\micros\view.ctp:39;83
 #: \views\rights\view.ctp:29
 #: \views\soundpatches\admin_view.ctp:29;72;124
-#: \views\soundpatches\view.ctp:76
+#: \views\soundpatches\view.ctp:61
 #: \views\stageplans\view.ctp:29
 #: \views\stands\view.ctp:14;52
 #: \views\tcontacts\view.ctp:24;60
@@ -1645,7 +1649,7 @@ msgstr ""
 #: \views\micros\view.ctp:44;84
 #: \views\rights\view.ctp:34
 #: \views\soundpatches\admin_view.ctp:34;73;125
-#: \views\soundpatches\view.ctp:77
+#: \views\soundpatches\view.ctp:62
 #: \views\stageplans\view.ctp:34
 #: \views\stands\view.ctp:19;53
 #: \views\tcontacts\view.ctp:29;61
@@ -1704,7 +1708,7 @@ msgstr ""
 #: \views\contacts\view.ctp:19
 #: \views\lightpatches\view.ctp:14
 #: \views\soundpatches\admin_view.ctp:14;70
-#: \views\soundpatches\view.ctp:74
+#: \views\soundpatches\view.ctp:59
 #: \views\stageplans\view.ctp:19
 #: \views\tcontacts\view.ctp:56
 #: \views\users\view.ctp:19;97;192;380;429
@@ -1894,7 +1898,7 @@ msgstr ""
 #: \views\miclocverts\view.ctp:9;45
 #: \views\micros\view.ctp:24
 #: \views\soundpatches\admin_view.ctp:24;71
-#: \views\soundpatches\view.ctp:24;75
+#: \views\soundpatches\view.ctp:14;60
 #: \views\stageplans\view.ctp:24
 #: \views\stands\view.ctp:9
 #: \views\tcontacts\view.ctp:19
@@ -2066,10 +2070,11 @@ msgstr ""
 
 #: \views\contacts\edit.ctp:20
 #: \views\contacts\index.ctp:59
-#: \views\soundpatches\index.ctp:65
-#: \views\soundpatches\view.ctp:49
+#: \views\soundpatches\index.ctp:61
+#: \views\soundpatches\view.ctp:34
 #: \views\tracks\admin_edit.ctp:23
-#: \views\tracks\edit.ctp:23
+#: \views\tracks\edit.ctp:35
+#: \views\users\bo_accueil.ctp:2
 #: \views\users\bo_action_admin.ctp:40
 #: \views\users\edit.ctp:20
 msgid "Acceuil"
@@ -2079,20 +2084,20 @@ msgstr ""
 #: \views\contacts\index.ctp:60
 #: \views\soundpatches\edit.ctp:20
 #: \views\tracks\admin_edit.ctp:24
-#: \views\tracks\edit.ctp:24
-#: \views\users\bo_accueil.ctp:15
+#: \views\tracks\edit.ctp:36
+#: \views\users\bo_accueil.ctp:18
 #: \views\users\edit.ctp:21
 msgid "Fiche technique"
 msgstr ""
 
 #: \views\contacts\view.ctp:2
 #: \views\soundpatches\edit.ctp:19
-#: \views\soundpatches\index.ctp:66
-#: \views\soundpatches\view.ctp:50
+#: \views\soundpatches\index.ctp:62
+#: \views\soundpatches\view.ctp:35
 #: \views\tracks\admin_edit.ctp:25
-#: \views\tracks\edit.ctp:25
+#: \views\tracks\edit.ctp:37
 #: \views\tracks\view.ctp:14
-#: \views\users\bo_accueil.ctp:16
+#: \views\users\bo_accueil.ctp:17
 #: \views\users\edit.ctp:22
 msgid "Contact"
 msgstr ""
@@ -2109,7 +2114,7 @@ msgstr ""
 #: \views\marques\view.ctp:9
 #: \views\micros\view.ctp:9
 #: \views\soundpatches\admin_view.ctp:9
-#: \views\soundpatches\view.ctp:9
+#: \views\soundpatches\view.ctp:4
 #: \views\stageplans\view.ctp:9
 #: \views\tcontacts\view.ctp:9
 #: \views\teffects\view.ctp:9
@@ -2136,7 +2141,7 @@ msgstr ""
 #: \views\miclocs\view.ctp:58
 #: \views\micros\view.ctp:68
 #: \views\soundpatches\admin_view.ctp:109
-#: \views\soundpatches\view.ctp:129
+#: \views\soundpatches\view.ctp:114
 #: \views\stands\view.ctp:37
 #: \views\teffects\view.ctp:49
 #: \views\tinserts\view.ctp:49
@@ -2159,7 +2164,7 @@ msgstr ""
 #: \views\miclocs\view.ctp:65
 #: \views\micros\view.ctp:75
 #: \views\soundpatches\admin_view.ctp:69;116
-#: \views\soundpatches\view.ctp:73
+#: \views\soundpatches\view.ctp:58
 #: \views\stands\view.ctp:44
 #: \views\teffects\view.ctp:56
 #: \views\tinserts\view.ctp:56
@@ -2238,7 +2243,7 @@ msgstr ""
 #: \views\miclocs\view.ctp:72
 #: \views\micros\view.ctp:82
 #: \views\soundpatches\admin_view.ctp:39;123
-#: \views\soundpatches\view.ctp:39
+#: \views\soundpatches\view.ctp:19
 #: \views\stands\view.ctp:51
 #: \views\teffects\view.ctp:63
 #: \views\tinserts\view.ctp:63
@@ -2288,7 +2293,7 @@ msgid "New Instrument"
 msgstr ""
 
 #: \views\instruments\view.ctp:2
-#: \views\soundpatches\view.ctp:138
+#: \views\soundpatches\view.ctp:123
 #: \views\tracks\view.ctp:24
 msgid "Instrument"
 msgstr ""
@@ -2423,7 +2428,7 @@ msgstr ""
 #: \views\lightlocs\view.ctp:57
 #: \views\marques\view.ctp:54
 #: \views\soundpatches\admin_view.ctp:68
-#: \views\soundpatches\view.ctp:72
+#: \views\soundpatches\view.ctp:57
 #: \views\tcontacts\view.ctp:55
 #: \views\tlights\view.ctp:55
 #: \views\tmicros\view.ctp:42
@@ -3052,7 +3057,7 @@ msgid "Micros"
 msgstr ""
 
 #: \views\micros\view.ctp:2
-#: \views\soundpatches\view.ctp:139
+#: \views\soundpatches\view.ctp:124
 #: \views\tracks\view.ctp:29
 msgid "Micro"
 msgstr ""
@@ -3066,58 +3071,66 @@ msgstr ""
 msgid "Delete Micro"
 msgstr ""
 
-#: \views\pages\home.ctp:1
+#: \views\pages\home.ctp:2
 #: \views\soundpatches\index.ctp:2
 msgid "Fiches techniques"
 msgstr ""
 
-#: \views\pages\home.ctp:11
+#: \views\pages\home.ctp:5
+msgid "homepage_p1"
+msgstr ""
+
+#: \views\pages\home.ctp:10
+msgid "homepage_p3"
+msgstr ""
+
+#: \views\pages\home.ctp:23
 #: \views\users\add.ctp:16
 #: \views\users\login.ctp:2
 #: \views\users\validmail.ctp:19
 msgid "Login"
 msgstr ""
 
-#: \views\pages\home.ctp:12
+#: \views\pages\home.ctp:24
 #: \views\users\add.ctp:4
 #: \views\users\login.ctp:29
 #: \views\users\validmail.ctp:20
 msgid "Inscription"
 msgstr ""
 
-#: \views\pages\home.ctp:56
+#: \views\pages\home.ctp:68
 msgid "Your tmp directory is writable."
 msgstr ""
 
-#: \views\pages\home.ctp:60
+#: \views\pages\home.ctp:72
 msgid "Your tmp directory is NOT writable."
 msgstr ""
 
-#: \views\pages\home.ctp:70
+#: \views\pages\home.ctp:82
 msgid "The %s is being used for caching. To change the config edit APP/config/core.php "
 msgstr ""
 
-#: \views\pages\home.ctp:74
+#: \views\pages\home.ctp:86
 msgid "Your cache is NOT working. Please check the settings in APP/config/core.php"
 msgstr ""
 
-#: \views\pages\home.ctp:84
+#: \views\pages\home.ctp:96
 msgid "Your database configuration file is present."
 msgstr ""
 
-#: \views\pages\home.ctp:89
+#: \views\pages\home.ctp:101
 msgid "Your database configuration file is NOT present."
 msgstr ""
 
-#: \views\pages\home.ctp:91
+#: \views\pages\home.ctp:103
 msgid "Rename config/database.php.default to config/database.php"
 msgstr ""
 
-#: \views\pages\home.ctp:106
+#: \views\pages\home.ctp:118
 msgid "Cake is able to connect to the database."
 msgstr ""
 
-#: \views\pages\home.ctp:110
+#: \views\pages\home.ctp:122
 msgid "Cake is NOT able to connect to the database."
 msgstr ""
 
@@ -3285,27 +3298,27 @@ msgstr ""
 msgid "Fiche techique"
 msgstr ""
 
-#: \views\soundpatches\view.ctp:52
+#: \views\soundpatches\view.ctp:37
 msgid "Modifier la F. technique"
 msgstr ""
 
-#: \views\soundpatches\view.ctp:135
+#: \views\soundpatches\view.ctp:120
 msgid "Piste"
 msgstr ""
 
-#: \views\soundpatches\view.ctp:136
+#: \views\soundpatches\view.ctp:121
 msgid "Musicien"
 msgstr ""
 
-#: \views\soundpatches\view.ctp:140
+#: \views\soundpatches\view.ctp:125
 msgid "Insert"
 msgstr ""
 
-#: \views\soundpatches\view.ctp:141
+#: \views\soundpatches\view.ctp:126
 msgid "Effet"
 msgstr ""
 
-#: \views\soundpatches\view.ctp:142
+#: \views\soundpatches\view.ctp:127
 msgid "Pied de micro"
 msgstr ""
 
@@ -3581,12 +3594,36 @@ msgstr ""
 msgid "Edit User"
 msgstr ""
 
-#: \views\users\bo_accueil.ctp:14
+#: \views\users\bo_accueil.ctp:3
+msgid "_FirstStep"
+msgstr ""
+
+#: \views\users\bo_accueil.ctp:4
+msgid "_FirstStepText"
+msgstr ""
+
+#: \views\users\bo_accueil.ctp:6
+msgid "_SecondStep"
+msgstr ""
+
+#: \views\users\bo_accueil.ctp:7
+msgid "_SecondStepText"
+msgstr ""
+
+#: \views\users\bo_accueil.ctp:9
+msgid "_ThirdStep"
+msgstr ""
+
+#: \views\users\bo_accueil.ctp:10
+msgid "_ThirdStepText"
+msgstr ""
+
+#: \views\users\bo_accueil.ctp:16
 #: \views\users\edit.ctp:4
 msgid "Mes infos"
 msgstr ""
 
-#: \views\users\bo_accueil.ctp:18
+#: \views\users\bo_accueil.ctp:20
 #: \views\users\bo_action_admin.ctp:48
 msgid "Logout"
 msgstr ""
