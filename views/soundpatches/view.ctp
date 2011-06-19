@@ -3,7 +3,7 @@
 	<dl><?php $i = 0; $class = ' class="altrow"';?>
 		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('User'); ?></dt>
 		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
-			<?php echo $html->link($soundpatch['User']['name'], array('controller' => 'users', 'action' => 'view', $soundpatch['User']['id'])); ?>
+			<?php echo $soundpatch['User']['name']; ?>
 			&nbsp;
 		</dd>
 		<dt<?php //if ($i % 2 == 0) echo $class;?>><?php //__('Published'); ?></dt>

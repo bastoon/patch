@@ -1,3 +1,4 @@
+<?php // print_r($form);?>
 <div class="users form">
 <?php echo $form->create('User');?>
 	<fieldset>
@@ -8,18 +9,19 @@
 //		echo $form->input('actif');
 //		echo $form->input('published');
 		echo $form->input('email', array('label'=>'Adresse mail'));
-                echo $form->input('name', array('label'=>'Nom du groupe'));
-		echo $form->input('password', array('label'=>'Mot de passe', 'value' => ''));
+        echo $form->input('name', array('label'=>'Nom du groupe'));
+		//echo $form->input('password', array('label'=>'Mot de passe', 'value' => ''));
 	?>
 	</fieldset>
 <?php echo $form->end('Valider');?>
 </div>
 <div class="actions">
-	<ul>
-
-                <li><?php echo $html->link(__('Acceuil', true), array('controller' => 'users', 'action' => 'bo_accueil')); ?> </li>
-                <li><?php echo $html->link(__('Fiche technique', true), array('controller' => 'soundpatches', 'action' => 'index')); ?> </li>
-                <li><?php echo $html->link(__('Contact', true), array('controller' => 'contacts', 'action' => 'index')); ?> </li>
+	<ul>		
+		<li><?php echo $html->link(__('Acceuil', true), array('controller' => 'users', 'action' => 'bo_accueil')); ?> </li>
+		<li><?php echo $html->link(__('Fiche technique', true), array('controller' => 'soundpatches', 'action' => 'index')); ?> </li>
+		<li><?php echo $html->link(__('Contact', true), array('controller' => 'contacts', 'action' => 'index')); ?> </li>
+		
+		<li><?php echo $html->link(__('Password', true), array('action' => 'password', $form->data['User']['id'])); ?></li>
 
 
 		<li><?php //echo $html->link(__('Delete', true), array('action' => 'delete', $form->value('User.id')), null, sprintf(__('Are you sure you want to delete # %s?', true), $form->value('User.id'))); ?></li>

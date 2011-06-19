@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2011-06-19 00:09+0000\n"
+"POT-Creation-Date: 2011-06-19 01:50+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -2326,7 +2326,11 @@ msgid "MainTitle"
 msgstr ""
 
 #: \views\layouts\default.ctp:55
-msgid "CakePHP: the rapid development php framework"
+msgid "Link_CakePhp"
+msgstr ""
+
+#: \views\layouts\default.ctp:61
+msgid "Link_LaComete"
 msgstr ""
 
 #: \views\lightcolors\add.ctp:4

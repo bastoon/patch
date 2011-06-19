@@ -140,6 +140,29 @@ class UsersController extends AppController {
 		}
 	}
 
+	function password($id = null) {
+		if($this->Auth->user()){
+			if (!$id && empty($this->data)) {
+				$this->Session->setFlash(__('Invalid User', true));
+				$this->redirect(array('action'=>'index'));
+			}
+			if (!empty($this->data)) {
+				$this->data['User']['password'] = Security::hash($this->data['User']['password'],null, true);
+				if ($this->User->save($this->data)) {
+					$this->Session->setFlash(__('The User has been saved', true));
+					$this->redirect(array('action'=>'bo_accueil'));
+				} else {
+					$this->Session->setFlash(__('The User could not be saved. Please, try again.', true));
+				}
+			}
+			if (empty($this->data)) {
+				$this->data = $this->User->read(null, $id);
+			}
+			$groupes = $this->User->Admingroupe->find('list');
+			$this->set(compact('admingroupes'));
+		}
+	}
+
 	function lang(){
 		$url = null;
 		// Check on the bootstrap if the language is defined

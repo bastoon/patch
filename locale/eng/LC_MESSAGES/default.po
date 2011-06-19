@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Patch v0.9\n"
-"POT-Creation-Date: 2011-06-19 00:09+0000\n"
-"PO-Revision-Date: 2011-06-19 03:04+0100\n"
+"POT-Creation-Date: 2011-06-19 01:50+0000\n"
+"PO-Revision-Date: 2011-06-19 04:03+0100\n"
 "Last-Translator: Wethli <bastien@weth.li>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -2329,8 +2329,12 @@ msgid "MainTitle"
 msgstr "Your free personnal Technical Rider service online."
 
 #: \views\layouts\default.ctp:55
-msgid "CakePHP: the rapid development php framework"
-msgstr "CakePHP: the rapid development php framework"
+msgid "Link_CakePhp"
+msgstr "rapid development framework"
+
+#: \views\layouts\default.ctp:61
+msgid "Link_LaComete"
+msgstr "La Comète : Association organisatrice d'événements"
 
 #: \views\lightcolors\add.ctp:4
 msgid "Add Lightcolor"
@@ -3093,7 +3097,7 @@ msgstr "Download a demonstration file"
 
 #: \views\pages\home.ctp:13
 msgid "homepage_p4"
-msgstr "Informations about this program :<br/><br/><p align=center>This service is provided without garanties.<br/>For more informations, you can contact : patch@bastoon.ch<br/>More informations at https://github.com/bastoon/patch<br/>This service is on version 0.8.</p>"
+msgstr "Informations about this program :<br/><br/><p align=center><small>This service is provided without garanties.<br/>For more informations, you can contact : patch@bastoon.ch<br/>More informations at <A HREF=\"https://github.com/bastoon/patch/wiki\" target=\"_blank\">https://github.com/bastoon/patch</A><br/>This service is on version 0.8.</small></p>"
 
 #: \views\pages\home.ctp:25
 #: \views\users\add.ctp:16
@@ -3972,6 +3976,9 @@ msgstr "Delete Wedge"
 #: \webroot\test.php:88
 msgid "Debug setting does not allow access to this url."
 msgstr "Debug setting does not allow access to this url."
+
+#~ msgid "CakePHP: the rapid development php framework"
+#~ msgstr "CakePHP: the rapid development php framework"
 
 #~ msgid ""
 #~ "Build with within minutes with cakeapp.com a rappid development platform"

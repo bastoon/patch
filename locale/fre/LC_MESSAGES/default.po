@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Patch v0.9\n"
-"POT-Creation-Date: 2011-06-19 00:09+0000\n"
-"PO-Revision-Date: 2011-06-19 02:59+0100\n"
+"POT-Creation-Date: 2011-06-19 01:50+0000\n"
+"PO-Revision-Date: 2011-06-19 04:05+0100\n"
 "Last-Translator: Wethli <bastien@weth.li>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -2328,8 +2328,12 @@ msgid "MainTitle"
 msgstr "Votre service gratuit de Fiche Technique en ligne."
 
 #: \views\layouts\default.ctp:55
-msgid "CakePHP: the rapid development php framework"
-msgstr "CakePHP: the rapid development php framework"
+msgid "Link_CakePhp"
+msgstr "CakePhp: The rapid development framework"
+
+#: \views\layouts\default.ctp:61
+msgid "Link_LaComete"
+msgstr "La Comète: Association event organizer"
 
 #: \views\lightcolors\add.ctp:4
 msgid "Add Lightcolor"
@@ -3092,7 +3096,7 @@ msgstr "Téléchargez un exemple de démonstration"
 
 #: \views\pages\home.ctp:13
 msgid "homepage_p4"
-msgstr "Informations concernant ce programme :<br/><br/><p align=center>Ce service est proposé sans garanties d'aucunes sorte.<br/>Pour toutes demandes d'informations, vous pouvez contactez : patch@bastoon.ch<br/>Plus d'informations sur https://github.com/bastoon/patch<br/>Ce service en est à sa version 0.8.</p>"
+msgstr "Informations concernant ce programme :<br/><br/><p align=center><small>Ce service est proposé sans garanties d'aucunes sorte.<br/>Pour toutes demandes d'informations, vous pouvez contacter : patch@bastoon.ch<br/>Plus d'informations sur <A HREF=\"https://github.com/bastoon/patch/wiki\" target=\"_blank\">https://github.com/bastoon/patch</A><br/>Ce service en est à sa version 0.8.</small></p>"
 
 #: \views\pages\home.ctp:25
 #: \views\users\add.ctp:16
@@ -3251,7 +3255,7 @@ msgstr "New Stageplan"
 #: \views\soundpatches\admin_view.ctp:48
 #: \views\soundpatches\edit.ctp:4
 msgid "Edit Soundpatch"
-msgstr "Edit Soundpatch"
+msgstr "Modifier la fiche technique"
 
 #: \views\soundpatches\admin_index.ctp:2
 msgid "Soundpatches"
@@ -3971,6 +3975,9 @@ msgstr "Delete Wedge"
 #: \webroot\test.php:88
 msgid "Debug setting does not allow access to this url."
 msgstr "Debug setting does not allow access to this url."
+
+#~ msgid "CakePHP: the rapid development php framework"
+#~ msgstr "CakePHP: the rapid development php framework"
 
 #~ msgid ""
 #~ "Build with within minutes with cakeapp.com a rappid development platform"
