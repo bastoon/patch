@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2011-06-18 21:25+0000\n"
+"POT-Creation-Date: 2011-06-19 00:09+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -2321,11 +2321,11 @@ msgstr ""
 msgid "Delete Instrument"
 msgstr ""
 
-#: \views\layouts\default.ctp:61;63
-msgid "Build with within minutes with cakeapp.com a rappid development platform"
+#: \views\layouts\default.ctp:41
+msgid "MainTitle"
 msgstr ""
 
-#: \views\layouts\default.ctp:67
+#: \views\layouts\default.ctp:55
 msgid "CakePHP: the rapid development php framework"
 msgstr ""
 
@@ -3084,57 +3084,61 @@ msgstr ""
 msgid "homepage_p2"
 msgstr ""
 
-#: \views\pages\home.ctp:10
+#: \views\pages\home.ctp:9
 msgid "homepage_p3"
 msgstr ""
 
-#: \views\pages\home.ctp:23
+#: \views\pages\home.ctp:13
+msgid "homepage_p4"
+msgstr ""
+
+#: \views\pages\home.ctp:25
 #: \views\users\add.ctp:16
 #: \views\users\login.ctp:2
 #: \views\users\validmail.ctp:19
 msgid "Login"
 msgstr ""
 
-#: \views\pages\home.ctp:24
+#: \views\pages\home.ctp:26
 #: \views\users\add.ctp:4
 #: \views\users\login.ctp:29
 #: \views\users\validmail.ctp:20
 msgid "Inscription"
 msgstr ""
 
-#: \views\pages\home.ctp:68
+#: \views\pages\home.ctp:70
 msgid "Your tmp directory is writable."
 msgstr ""
 
-#: \views\pages\home.ctp:72
+#: \views\pages\home.ctp:74
 msgid "Your tmp directory is NOT writable."
 msgstr ""
 
-#: \views\pages\home.ctp:82
+#: \views\pages\home.ctp:84
 msgid "The %s is being used for caching. To change the config edit APP/config/core.php "
 msgstr ""
 
-#: \views\pages\home.ctp:86
+#: \views\pages\home.ctp:88
 msgid "Your cache is NOT working. Please check the settings in APP/config/core.php"
 msgstr ""
 
-#: \views\pages\home.ctp:96
+#: \views\pages\home.ctp:98
 msgid "Your database configuration file is present."
 msgstr ""
 
-#: \views\pages\home.ctp:101
+#: \views\pages\home.ctp:103
 msgid "Your database configuration file is NOT present."
 msgstr ""
 
-#: \views\pages\home.ctp:103
+#: \views\pages\home.ctp:105
 msgid "Rename config/database.php.default to config/database.php"
 msgstr ""
 
-#: \views\pages\home.ctp:118
+#: \views\pages\home.ctp:120
 msgid "Cake is able to connect to the database."
 msgstr ""
 
-#: \views\pages\home.ctp:122
+#: \views\pages\home.ctp:124
 msgid "Cake is NOT able to connect to the database."
 msgstr ""
 

@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Patch v0.9\n"
-"POT-Creation-Date: 2011-06-18 21:25+0000\n"
-"PO-Revision-Date: 2011-06-19 00:09+0100\n"
+"POT-Creation-Date: 2011-06-19 00:09+0000\n"
+"PO-Revision-Date: 2011-06-19 03:04+0100\n"
 "Last-Translator: Wethli <bastien@weth.li>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -15,6 +15,7 @@ msgstr ""
 "X-Poedit-Language: French\n"
 "X-Poedit-Country: SWITZERLAND\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Bookmarks: 404,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
 #: \app_controller.php:48
 msgid "Identifiant ou mot de passe incorrects."
@@ -2323,11 +2324,11 @@ msgstr "Symbol"
 msgid "Delete Instrument"
 msgstr "Delete Instrument"
 
-#: \views\layouts\default.ctp:61;63
-msgid "Build with within minutes with cakeapp.com a rappid development platform"
-msgstr "Build with within minutes with cakeapp.com a rappid development platform"
+#: \views\layouts\default.ctp:41
+msgid "MainTitle"
+msgstr "Your free personnal Technical Rider service online."
 
-#: \views\layouts\default.ctp:67
+#: \views\layouts\default.ctp:55
 msgid "CakePHP: the rapid development php framework"
 msgstr "CakePHP: the rapid development php framework"
 
@@ -3080,63 +3081,67 @@ msgstr "Technicals riders"
 
 #: \views\pages\home.ctp:5
 msgid "homepage_p1"
-msgstr "You are looking for a site to create the <STRONG>technical riders</STRONG> for your group ?<br/>You need to create a <STRONG>technical riders</STRONG> but know nothing ?<br/>You need to regularly update your <STRONG>technical riders</STRONG> ?<br/> </BR> This service is for you!"
+msgstr "You are looking for a website to create the <STRONG>technical riders</STRONG> for your group ?<br/>You need to create a <STRONG>technical riders</STRONG> but know nothing ?<br/>You need to regularly update your <STRONG>technical riders</STRONG> ?<br/> </BR> This service is for you!"
 
 #: \views\pages\home.ctp:7
 msgid "homepage_p2"
 msgstr "What is a <STRONG>technical riders</STRONG> ?<BR /><BR /><em>\"The <STRONG>technical riders</STRONG> allows concert promoters to ensure hardware compatibility between the one expected by the musicians of the foun.\"</em>"
 
-#: \views\pages\home.ctp:10
+#: \views\pages\home.ctp:9
 msgid "homepage_p3"
-msgstr "Download a demonstration"
+msgstr "Download a demonstration file"
 
-#: \views\pages\home.ctp:23
+#: \views\pages\home.ctp:13
+msgid "homepage_p4"
+msgstr "Informations about this program :<br/><br/><p align=center>This service is provided without garanties.<br/>For more informations, you can contact : patch@bastoon.ch<br/>More informations at https://github.com/bastoon/patch<br/>This service is on version 0.8.</p>"
+
+#: \views\pages\home.ctp:25
 #: \views\users\add.ctp:16
 #: \views\users\login.ctp:2
 #: \views\users\validmail.ctp:19
 msgid "Login"
 msgstr "Login"
 
-#: \views\pages\home.ctp:24
+#: \views\pages\home.ctp:26
 #: \views\users\add.ctp:4
 #: \views\users\login.ctp:29
 #: \views\users\validmail.ctp:20
 msgid "Inscription"
 msgstr "Inscription"
 
-#: \views\pages\home.ctp:68
+#: \views\pages\home.ctp:70
 msgid "Your tmp directory is writable."
 msgstr "Your tmp directory is writable."
 
-#: \views\pages\home.ctp:72
+#: \views\pages\home.ctp:74
 msgid "Your tmp directory is NOT writable."
 msgstr "Your tmp directory is NOT writable."
 
-#: \views\pages\home.ctp:82
+#: \views\pages\home.ctp:84
 msgid "The %s is being used for caching. To change the config edit APP/config/core.php "
 msgstr "The %s is being used for caching. To change the config edit APP/config/core.php "
 
-#: \views\pages\home.ctp:86
+#: \views\pages\home.ctp:88
 msgid "Your cache is NOT working. Please check the settings in APP/config/core.php"
 msgstr "Your cache is NOT working. Please check the settings in APP/config/core.php"
 
-#: \views\pages\home.ctp:96
+#: \views\pages\home.ctp:98
 msgid "Your database configuration file is present."
 msgstr "Your database configuration file is present."
 
-#: \views\pages\home.ctp:101
+#: \views\pages\home.ctp:103
 msgid "Your database configuration file is NOT present."
 msgstr "Your database configuration file is NOT present."
 
-#: \views\pages\home.ctp:103
+#: \views\pages\home.ctp:105
 msgid "Rename config/database.php.default to config/database.php"
 msgstr "Rename config/database.php.default to config/database.php"
 
-#: \views\pages\home.ctp:118
+#: \views\pages\home.ctp:120
 msgid "Cake is able to connect to the database."
 msgstr "Cake is able to connect to the database."
 
-#: \views\pages\home.ctp:122
+#: \views\pages\home.ctp:124
 msgid "Cake is NOT able to connect to the database."
 msgstr "Cake is NOT able to connect to the database."
 
@@ -3440,7 +3445,7 @@ msgstr "Edit Teffect"
 
 #: \views\teffects\index.ctp:2
 msgid "Teffects"
-msgstr "Teffects"
+msgstr "Type of effects"
 
 #: \views\teffects\index.ctp:62
 #: \views\teffects\view.ctp:41
@@ -3457,7 +3462,7 @@ msgstr "New Teffect"
 #: \views\teffects\view.ctp:2
 #: \views\tracks\view.ctp:39
 msgid "Teffect"
-msgstr "Teffect"
+msgstr "Type of effect"
 
 #: \views\teffects\view.ctp:39
 msgid "Delete Teffect"
@@ -3487,7 +3492,7 @@ msgstr "Edit Tinsert"
 
 #: \views\tinserts\index.ctp:2
 msgid "Tinserts"
-msgstr "Tinserts"
+msgstr "Type of inserts"
 
 #: \views\tinserts\index.ctp:62
 #: \views\tinserts\view.ctp:41
@@ -3504,7 +3509,7 @@ msgstr "New Tinsert"
 #: \views\tinserts\view.ctp:2
 #: \views\tracks\view.ctp:34
 msgid "Tinsert"
-msgstr "Tinsert"
+msgstr "Type of insert"
 
 #: \views\tinserts\view.ctp:39
 msgid "Delete Tinsert"
@@ -3614,7 +3619,7 @@ msgstr "Second step"
 
 #: \views\users\bo_accueil.ctp:7
 msgid "_SecondStepText"
-msgstr "Complete your <STRONG>Technical Rider</STRONG>."
+msgstr "Complete your <STRONG>Technical rider</STRONG>."
 
 #: \views\users\bo_accueil.ctp:9
 msgid "_ThirdStep"
@@ -3967,6 +3972,11 @@ msgstr "Delete Wedge"
 #: \webroot\test.php:88
 msgid "Debug setting does not allow access to this url."
 msgstr "Debug setting does not allow access to this url."
+
+#~ msgid ""
+#~ "Build with within minutes with cakeapp.com a rappid development platform"
+#~ msgstr ""
+#~ "Build with within minutes with cakeapp.com a rappid development platform"
 
 #~ msgid "bo_home_p1"
 #~ msgstr ""

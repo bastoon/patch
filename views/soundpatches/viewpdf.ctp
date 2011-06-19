@@ -31,7 +31,6 @@ $tcpdf = new XTCPDF();
 
     $w = array(10, 30, 45, 30, 25, 25, 25);
     $tcpdf->SetFillColor(244, 244, 244);
-    $tcpdf->SetDrawColor(128, 0, 0);
     $tcpdf->SetFont('', 'B','8');
         
 	$header=array("Piste","Musicien","Instrument","Micro","Insert","Effet","Pied");
@@ -63,5 +62,5 @@ $tcpdf = new XTCPDF();
     $tcpdf->Cell(array_sum($w), 0, '', 'T');
     $tcpdf->Ln();
 
-echo $tcpdf->Output('filename.pdf', 'D');
+echo $tcpdf->Output('FicheTechnique.pdf', 'D');
 ?> 

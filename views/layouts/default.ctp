@@ -38,7 +38,8 @@
 <body>
 	<div id="container">
 		<div id="header">
-			<h1><?php echo $html->link(__(ucfirst(APP_DIR), true), '/../../'); ?></h1>
+			<h1><?php echo $html->link(__('MainTitle', true), '/../../'); ?></h1>
+
 		</div>
 		<div id="flags" align="right">
 			<a href="/fre/users/lang"><img src="/img/flag_fr.png" alt="FR" /></a> |
@@ -51,16 +52,18 @@
 		<div id="footer">
 			<?php 
 			echo $html->link(
-					$html->image('cakeapp_com.gif', array('alt'=> __('Build with within minutes with cakeapp.com a rappid development platform', true), 'border'=>"0")),
-					'http://cakeapp.com/',
-					array('escape'=>false,'title'=> __('Build with within minutes with cakeapp.com a rappid development platform', true)), null, false
-				);
-			echo '&nbsp;';
-			echo $html->link(
-					$html->image('cake.power.gif', array('alt'=> __("CakePHP: the rapid development php framework", true), 'border'=>"0")),
+					$html->image('cake.power.gif', array('alt'=> __("Link_CakePhp", true), 'border'=>"0")),
 					'http://www.cakephp.org/',
 					array('escape'=>false,'target'=>'_blank'), null, false
 				);
+			echo "<br/>";
+			echo $html->link(
+					$html->image('lacomete.png', array('alt'=> __("Link_LaComete", true), 'border'=>"0")),
+					'http://www.lacomete.ch/',
+					array('escape'=>false,'target'=>'_blank'), null, false
+				);			
+			echo "<br/>A Service of Weth.li's Network</a>";
+			echo "<br/><a href='http://www.weth.li'>A Service of Weth.li's Network</a>";
 			?>
 		</div>
 	</div>

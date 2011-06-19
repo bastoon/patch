@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Patch v0.9\n"
-"POT-Creation-Date: 2011-06-18 21:25+0000\n"
-"PO-Revision-Date: 2011-06-19 00:06+0100\n"
+"POT-Creation-Date: 2011-06-19 00:09+0000\n"
+"PO-Revision-Date: 2011-06-19 02:59+0100\n"
 "Last-Translator: Wethli <bastien@weth.li>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -2323,11 +2323,11 @@ msgstr "Symbol"
 msgid "Delete Instrument"
 msgstr "Delete Instrument"
 
-#: \views\layouts\default.ctp:61;63
-msgid "Build with within minutes with cakeapp.com a rappid development platform"
-msgstr "Build with within minutes with cakeapp.com a rappid development platform"
+#: \views\layouts\default.ctp:41
+msgid "MainTitle"
+msgstr "Votre service gratuit de Fiche Technique en ligne."
 
-#: \views\layouts\default.ctp:67
+#: \views\layouts\default.ctp:55
 msgid "CakePHP: the rapid development php framework"
 msgstr "CakePHP: the rapid development php framework"
 
@@ -3086,57 +3086,61 @@ msgstr "Vous êtes la recherche d'un site permettant de créer la <STRONG>fiche 
 msgid "homepage_p2"
 msgstr "A quoi sert une <STRONG>fiche technique ?</STRONG><BR /><BR /><em>\"La <STRONG>fiche technique</STRONG> permet aux organisateurs de concerts de s'assurer de la compatibilité du matériel entre celui attendu par les musiciens de celui founit.\"</em>"
 
-#: \views\pages\home.ctp:10
+#: \views\pages\home.ctp:9
 msgid "homepage_p3"
 msgstr "Téléchargez un exemple de démonstration"
 
-#: \views\pages\home.ctp:23
+#: \views\pages\home.ctp:13
+msgid "homepage_p4"
+msgstr "Informations concernant ce programme :<br/><br/><p align=center>Ce service est proposé sans garanties d'aucunes sorte.<br/>Pour toutes demandes d'informations, vous pouvez contactez : patch@bastoon.ch<br/>Plus d'informations sur https://github.com/bastoon/patch<br/>Ce service en est à sa version 0.8.</p>"
+
+#: \views\pages\home.ctp:25
 #: \views\users\add.ctp:16
 #: \views\users\login.ctp:2
 #: \views\users\validmail.ctp:19
 msgid "Login"
 msgstr "Se connecter"
 
-#: \views\pages\home.ctp:24
+#: \views\pages\home.ctp:26
 #: \views\users\add.ctp:4
 #: \views\users\login.ctp:29
 #: \views\users\validmail.ctp:20
 msgid "Inscription"
 msgstr "S'inscrire"
 
-#: \views\pages\home.ctp:68
+#: \views\pages\home.ctp:70
 msgid "Your tmp directory is writable."
 msgstr "Your tmp directory is writable."
 
-#: \views\pages\home.ctp:72
+#: \views\pages\home.ctp:74
 msgid "Your tmp directory is NOT writable."
 msgstr "Your tmp directory is NOT writable."
 
-#: \views\pages\home.ctp:82
+#: \views\pages\home.ctp:84
 msgid "The %s is being used for caching. To change the config edit APP/config/core.php "
 msgstr "The %s is being used for caching. To change the config edit APP/config/core.php "
 
-#: \views\pages\home.ctp:86
+#: \views\pages\home.ctp:88
 msgid "Your cache is NOT working. Please check the settings in APP/config/core.php"
 msgstr "Your cache is NOT working. Please check the settings in APP/config/core.php"
 
-#: \views\pages\home.ctp:96
+#: \views\pages\home.ctp:98
 msgid "Your database configuration file is present."
 msgstr "Your database configuration file is present."
 
-#: \views\pages\home.ctp:101
+#: \views\pages\home.ctp:103
 msgid "Your database configuration file is NOT present."
 msgstr "Your database configuration file is NOT present."
 
-#: \views\pages\home.ctp:103
+#: \views\pages\home.ctp:105
 msgid "Rename config/database.php.default to config/database.php"
 msgstr "Rename config/database.php.default to config/database.php"
 
-#: \views\pages\home.ctp:118
+#: \views\pages\home.ctp:120
 msgid "Cake is able to connect to the database."
 msgstr "Cake is able to connect to the database."
 
-#: \views\pages\home.ctp:122
+#: \views\pages\home.ctp:124
 msgid "Cake is NOT able to connect to the database."
 msgstr "Cake is NOT able to connect to the database."
 
@@ -3440,7 +3444,7 @@ msgstr "Edit Teffect"
 
 #: \views\teffects\index.ctp:2
 msgid "Teffects"
-msgstr "Teffects"
+msgstr "Type d'effets"
 
 #: \views\teffects\index.ctp:62
 #: \views\teffects\view.ctp:41
@@ -3457,7 +3461,7 @@ msgstr "New Teffect"
 #: \views\teffects\view.ctp:2
 #: \views\tracks\view.ctp:39
 msgid "Teffect"
-msgstr "Teffect"
+msgstr "Type d'effet"
 
 #: \views\teffects\view.ctp:39
 msgid "Delete Teffect"
@@ -3487,7 +3491,7 @@ msgstr "Edit Tinsert"
 
 #: \views\tinserts\index.ctp:2
 msgid "Tinserts"
-msgstr "Tinserts"
+msgstr "Type d'inserts"
 
 #: \views\tinserts\index.ctp:62
 #: \views\tinserts\view.ctp:41
@@ -3504,7 +3508,7 @@ msgstr "New Tinsert"
 #: \views\tinserts\view.ctp:2
 #: \views\tracks\view.ctp:34
 msgid "Tinsert"
-msgstr "Tinsert"
+msgstr "Type d'insert"
 
 #: \views\tinserts\view.ctp:39
 msgid "Delete Tinsert"
@@ -3967,6 +3971,11 @@ msgstr "Delete Wedge"
 #: \webroot\test.php:88
 msgid "Debug setting does not allow access to this url."
 msgstr "Debug setting does not allow access to this url."
+
+#~ msgid ""
+#~ "Build with within minutes with cakeapp.com a rappid development platform"
+#~ msgstr ""
+#~ "Build with within minutes with cakeapp.com a rappid development platform"
 
 #, fuzzy
 #~ msgid "bo_home_p1"
