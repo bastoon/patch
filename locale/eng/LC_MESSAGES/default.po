@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Patch v0.9\n"
-"POT-Creation-Date: 2011-06-19 01:50+0000\n"
-"PO-Revision-Date: 2011-06-21 23:14+0100\n"
+"POT-Creation-Date: 2011-06-21 21:52+0000\n"
+"PO-Revision-Date: 2011-06-21 23:53+0100\n"
 "Last-Translator: Wethli <bastien@weth.li>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -697,15 +697,15 @@ msgstr "TOKEN not FOUND !"
 msgid "Invalid User."
 msgstr "Invalid User."
 
-#: \controllers\users_controller.php:100;119
+#: \controllers\users_controller.php:100;119;152
 msgid "The User has been saved"
 msgstr "The User has been saved"
 
-#: \controllers\users_controller.php:105;122
+#: \controllers\users_controller.php:105;122;155
 msgid "The User could not be saved. Please, try again."
 msgstr "The User could not be saved. Please, try again."
 
-#: \controllers\users_controller.php:114
+#: \controllers\users_controller.php:114;146
 msgid "Invalid User"
 msgstr "Invalid User"
 
@@ -1735,6 +1735,7 @@ msgid "Email"
 msgstr "Email"
 
 #: \views\admingroupes\view.ctp:100
+#: \views\users\edit.ctp:24
 #: \views\users\view.ctp:34
 msgid "Password"
 msgstr "Password"
@@ -2080,6 +2081,7 @@ msgstr "New Contact"
 #: \views\users\bo_accueil.ctp:2
 #: \views\users\bo_action_admin.ctp:40
 #: \views\users\edit.ctp:20
+#: \views\users\password.ctp:14
 msgid "Acceuil"
 msgstr "Home"
 
@@ -2090,6 +2092,7 @@ msgstr "Home"
 #: \views\tracks\edit.ctp:36
 #: \views\users\bo_accueil.ctp:18
 #: \views\users\edit.ctp:21
+#: \views\users\password.ctp:15
 msgid "Fiche technique"
 msgstr "Technical riders"
 
@@ -2102,6 +2105,7 @@ msgstr "Technical riders"
 #: \views\tracks\view.ctp:14
 #: \views\users\bo_accueil.ctp:17
 #: \views\users\edit.ctp:22
+#: \views\users\password.ctp:16
 msgid "Contact"
 msgstr "Contact"
 
@@ -2324,15 +2328,19 @@ msgstr "Symbol"
 msgid "Delete Instrument"
 msgstr "Delete Instrument"
 
-#: \views\layouts\default.ctp:41
+#: \views\layouts\default.ctp:31
+msgid "by_technicals-riders.net"
+msgstr "Technicals-riders.net"
+
+#: \views\layouts\default.ctp:43
 msgid "MainTitle"
 msgstr "Your free personnal Technical Rider service online."
 
-#: \views\layouts\default.ctp:55
+#: \views\layouts\default.ctp:57
 msgid "Link_CakePhp"
 msgstr "rapid development framework"
 
-#: \views\layouts\default.ctp:61
+#: \views\layouts\default.ctp:63
 msgid "Link_LaComete"
 msgstr "La Comète : Association organisatrice d'événements"
 
@@ -3634,7 +3642,8 @@ msgid "_ThirdStepText"
 msgstr "Download your <STRONG>Technical rider</STRONG> and it's all !"
 
 #: \views\users\bo_accueil.ctp:16
-#: \views\users\edit.ctp:4
+#: \views\users\edit.ctp:5
+#: \views\users\password.ctp:4
 msgid "Mes infos"
 msgstr "My account"
 

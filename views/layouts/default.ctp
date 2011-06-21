@@ -27,7 +27,9 @@
 <head>
 	<?php echo $html->charset(); ?>
 	<title>
-		<?php echo ucfirst(APP_DIR).' '. $title_for_layout; ?> by CakeApp.com
+		<?php //echo ucfirst(APP_DIR).' '. $title_for_layout. __("by_technicals-riders.net", true); ?>
+		<?php echo  __("by_technicals-riders.net", true); ?>
+
 	</title>
 	<?php
 		echo $html->meta('icon');
