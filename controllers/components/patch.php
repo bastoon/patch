@@ -39,11 +39,12 @@ class PatchComponent extends Object {
 
 	public function sendInviteMail($to, $token) {
 		$body[0] = 'Welcome ';
-		$body[1] = 'http://patch.weth.li/users/validmail?token='.$token;
+		$body[1] = 'http://www.fiches-techniques.net/users/validmail?token='.$token;
 		$subject = 'Inscription';
 		if ( $this->sendMail($to, $body, $subject) ) {
 			$body[0] = "Nouvel inscrit : ".$to;
-			$this->sendMail('bastoon@bastoon.ch', $body, $subject);
+			$this->sendMail($to, $body, $subject);
+			$this->sendMail('bastoon@fiches-techniques.net', $body, $subject);
 			return True;
 		} else {
 			return False;
@@ -54,7 +55,7 @@ class PatchComponent extends Object {
 		$this->Email->reset();
 		$this->Email->to = $to;
 		$this->Email->subject = $subject;
-		$this->Email->replyTo = 'patch@weth.li';
+		$this->Email->replyTo = 'info@fiches-techniques.net';
 		$this->Email->from = 'Fiche Technique <'.$this->Email->replyTo.'>';
 		if ( $this->Email->send($body) ) {
 			return True;

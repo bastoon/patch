@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Patch v0.9\n"
 "POT-Creation-Date: 2011-06-19 01:50+0000\n"
-"PO-Revision-Date: 2011-06-19 04:05+0100\n"
+"PO-Revision-Date: 2011-06-21 23:15+0100\n"
 "Last-Translator: Wethli <bastien@weth.li>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -3096,7 +3096,7 @@ msgstr "Téléchargez un exemple de démonstration"
 
 #: \views\pages\home.ctp:13
 msgid "homepage_p4"
-msgstr "Informations concernant ce programme :<br/><br/><p align=center><small>Ce service est proposé sans garanties d'aucunes sorte.<br/>Pour toutes demandes d'informations, vous pouvez contacter : patch@bastoon.ch<br/>Plus d'informations sur <A HREF=\"https://github.com/bastoon/patch/wiki\" target=\"_blank\">https://github.com/bastoon/patch</A><br/>Ce service en est à sa version 0.8.</small></p>"
+msgstr "Informations concernant ce programme :<br/><br/><p align=center><small>Ce service est proposé sans garanties d'aucunes sorte.<br/>Pour toutes demandes d'informations, vous pouvez contacter : <A HREF=\"mailto:info@fiches-techniques.net\"> info@fiches-techniques.net</A><br/>Plus d'informations sur <A HREF=\"https://github.com/bastoon/patch/wiki\" target=\"_blank\">https://github.com/bastoon/patch</A><br/>Ce service en est à sa version 1.0</small></p>"
 
 #: \views\pages\home.ctp:25
 #: \views\users\add.ctp:16
